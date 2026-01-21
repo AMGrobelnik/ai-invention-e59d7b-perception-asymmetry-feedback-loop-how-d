@@ -1,0 +1,50 @@
+[
+  {
+    "ID": 1,
+    "text": " عشان يلمع صورته ويعنني تمكين المرأة ويصير ترند والحكومة هي اكثر من تقمع المرأة اخر شيء كل الي فرحانين بالقرار ودارسين قانون متوظفين كاشير في مول راتبهم 3 الاف",
+    "target": "Women empowerment",
+    "stance": "Against",
+    "stance:confidence": 0.5116,
+    "against_reason": "A_Explicit",
+    "favor_reason": null,
+    "none_reason": null,
+    "sarcasm": "No",
+    "sarcasm:confidence": 1.0,
+    "sentiment": "Negative",
+    "sentiment:confidence": 1.0,
+    "datetime": "2021-01-16 03:19:19+00:00",
+    "Date": "16/01/2021"
+  },
+  {
+    "ID": 3,
+    "text": " روح حلل محد يم تطعيم كورونا شف الحرم البارح مليونين بدون شرط تحصين😅",
+    "target": "Covid Vaccine",
+    "stance": null,
+    "stance:confidence": 0.4003,
+    "against_reason": null,
+    "favor_reason": null,
+    "none_reason": "Not clear",
+    "sarcasm": "Yes",
+    "sarcasm:confidence": 0.599,
+    "sentiment": "Neutral",
+    "sentiment:confidence": 0.618,
+    "datetime": "2022-04-28 11:12:56+00:00",
+    "Date": "28/04/2022"
+  },
+  {
+    "ID": 4,
+    "text": "هذا ما يُعرّف بـ'فوبيا المرأة المُتمكنة' آفة فكرية تغزو عقول بعض الرجال حيث إنه إذ رأى تمكين للمرأة حتى ولو كان بسيطًا فهو من المرجح بالطبع ربطه للموضوع مع - النسوية - وأتهام الفكرة بأكملها بالشيطنة و...",
+    "target": "Women empowerment",
+    "stance": "Favor",
+    "stance:confidence": 0.8171,
+    "against_reason": null,
+    "favor_reason": "F_Explicit",
+    "none_reason": null,
+    "sarcasm": "Yes",
+    "sarcasm:confidence": 0.8145,
+    "sentiment": "Negative",
+    "sentiment:confidence": 0.8251,
+    "datetime": "2022-04-02 07:45:42+00:00",
+    "Date": "02/04/2022"
+  }
+]

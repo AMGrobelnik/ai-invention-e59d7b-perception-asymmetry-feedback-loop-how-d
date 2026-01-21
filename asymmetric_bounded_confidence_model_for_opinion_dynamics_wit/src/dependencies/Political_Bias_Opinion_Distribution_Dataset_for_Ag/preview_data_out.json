@@ -1,0 +1,43 @@
+{
+  "examples": [
+    {
+      "input": "Classify the political bias of this statement: \"The government should reduce taxes significantly because it will stimulate economic growth and allow businesses to thrive.\"",
+      "context": {
+        "opinion_score": -1.0,
+        "bias_category": "far_right",
+        "raw_label": 0,
+        "scale": "5-point (0=far_right to 4=far_left)",
+        "normalized_scale": "-1.0 to +1.0 (right to left)"
+      },
+      "output": "far_right (opinion_score: -1.0)",
+      "dataset": "cajcodes/political-bias",
+      "split": "train"
+    },
+    {
+      "input": "Classify the political bias of this statement: \"Cutting welfare programs is necessary to encourage personal responsibility and reduce dependency on the state.\"",
+      "context": {
+        "opinion_score": -1.0,
+        "bias_category": "far_right",
+        "raw_label": 0,
+        "scale": "5-point (0=far_right to 4=far_left)",
+        "normalized_scale": "-1.0 to +1.0 (right to left)"
+      },
+      "output": "far_right (opinion_score: -1.0)",
+      "dataset": "cajcodes/political-bias",
+      "split": "train"
+    },
+    {
+      "input": "Classify the political bias of this statement: \"A strong military is essential for national security and to protect our interests abroad.\"",
+      "context": {
+        "opinion_score": -1.0,
+        "bias_category": "far_right",
+        "raw_label": 0,
+        "scale": "5-point (0=far_right to 4=far_left)",
+        "normalized_scale": "-1.0 to +1.0 (right to left)"
+      },
+      "output": "far_right (opinion_score: -1.0)",
+      "dataset": "cajcodes/political-bias",
+      "split": "train"
+    }
+  ]
+}

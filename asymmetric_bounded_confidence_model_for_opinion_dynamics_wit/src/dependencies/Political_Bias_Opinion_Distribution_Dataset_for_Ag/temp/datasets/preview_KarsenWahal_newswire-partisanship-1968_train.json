@@ -1,0 +1,182 @@
+[
+  {
+    "article": "SAIGON (AP) — Smashing\nCommunist thrusts across South\nVietnam, allied forces killed\nmore than 1,000 of the enemy to-\nday and Sunday and raised their\ntoll to more than 6,000 Viet Cong\nand North Vietnam...",
+    "byline": "",
+    "dates": [
+      "Aug-26-1968",
+      "Aug-27-1968"
+    ],
+    "newspaper_metadata": [
+      {
+        "lccn": "(('sn86089911',),)",
+        "newspaper_city": "(('clute', 'freeport'),)",
+        "newspaper_state": "(('texas', 'texas'),)",
+        "newspaper_title": "('brazosport facts',)"
+      },
+      {
+        "lccn": "(('sn85042303',),)",
+        "newspaper_city": "(('ardmore',),)",
+        "newspaper_state": "(('oklahoma',),)",
+        "newspaper_title": "('daily ardmoreite',)"
+      },
+      {
+        "lccn": "(('sn85030202', 'sn85030190'),)",
+        "newspaper_city": "(('emporia',),)",
+        "newspaper_state": "(('kansas',),)",
+        "newspaper_title": "('emporia gazette',)"
+      }
+    ],
+    "antitrust": 0,
+    "civil_rights": 0,
+    "crime": 0,
+    "govt_regulation": 0,
+    "labor_movement": 0,
+    "politics": 0,
+    "protests": 0,
+    "ca_topic": "Defense",
+    "ner_words": [
+      "SAIGON",
+      "AP",
+      "Smashing"
+    ],
+    "ner_labels": [
+      "B-LOC",
+      "B-ORG",
+      "O"
+    ],
+    "wire_city": "Saigon",
+    "wire_state": "",
+    "wire_country": "Vietnam",
+    "wire_coordinates": [
+      10.82302,
+      106.62965
+    ],
+    "wire_location_notes": "",
+    "people_mentioned": [],
+    "cluster_size": 97,
+    "year": 1968,
+    "partisanship_score": 0.0
+  },
+  {
+    "article": "NEW YORK (AP) — Police\ncleared a barricaded building\nand arrested 131 demonstrators\nwithout incident at Columbia\nUniversity Wednesday, but in\nthe hour before dawn the trou-\nbled Ivy League campus erup...",
+    "byline": "",
+    "dates": [
+      "May-22-1968"
+    ],
+    "newspaper_metadata": [
+      {
+        "lccn": "(('sn89062135', 'sn83020250'),)",
+        "newspaper_city": "(('fitchburg',),)",
+        "newspaper_state": "(('massachusetts',),)",
+        "newspaper_title": "('fitchburg sentinel',)"
+      },
+      {
+        "lccn": "(('sn87062165', 'sn87078235'),)",
+        "newspaper_city": "(('uniontown',),)",
+        "newspaper_state": "(('pennsylvania',),)",
+        "newspaper_title": "('evening standard',)"
+      },
+      {
+        "lccn": "(('sn83016207', 'sn89060246'),)",
+        "newspaper_city": "(('frederick',),)",
+        "newspaper_state": "(('maryland',),)",
+        "newspaper_title": "('news',)"
+      }
+    ],
+    "antitrust": 0,
+    "civil_rights": 0,
+    "crime": 1,
+    "govt_regulation": 0,
+    "labor_movement": 1,
+    "politics": 0,
+    "protests": 0,
+    "ca_topic": "Civil Rights",
+    "ner_words": [
+      "NEW",
+      "YORK",
+      "AP"
+    ],
+    "ner_labels": [
+      "B-LOC",
+      "I-LOC",
+      "B-ORG"
+    ],
+    "wire_city": "New York",
+    "wire_state": "new york",
+    "wire_country": "United States",
+    "wire_coordinates": [
+      40.71427,
+      -74.00597
+    ],
+    "wire_location_notes": "",
+    "people_mentioned": [
+      {
+        "person_gender": "man",
+        "person_name": "Mark Rudd",
+        "person_occupation": null,
+        "wikidata_id": "Q6769521"
+      }
+    ],
+    "cluster_size": 89,
+    "year": 1968,
+    "partisanship_score": 0.0
+  },
+  {
+    "article": "SAIGON (AP) — The allies\ncalled off the Tet truce in South\nVietnam’s northern military\nsector tonight because of a\nbuild-up of a massive North\nVietnamese invasion force\nready to spring after the cease...",
+    "byline": "",
+    "dates": [
+      "Jan-29-1968",
+      "Jan-30-1968"
+    ],
+    "newspaper_metadata": [
+      {
+        "lccn": "(('sn86081697',),)",
+        "newspaper_city": "(('waynesboro',),)",
+        "newspaper_state": "(('pennsylvania',),)",
+        "newspaper_title": "('waynesboro record',)"
+      },
+      {
+        "lccn": "(('sn86072122', 'sn87082005'),)",
+        "newspaper_city": "(('monroe',),)",
+        "newspaper_state": "(('wisconsin',),)",
+        "newspaper_title": "('monroe evening times',)"
+      },
+      {
+        "lccn": "(('sn88064610',),)",
+        "newspaper_city": "(('monroe',),)",
+        "newspaper_state": "(('louisiana',),)",
+        "newspaper_title": "('monroe news-star',)"
+      }
+    ],
+    "antitrust": 0,
+    "civil_rights": 0,
+    "crime": 0,
+    "govt_regulation": 0,
+    "labor_movement": 0,
+    "politics": 0,
+    "protests": 0,
+    "ca_topic": "Defense",
+    "ner_words": [
+      "SAIGON",
+      "AP",
+      "The"
+    ],
+    "ner_labels": [
+      "B-LOC",
+      "B-ORG",
+      "O"
+    ],
+    "wire_city": "Saigon",
+    "wire_state": "",
+    "wire_country": "Vietnam",
+    "wire_coordinates": [
+      10.82302,
+      106.62965
+    ],
+    "wire_location_notes": "",
+    "people_mentioned": [],
+    "cluster_size": 92,
+    "year": 1968,
+    "partisanship_score": -0.006070167924997891
+  }
+]

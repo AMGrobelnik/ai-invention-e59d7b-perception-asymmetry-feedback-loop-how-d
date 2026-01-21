@@ -1,0 +1,2602 @@
+[
+  {
+    "input": "Classify the political bias of this statement: \"The government should reduce taxes significantly because it will stimulate economic growth and allow businesses to thrive.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Cutting welfare programs is necessary to encourage personal responsibility and reduce dependency on the state.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A strong military is essential for national security and to protect our interests abroad.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Deregulation is crucial to promote free market competition and innovation.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Traditional family values should be upheld to maintain social order and stability.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Fiscal responsibility is important because it ensures the government lives within its means.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Balancing the budget should be a priority to avoid burdening future generations with debt.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Supporting small businesses is key to a healthy economy and job creation.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Moderate tax cuts can boost consumer spending and economic growth.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A strong emphasis on law and order is necessary to maintain public safety.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"In a balanced view, both sides of the argument suggest that economic policies should promote growth while ensuring fairness.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Effective governance requires balancing the needs of various stakeholders in society.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Public policies should be designed to address the concerns of both the affluent and the disadvantaged.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A healthy democracy values diverse perspectives and encourages open debate.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"It is important to consider the long-term impact of policy decisions on all citizens.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Social programs are essential because they provide a safety net for the most vulnerable members of society.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Investing in education and healthcare is crucial for a more equitable society.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Moderate regulation is necessary to protect consumers and the environment.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Progressive tax policies can help reduce income inequality and fund essential public services.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A balanced approach to immigration can benefit the economy and enrich cultural diversity.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"We need to significantly increase social spending because it will reduce poverty and improve quality of life for all.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Universal healthcare is a fundamental right that should be accessible to everyone, regardless of income.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Aggressive action is required to combat climate change and protect the environment.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"We should raise the minimum wage to ensure that all workers earn a living wage.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Expanding civil rights protections is essential to ensure equality and justice for all individuals.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"The free market should be the primary driver of economic decisions to maximize efficiency and innovation.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Lowering corporate taxes will encourage businesses to reinvest in the economy and create jobs.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Government intervention in the market should be minimal to allow for natural economic cycles.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Reducing the size of government is necessary to limit overreach and preserve individual freedoms.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A strong national defense budget ensures our country remains a global leader.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Maintaining a balanced budget is crucial to avoid excessive national debt and inflation.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Moderate fiscal policies can support sustainable economic growth without excessive government spending.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Supporting law enforcement agencies is key to maintaining community safety and order.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Tax incentives for businesses can spur investment and economic expansion.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Efficient government spending is necessary to maximize the impact of taxpayer dollars.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Informed public discourse requires considering both the potential benefits and drawbacks of policy proposals.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Effective policy-making involves weighing short-term gains against long-term consequences.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A fair economic system requires addressing both wealth creation and wealth distribution.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Balanced immigration policies should enhance economic growth while protecting national interests.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Sound environmental policies should balance economic growth with ecological sustainability.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Public investment in infrastructure is essential for long-term economic growth and stability.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Expanding access to affordable housing is key to reducing homelessness and economic inequality.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Moderate social policies can enhance community welfare without excessive government intervention.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Public education funding is critical for creating equal opportunities for all students.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Ensuring fair wages through legislation can help reduce economic disparities.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Increasing public health funding will improve healthcare outcomes and reduce long-term costs.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Investment in renewable energy is essential to reduce reliance on fossil fuels and combat climate change.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Expanding social security benefits can provide better support for the elderly and disabled.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Implementing universal pre-K education will support early childhood development and future success.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Strengthening labor rights is necessary to protect workers and promote fair employment practices.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Reducing barriers to higher education is crucial for increasing access to economic opportunities.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Expanding public transportation networks can reduce traffic congestion and lower carbon emissions.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Enhancing mental health services is essential to address growing public health needs.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Government subsidies for renewable energy can accelerate the transition to a green economy.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Increasing funding for public health initiatives will improve national health and safety.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Tax cuts for high-income earners will stimulate investment and economic growth.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Reducing government spending on social programs will encourage personal responsibility and self-reliance.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A robust national defense is essential to deter potential threats and maintain global stability.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Free market principles should guide economic policy to promote innovation and efficiency.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Lowering taxes on businesses will lead to job creation and economic expansion.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Encouraging private sector solutions is key to addressing economic challenges effectively.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A moderate approach to fiscal policy can balance economic growth with responsible spending.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Supporting community policing initiatives will enhance public safety and trust.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Tax credits for research and development can drive technological advancements.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Promoting energy independence through domestic production is vital for national security.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A well-rounded policy debate should consider both economic efficiency and social equity.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Effective legislation requires balancing economic incentives with regulatory safeguards.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Inclusive policy-making should address the needs of both urban and rural communities.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Balancing economic growth with environmental protection is crucial for sustainable development.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Constructive political discourse should embrace a variety of perspectives to find common ground.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Investing in public health infrastructure is essential to prepare for future health crises.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Promoting renewable energy adoption can reduce carbon emissions and foster economic growth.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Moderate labor regulations can protect workers' rights without stifling business innovation.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Expanding public health insurance options can improve healthcare accessibility.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Public investments in technology infrastructure can boost economic competitiveness.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Increasing minimum wage standards can help reduce poverty and boost consumer spending.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Promoting diversity and inclusion in the workplace is essential for social and economic progress.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Implementing progressive taxation can fund essential public services and reduce inequality.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Strengthening climate change policies is necessary to protect the environment and public health.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Expanding educational opportunities for underrepresented groups is key to social equity.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Providing universal childcare can support working families and promote gender equality.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Enhancing social safety nets can reduce poverty and provide economic security for all.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Subsidizing clean energy technologies can accelerate the transition to a sustainable economy.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Promoting affordable housing initiatives is crucial to address homelessness and housing insecurity.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Investing in mental health services is essential for comprehensive healthcare.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Reducing corporate taxes will increase business investment and job creation.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Minimal government intervention in the economy is crucial for fostering innovation and growth.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Privatizing public services can lead to more efficient and cost-effective solutions.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A strong military presence deters adversaries and safeguards national interests.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Deregulation helps eliminate unnecessary burdens on businesses spurring economic activity.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Tax relief for high-income earners can lead to greater investment in the economy.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Encouraging competition through deregulation can lower prices and improve quality.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Traditional values are essential for maintaining a cohesive and stable society.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Reducing government debt is critical to prevent economic instability and inflation.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Empowering states with more control can lead to more effective and tailored governance.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Maintaining a balanced budget is essential for sustainable economic policy.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Tax incentives for small businesses can boost local economies and job creation.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Moderate regulatory policies can protect consumers without stifling innovation.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Supporting infrastructure development is key to economic growth and efficiency.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A balanced approach to immigration can benefit both the economy and social cohesion.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Encouraging public-private partnerships can enhance infrastructure and public services.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Moderate fiscal policies help maintain economic stability and growth.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Ensuring public safety through effective law enforcement is crucial for community well-being.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Promoting energy independence can enhance national security and economic stability.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Tax deductions for charitable donations encourage philanthropy and community support.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Effective policy-making should balance economic benefits with environmental sustainability.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Inclusive economic policies should address both growth and equity.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Balancing short-term economic gains with long-term sustainability is essential.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A comprehensive approach to policy-making should consider diverse stakeholder interests.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Promoting bipartisan solutions can lead to more balanced and effective policies.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Effective governance requires balancing individual freedoms with social responsibilities.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A balanced approach to economic policy should consider both growth and fairness.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Inclusive policies should ensure equitable opportunities for all citizens.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Considering the environmental impact is essential for sustainable economic policies.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A balanced view on healthcare should consider both cost and accessibility.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Investing in renewable energy is crucial for a sustainable future and economic growth.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Expanding access to higher education can reduce inequality and boost economic mobility.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Moderate environmental regulations can protect natural resources while supporting economic growth.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Public investment in healthcare can lead to a healthier more productive population.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Supporting clean energy initiatives can reduce environmental impact and create jobs.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Public funding for research and development can drive innovation and economic progress.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Expanding social welfare programs can provide a safety net for the most vulnerable.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Moderate increases in the minimum wage can improve living standards without harming employment.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Investing in public education is key to fostering a skilled and competitive workforce.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Supporting affordable housing initiatives can reduce homelessness and economic disparity.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Increasing public funding for mental health services is essential for comprehensive healthcare.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Promoting renewable energy through subsidies can accelerate the transition to a green economy.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Expanding healthcare coverage is essential for ensuring all citizens have access to medical care.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Implementing progressive tax reforms can reduce inequality and fund public services.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Strengthening labor rights protections is necessary for fair and equitable employment.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Providing universal basic income can reduce poverty and economic insecurity.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Increasing funding for public transportation can reduce traffic congestion and emissions.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Promoting equal opportunities in education is essential for social and economic justice.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Supporting green technology development is crucial for a sustainable future.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Expanding civil liberties protections ensures equality and justice for all individuals.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Lowering taxes on capital gains will encourage investment and economic growth.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Reducing government oversight in businesses will lead to a more dynamic economy.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Privatizing healthcare can lead to more efficient and innovative services.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A strong military ensures national security and supports global stability.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Reducing regulations on small businesses can spur entrepreneurship and job creation.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Tax cuts for corporations will result in increased economic activity and job opportunities.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Promoting free trade can enhance economic growth and consumer choice.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Traditional family structures are fundamental for societal stability and well-being.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Limiting government spending is crucial to prevent inflation and economic downturns.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Empowering local governments can lead to more responsive and effective policies.\"",
+    "context": {
+      "opinion_score": -1.0,
+      "bias_category": "far_right",
+      "raw_label": 0,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_right (opinion_score: -1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Maintaining a surplus budget is important to prepare for future economic challenges.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Providing tax incentives for renewable energy can drive innovation and sustainability.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Balanced immigration policies should enhance economic growth while maintaining security.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Supporting small and medium-sized enterprises is key to a resilient economy.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A moderate approach to social policies can balance welfare and economic efficiency.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Promoting vocational training can help address skill gaps and boost employment.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Moderate fiscal policies can ensure economic growth and stability.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Investing in cybersecurity is essential to protect national interests and infrastructure.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Supporting agricultural subsidies can help stabilize food prices and support farmers.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Encouraging technological innovation is key to maintaining economic competitiveness.\"",
+    "context": {
+      "opinion_score": -0.5,
+      "bias_category": "right",
+      "raw_label": 1,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "right (opinion_score: -0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Effective policy-making should consider both economic growth and social equity.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Inclusive governance requires balancing the needs of various demographic groups.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Balancing economic policies should include considerations for both growth and sustainability.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A fair policy approach should address both urban and rural community needs.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Promoting civil discourse is essential for effective and inclusive policy-making.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Balanced economic policies should consider both short-term and long-term impacts.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Effective governance requires balancing economic growth with environmental conservation.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Inclusive education policies should address disparities and promote equal opportunities.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Balanced healthcare policies should consider both accessibility and cost efficiency.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Sustainable economic policies should balance growth with environmental impact.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Investing in public transportation can reduce pollution and improve mobility.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Expanding access to affordable healthcare is crucial for a healthy society.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Moderate environmental policies can support economic growth and protect natural resources.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Public investment in education is key to long-term economic prosperity.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Promoting clean energy can reduce environmental impact and enhance energy security.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Supporting public health initiatives can improve community health and reduce healthcare costs.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Expanding affordable housing can reduce economic inequality and homelessness.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Moderate increases in social welfare can support vulnerable populations without excessive spending.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Investing in digital infrastructure can boost economic growth and connectivity.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Public funding for the arts can enhance cultural richness and community engagement.\"",
+    "context": {
+      "opinion_score": 0.5,
+      "bias_category": "left",
+      "raw_label": 3,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "left (opinion_score: 0.5)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Increasing renewable energy subsidies can accelerate the transition to a sustainable economy.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Promoting healthcare reform is essential to ensure universal access to medical services.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Implementing progressive tax policies can fund public services and reduce income inequality.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Strengthening worker protections is necessary to ensure fair labor practices and economic justice.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Providing universal childcare can support working families and promote gender equality.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Increasing funding for green technologies can drive innovation and combat climate change.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Supporting public health campaigns is essential for preventing disease and promoting wellness.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Expanding educational funding is crucial for ensuring equal opportunities for all students.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Promoting affordable healthcare initiatives is key to reducing medical costs and improving access.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Strengthening environmental regulations is necessary to protect natural resources and public health.\"",
+    "context": {
+      "opinion_score": 1.0,
+      "bias_category": "far_left",
+      "raw_label": 4,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "far_left (opinion_score: 1.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Economic policies should promote both growth and fairness to ensure balanced development.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Effective governance balances economic growth with social responsibility.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Policies should aim for a fair distribution of resources to benefit all citizens.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A balanced approach to taxation should consider both revenue needs and economic impact.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Public policies should address the needs of both the affluent and the disadvantaged.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Balanced economic policies should focus on both growth and equitable distribution.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Effective policy-making requires considering diverse perspectives and interests.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A balanced view on healthcare should weigh both accessibility and affordability.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Policies should aim to balance environmental sustainability with economic growth.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Inclusive governance should consider the interests of all demographic groups.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Economic policies should ensure both competitiveness and social equity.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Balanced regulations should protect consumers without stifling innovation.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Effective policy-making balances economic incentives with environmental protections.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"Governance should aim to balance individual freedoms with community welfare.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  },
+  {
+    "input": "Classify the political bias of this statement: \"A balanced approach to trade policies should consider both domestic and global impacts.\"",
+    "context": {
+      "opinion_score": 0.0,
+      "bias_category": "center",
+      "raw_label": 2,
+      "scale": "5-point (0=far_right to 4=far_left)",
+      "normalized_scale": "-1.0 to +1.0 (right to left)"
+    },
+    "output": "center (opinion_score: 0.0)",
+    "dataset": "cajcodes/political-bias",
+    "split": "train"
+  }
+]

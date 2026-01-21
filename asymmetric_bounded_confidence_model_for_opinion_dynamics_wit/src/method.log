@@ -1,0 +1,1967 @@
+2026-01-20 22:24:32,441 | INFO    | method | ============================================================
+2026-01-20 22:24:32,441 | INFO    | method | ASYMMETRIC BOUNDED-CONFIDENCE MODEL - METHOD VS BASELINE
+2026-01-20 22:24:32,441 | INFO    | method | ============================================================
+2026-01-20 22:24:32,441 | INFO    | method | Loading opinion distribution from: /home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260120_210012/invention_loop/iter2_experiment_workspace_idx0/dependencies/Political_Bias_Opinion_Distribution_Dataset_for_Ag/full_data_out.json
+2026-01-20 22:24:32,443 | INFO    | method | Loaded 200 opinion scores from 200 examples
+2026-01-20 22:24:32,444 | DEBUG   | method | Opinion range: [-1.00, 1.00]
+2026-01-20 22:24:32,445 | DEBUG   | method | Opinion mean: 0.052, std: 0.697
+2026-01-20 22:24:32,445 | INFO    | method | Data loading took 0.00 seconds
+2026-01-20 22:24:32,445 | INFO    | method | Parameters: n_agents=100, n_seeds=10, max_t=300
+2026-01-20 22:24:32,446 | INFO    | method | Baseline alpha: 0.0
+2026-01-20 22:24:32,446 | INFO    | method | Method alphas: [0.1, 0.17, 0.24, 0.31, 0.38, 0.45, 0.52, 0.59, 0.66, 0.73, 0.8, 0.87, 0.94, 1.01, 1.08, 1.15, 1.22, 1.29, 1.36, 1.43]
+2026-01-20 22:24:32,447 | INFO    | method | 
+========================================
+2026-01-20 22:24:32,447 | INFO    | method | RUNNING BASELINE (alpha=0, no asymmetry)
+2026-01-20 22:24:32,447 | INFO    | method | ========================================
+2026-01-20 22:24:32,448 | INFO    | method | Running experiment: 1 alphas x 10 seeds
+2026-01-20 22:24:32,448 | INFO    | method | Run 1/10: alpha=0.0, seed=0
+2026-01-20 22:24:32,448 | INFO    | method | Running simulation: alpha=0.0, n=100, seed=0, network=small_world
+2026-01-20 22:24:32,449 | DEBUG   | method | Initializing 100 agents with alpha=0.0, seed=0
+2026-01-20 22:24:32,457 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:24:32,457 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:24:32,459 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:32,465 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.099347
+2026-01-20 22:24:32,675 | DEBUG   | method |   Converged at t=69
+2026-01-20 22:24:32,676 | INFO    | method |   Result: clusters=12, lifetime=10.00
+2026-01-20 22:24:32,676 | INFO    | method | Run 2/10: alpha=0.0, seed=1
+2026-01-20 22:24:32,676 | INFO    | method | Running simulation: alpha=0.0, n=100, seed=1, network=small_world
+2026-01-20 22:24:32,677 | DEBUG   | method | Initializing 100 agents with alpha=0.0, seed=1
+2026-01-20 22:24:32,681 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:24:32,681 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:24:32,682 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:32,685 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:24:32,891 | DEBUG   | method |   Converged at t=83
+2026-01-20 22:24:32,891 | INFO    | method |   Result: clusters=9, lifetime=16.80
+2026-01-20 22:24:32,892 | INFO    | method | Run 3/10: alpha=0.0, seed=2
+2026-01-20 22:24:32,892 | INFO    | method | Running simulation: alpha=0.0, n=100, seed=2, network=small_world
+2026-01-20 22:24:32,893 | DEBUG   | method | Initializing 100 agents with alpha=0.0, seed=2
+2026-01-20 22:24:32,899 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:24:32,899 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:24:32,900 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:32,903 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096664
+2026-01-20 22:24:33,180 | DEBUG   | method |   t=100: clusters=10, variance=0.4210, max_change=0.000765
+2026-01-20 22:24:33,358 | DEBUG   | method |   Converged at t=166
+2026-01-20 22:24:33,361 | INFO    | method |   Result: clusters=10, lifetime=18.56
+2026-01-20 22:24:33,361 | INFO    | method | Run 4/10: alpha=0.0, seed=3
+2026-01-20 22:24:33,362 | INFO    | method | Running simulation: alpha=0.0, n=100, seed=3, network=small_world
+2026-01-20 22:24:33,362 | DEBUG   | method | Initializing 100 agents with alpha=0.0, seed=3
+2026-01-20 22:24:33,365 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:24:33,366 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:24:33,366 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:33,369 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.099538
+2026-01-20 22:24:33,588 | DEBUG   | method |   Converged at t=80
+2026-01-20 22:24:33,589 | INFO    | method |   Result: clusters=12, lifetime=10.12
+2026-01-20 22:24:33,589 | INFO    | method | Run 5/10: alpha=0.0, seed=4
+2026-01-20 22:24:33,590 | INFO    | method | Running simulation: alpha=0.0, n=100, seed=4, network=small_world
+2026-01-20 22:24:33,590 | DEBUG   | method | Initializing 100 agents with alpha=0.0, seed=4
+2026-01-20 22:24:33,593 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:24:33,594 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:24:33,595 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:33,597 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.097885
+2026-01-20 22:24:33,809 | DEBUG   | method |   Converged at t=86
+2026-01-20 22:24:33,810 | INFO    | method |   Result: clusters=12, lifetime=12.43
+2026-01-20 22:24:33,810 | INFO    | method | Run 6/10: alpha=0.0, seed=5
+2026-01-20 22:24:33,810 | INFO    | method | Running simulation: alpha=0.0, n=100, seed=5, network=small_world
+2026-01-20 22:24:33,810 | DEBUG   | method | Initializing 100 agents with alpha=0.0, seed=5
+2026-01-20 22:24:33,813 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:24:33,814 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:24:33,814 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:33,817 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.099544
+2026-01-20 22:24:34,027 | DEBUG   | method |   Converged at t=80
+2026-01-20 22:24:34,028 | INFO    | method |   Result: clusters=7, lifetime=27.00
+2026-01-20 22:24:34,029 | INFO    | method | Run 7/10: alpha=0.0, seed=6
+2026-01-20 22:24:34,030 | INFO    | method | Running simulation: alpha=0.0, n=100, seed=6, network=small_world
+2026-01-20 22:24:34,030 | DEBUG   | method | Initializing 100 agents with alpha=0.0, seed=6
+2026-01-20 22:24:34,040 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:24:34,041 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:24:34,042 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:34,046 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.094979
+2026-01-20 22:24:34,320 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:24:34,320 | INFO    | method |   Result: clusters=12, lifetime=16.25
+2026-01-20 22:24:34,321 | INFO    | method | Run 8/10: alpha=0.0, seed=7
+2026-01-20 22:24:34,322 | INFO    | method | Running simulation: alpha=0.0, n=100, seed=7, network=small_world
+2026-01-20 22:24:34,322 | DEBUG   | method | Initializing 100 agents with alpha=0.0, seed=7
+2026-01-20 22:24:34,329 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:24:34,330 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:24:34,335 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:34,341 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.090625
+2026-01-20 22:24:34,833 | DEBUG   | method |   Converged at t=80
+2026-01-20 22:24:34,834 | INFO    | method |   Result: clusters=7, lifetime=27.00
+2026-01-20 22:24:34,834 | INFO    | method | Run 9/10: alpha=0.0, seed=8
+2026-01-20 22:24:34,834 | INFO    | method | Running simulation: alpha=0.0, n=100, seed=8, network=small_world
+2026-01-20 22:24:34,834 | DEBUG   | method | Initializing 100 agents with alpha=0.0, seed=8
+2026-01-20 22:24:34,838 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:24:34,838 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:24:34,839 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:34,842 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.094275
+2026-01-20 22:24:35,204 | DEBUG   | method |   Converged at t=97
+2026-01-20 22:24:35,204 | INFO    | method |   Result: clusters=7, lifetime=14.00
+2026-01-20 22:24:35,204 | INFO    | method | Run 10/10: alpha=0.0, seed=9
+2026-01-20 22:24:35,204 | INFO    | method | Running simulation: alpha=0.0, n=100, seed=9, network=small_world
+2026-01-20 22:24:35,205 | DEBUG   | method | Initializing 100 agents with alpha=0.0, seed=9
+2026-01-20 22:24:35,209 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:24:35,210 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:24:35,213 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:35,219 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.085615
+2026-01-20 22:24:35,691 | DEBUG   | method |   t=100: clusters=9, variance=0.4155, max_change=0.000168
+2026-01-20 22:24:35,836 | DEBUG   | method |   Converged at t=116
+2026-01-20 22:24:35,837 | INFO    | method |   Result: clusters=9, lifetime=7.31
+2026-01-20 22:24:35,839 | INFO    | method | BASELINE experiment took 3.39 seconds (10 simulations)
+2026-01-20 22:24:35,839 | INFO    | method | 
+========================================
+2026-01-20 22:24:35,839 | INFO    | method | RUNNING METHOD (alpha>0, with asymmetry)
+2026-01-20 22:24:35,839 | INFO    | method | ========================================
+2026-01-20 22:24:35,840 | INFO    | method | Running experiment: 20 alphas x 10 seeds
+2026-01-20 22:24:35,840 | INFO    | method | Run 1/200: alpha=0.1, seed=0
+2026-01-20 22:24:35,840 | INFO    | method | Running simulation: alpha=0.1, n=100, seed=0, network=small_world
+2026-01-20 22:24:35,840 | DEBUG   | method | Initializing 100 agents with alpha=0.1, seed=0
+2026-01-20 22:24:35,848 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:24:35,848 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:24:35,850 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:35,866 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.088809
+2026-01-20 22:24:36,134 | DEBUG   | method |   Converged at t=91
+2026-01-20 22:24:36,135 | INFO    | method |   Result: clusters=10, lifetime=13.14
+2026-01-20 22:24:36,135 | INFO    | method | Run 2/200: alpha=0.1, seed=1
+2026-01-20 22:24:36,135 | INFO    | method | Running simulation: alpha=0.1, n=100, seed=1, network=small_world
+2026-01-20 22:24:36,136 | DEBUG   | method | Initializing 100 agents with alpha=0.1, seed=1
+2026-01-20 22:24:36,142 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:24:36,148 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:24:36,158 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:36,161 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:24:36,517 | DEBUG   | method |   Converged at t=83
+2026-01-20 22:24:36,517 | INFO    | method |   Result: clusters=9, lifetime=16.80
+2026-01-20 22:24:36,518 | INFO    | method | Run 3/200: alpha=0.1, seed=2
+2026-01-20 22:24:36,518 | INFO    | method | Running simulation: alpha=0.1, n=100, seed=2, network=small_world
+2026-01-20 22:24:36,518 | DEBUG   | method | Initializing 100 agents with alpha=0.1, seed=2
+2026-01-20 22:24:36,522 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:24:36,523 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:24:36,523 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:36,526 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:24:36,848 | DEBUG   | method |   t=100: clusters=11, variance=0.4213, max_change=0.001579
+2026-01-20 22:24:37,479 | DEBUG   | method |   Converged at t=173
+2026-01-20 22:24:37,480 | INFO    | method |   Result: clusters=11, lifetime=17.40
+2026-01-20 22:24:37,481 | INFO    | method | Run 4/200: alpha=0.1, seed=3
+2026-01-20 22:24:37,481 | INFO    | method | Running simulation: alpha=0.1, n=100, seed=3, network=small_world
+2026-01-20 22:24:37,482 | DEBUG   | method | Initializing 100 agents with alpha=0.1, seed=3
+2026-01-20 22:24:37,490 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:24:37,492 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:24:37,495 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:37,533 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.086966
+2026-01-20 22:24:38,074 | DEBUG   | method |   t=100: clusters=11, variance=0.4120, max_change=0.000019
+2026-01-20 22:24:38,104 | DEBUG   | method |   Converged at t=105
+2026-01-20 22:24:38,105 | INFO    | method |   Result: clusters=11, lifetime=21.20
+2026-01-20 22:24:38,106 | INFO    | method | Run 5/200: alpha=0.1, seed=4
+2026-01-20 22:24:38,108 | INFO    | method | Running simulation: alpha=0.1, n=100, seed=4, network=small_world
+2026-01-20 22:24:38,109 | DEBUG   | method | Initializing 100 agents with alpha=0.1, seed=4
+2026-01-20 22:24:38,121 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:24:38,122 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:24:38,123 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:38,129 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.088434
+2026-01-20 22:24:38,440 | DEBUG   | method |   Converged at t=73
+2026-01-20 22:24:38,440 | INFO    | method |   Result: clusters=12, lifetime=9.25
+2026-01-20 22:24:38,440 | INFO    | method | Run 6/200: alpha=0.1, seed=5
+2026-01-20 22:24:38,440 | INFO    | method | Running simulation: alpha=0.1, n=100, seed=5, network=small_world
+2026-01-20 22:24:38,440 | DEBUG   | method | Initializing 100 agents with alpha=0.1, seed=5
+2026-01-20 22:24:38,444 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:24:38,445 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:24:38,446 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:38,448 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:24:38,675 | DEBUG   | method |   Converged at t=80
+2026-01-20 22:24:38,675 | INFO    | method |   Result: clusters=8, lifetime=27.00
+2026-01-20 22:24:38,675 | INFO    | method | Run 7/200: alpha=0.1, seed=6
+2026-01-20 22:24:38,675 | INFO    | method | Running simulation: alpha=0.1, n=100, seed=6, network=small_world
+2026-01-20 22:24:38,675 | DEBUG   | method | Initializing 100 agents with alpha=0.1, seed=6
+2026-01-20 22:24:38,683 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:24:38,683 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:24:38,684 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:38,687 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.086737
+2026-01-20 22:24:38,828 | DEBUG   | method |   Converged at t=63
+2026-01-20 22:24:38,829 | INFO    | method |   Result: clusters=10, lifetime=16.00
+2026-01-20 22:24:38,829 | INFO    | method | Run 8/200: alpha=0.1, seed=7
+2026-01-20 22:24:38,829 | INFO    | method | Running simulation: alpha=0.1, n=100, seed=7, network=small_world
+2026-01-20 22:24:38,829 | DEBUG   | method | Initializing 100 agents with alpha=0.1, seed=7
+2026-01-20 22:24:38,835 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:24:38,835 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:24:38,836 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:38,840 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:24:39,039 | DEBUG   | method |   Converged at t=80
+2026-01-20 22:24:39,039 | INFO    | method |   Result: clusters=8, lifetime=27.00
+2026-01-20 22:24:39,040 | INFO    | method | Run 9/200: alpha=0.1, seed=8
+2026-01-20 22:24:39,040 | INFO    | method | Running simulation: alpha=0.1, n=100, seed=8, network=small_world
+2026-01-20 22:24:39,040 | DEBUG   | method | Initializing 100 agents with alpha=0.1, seed=8
+2026-01-20 22:24:39,045 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:24:39,045 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:24:39,046 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:39,048 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:24:39,286 | DEBUG   | method |   Converged at t=99
+2026-01-20 22:24:39,287 | INFO    | method |   Result: clusters=6, lifetime=20.00
+2026-01-20 22:24:39,287 | INFO    | method | Run 10/200: alpha=0.1, seed=9
+2026-01-20 22:24:39,287 | INFO    | method | Running simulation: alpha=0.1, n=100, seed=9, network=small_world
+2026-01-20 22:24:39,287 | DEBUG   | method | Initializing 100 agents with alpha=0.1, seed=9
+2026-01-20 22:24:39,290 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:24:39,291 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:24:39,291 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:39,294 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.085615
+2026-01-20 22:24:39,565 | DEBUG   | method |   t=100: clusters=9, variance=0.4205, max_change=0.000142
+2026-01-20 22:24:39,587 | DEBUG   | method |   Converged at t=110
+2026-01-20 22:24:39,588 | INFO    | method |   Result: clusters=9, lifetime=12.33
+2026-01-20 22:24:39,588 | INFO    | method | Run 11/200: alpha=0.17, seed=0
+2026-01-20 22:24:39,588 | INFO    | method | Running simulation: alpha=0.17, n=100, seed=0, network=small_world
+2026-01-20 22:24:39,588 | DEBUG   | method | Initializing 100 agents with alpha=0.17, seed=0
+2026-01-20 22:24:39,593 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:24:39,593 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:24:39,594 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:39,596 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.081867
+2026-01-20 22:24:39,744 | DEBUG   | method |   Converged at t=69
+2026-01-20 22:24:39,744 | INFO    | method |   Result: clusters=11, lifetime=17.50
+2026-01-20 22:24:39,744 | INFO    | method | Run 12/200: alpha=0.17, seed=1
+2026-01-20 22:24:39,744 | INFO    | method | Running simulation: alpha=0.17, n=100, seed=1, network=small_world
+2026-01-20 22:24:39,745 | DEBUG   | method | Initializing 100 agents with alpha=0.17, seed=1
+2026-01-20 22:24:39,749 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:24:39,750 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:24:39,751 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:39,754 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:24:39,934 | DEBUG   | method |   Converged at t=83
+2026-01-20 22:24:39,934 | INFO    | method |   Result: clusters=8, lifetime=16.80
+2026-01-20 22:24:39,934 | INFO    | method | Run 13/200: alpha=0.17, seed=2
+2026-01-20 22:24:39,934 | INFO    | method | Running simulation: alpha=0.17, n=100, seed=2, network=small_world
+2026-01-20 22:24:39,934 | DEBUG   | method | Initializing 100 agents with alpha=0.17, seed=2
+2026-01-20 22:24:39,938 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:24:39,938 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:24:39,939 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:39,941 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:24:40,177 | DEBUG   | method |   t=100: clusters=11, variance=0.4211, max_change=0.004479
+2026-01-20 22:24:40,365 | DEBUG   | method |   Converged at t=178
+2026-01-20 22:24:40,365 | INFO    | method |   Result: clusters=11, lifetime=14.92
+2026-01-20 22:24:40,365 | INFO    | method | Run 14/200: alpha=0.17, seed=3
+2026-01-20 22:24:40,365 | INFO    | method | Running simulation: alpha=0.17, n=100, seed=3, network=small_world
+2026-01-20 22:24:40,365 | DEBUG   | method | Initializing 100 agents with alpha=0.17, seed=3
+2026-01-20 22:24:40,369 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:24:40,369 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:24:40,369 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:40,371 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.079720
+2026-01-20 22:24:40,549 | DEBUG   | method |   Converged at t=70
+2026-01-20 22:24:40,549 | INFO    | method |   Result: clusters=12, lifetime=14.20
+2026-01-20 22:24:40,549 | INFO    | method | Run 15/200: alpha=0.17, seed=4
+2026-01-20 22:24:40,549 | INFO    | method | Running simulation: alpha=0.17, n=100, seed=4, network=small_world
+2026-01-20 22:24:40,549 | DEBUG   | method | Initializing 100 agents with alpha=0.17, seed=4
+2026-01-20 22:24:40,553 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:24:40,553 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:24:40,554 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:40,556 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:24:40,711 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:24:40,712 | INFO    | method |   Result: clusters=13, lifetime=11.00
+2026-01-20 22:24:40,712 | INFO    | method | Run 16/200: alpha=0.17, seed=5
+2026-01-20 22:24:40,712 | INFO    | method | Running simulation: alpha=0.17, n=100, seed=5, network=small_world
+2026-01-20 22:24:40,712 | DEBUG   | method | Initializing 100 agents with alpha=0.17, seed=5
+2026-01-20 22:24:40,718 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:24:40,719 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:24:40,720 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:40,724 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:24:40,905 | DEBUG   | method |   Converged at t=81
+2026-01-20 22:24:40,906 | INFO    | method |   Result: clusters=8, lifetime=27.33
+2026-01-20 22:24:40,906 | INFO    | method | Run 17/200: alpha=0.17, seed=6
+2026-01-20 22:24:40,906 | INFO    | method | Running simulation: alpha=0.17, n=100, seed=6, network=small_world
+2026-01-20 22:24:40,906 | DEBUG   | method | Initializing 100 agents with alpha=0.17, seed=6
+2026-01-20 22:24:40,911 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:24:40,911 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:24:40,911 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:40,915 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:24:41,053 | DEBUG   | method |   Converged at t=63
+2026-01-20 22:24:41,054 | INFO    | method |   Result: clusters=10, lifetime=16.00
+2026-01-20 22:24:41,054 | INFO    | method | Run 18/200: alpha=0.17, seed=7
+2026-01-20 22:24:41,054 | INFO    | method | Running simulation: alpha=0.17, n=100, seed=7, network=small_world
+2026-01-20 22:24:41,054 | DEBUG   | method | Initializing 100 agents with alpha=0.17, seed=7
+2026-01-20 22:24:41,058 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:24:41,058 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:24:41,058 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:41,060 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:24:41,237 | DEBUG   | method |   Converged at t=80
+2026-01-20 22:24:41,237 | INFO    | method |   Result: clusters=8, lifetime=27.00
+2026-01-20 22:24:41,237 | INFO    | method | Run 19/200: alpha=0.17, seed=8
+2026-01-20 22:24:41,238 | INFO    | method | Running simulation: alpha=0.17, n=100, seed=8, network=small_world
+2026-01-20 22:24:41,238 | DEBUG   | method | Initializing 100 agents with alpha=0.17, seed=8
+2026-01-20 22:24:41,241 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:24:41,242 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:24:41,242 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:41,246 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:24:41,422 | DEBUG   | method |   Converged at t=67
+2026-01-20 22:24:41,422 | INFO    | method |   Result: clusters=7, lifetime=22.67
+2026-01-20 22:24:41,422 | INFO    | method | Run 20/200: alpha=0.17, seed=9
+2026-01-20 22:24:41,422 | INFO    | method | Running simulation: alpha=0.17, n=100, seed=9, network=small_world
+2026-01-20 22:24:41,423 | DEBUG   | method | Initializing 100 agents with alpha=0.17, seed=9
+2026-01-20 22:24:41,427 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:24:41,427 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:24:41,428 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:41,431 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.075127
+2026-01-20 22:24:41,648 | DEBUG   | method |   t=100: clusters=9, variance=0.4212, max_change=0.000142
+2026-01-20 22:24:41,668 | DEBUG   | method |   Converged at t=110
+2026-01-20 22:24:41,669 | INFO    | method |   Result: clusters=9, lifetime=15.86
+2026-01-20 22:24:41,669 | INFO    | method | Run 21/200: alpha=0.24, seed=0
+2026-01-20 22:24:41,669 | INFO    | method | Running simulation: alpha=0.24, n=100, seed=0, network=small_world
+2026-01-20 22:24:41,669 | DEBUG   | method | Initializing 100 agents with alpha=0.24, seed=0
+2026-01-20 22:24:41,673 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:24:41,673 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:24:41,674 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:41,676 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.072284
+2026-01-20 22:24:41,828 | DEBUG   | method |   Converged at t=63
+2026-01-20 22:24:41,828 | INFO    | method |   Result: clusters=10, lifetime=64.00
+2026-01-20 22:24:41,828 | INFO    | method | Run 22/200: alpha=0.24, seed=1
+2026-01-20 22:24:41,828 | INFO    | method | Running simulation: alpha=0.24, n=100, seed=1, network=small_world
+2026-01-20 22:24:41,828 | DEBUG   | method | Initializing 100 agents with alpha=0.24, seed=1
+2026-01-20 22:24:41,832 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:24:41,832 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:24:41,833 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:41,835 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:24:42,020 | DEBUG   | method |   Converged at t=83
+2026-01-20 22:24:42,020 | INFO    | method |   Result: clusters=8, lifetime=16.80
+2026-01-20 22:24:42,020 | INFO    | method | Run 23/200: alpha=0.24, seed=2
+2026-01-20 22:24:42,020 | INFO    | method | Running simulation: alpha=0.24, n=100, seed=2, network=small_world
+2026-01-20 22:24:42,021 | DEBUG   | method | Initializing 100 agents with alpha=0.24, seed=2
+2026-01-20 22:24:42,024 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:24:42,025 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:24:42,025 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:42,028 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:24:42,285 | DEBUG   | method |   t=100: clusters=11, variance=0.4211, max_change=0.006582
+2026-01-20 22:24:42,454 | DEBUG   | method |   Converged at t=181
+2026-01-20 22:24:42,454 | INFO    | method |   Result: clusters=11, lifetime=15.17
+2026-01-20 22:24:42,454 | INFO    | method | Run 24/200: alpha=0.24, seed=3
+2026-01-20 22:24:42,455 | INFO    | method | Running simulation: alpha=0.24, n=100, seed=3, network=small_world
+2026-01-20 22:24:42,455 | DEBUG   | method | Initializing 100 agents with alpha=0.24, seed=3
+2026-01-20 22:24:42,461 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:24:42,461 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:24:42,462 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:42,466 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.075920
+2026-01-20 22:24:42,627 | DEBUG   | method |   Converged at t=70
+2026-01-20 22:24:42,627 | INFO    | method |   Result: clusters=13, lifetime=17.75
+2026-01-20 22:24:42,627 | INFO    | method | Run 25/200: alpha=0.24, seed=4
+2026-01-20 22:24:42,627 | INFO    | method | Running simulation: alpha=0.24, n=100, seed=4, network=small_world
+2026-01-20 22:24:42,627 | DEBUG   | method | Initializing 100 agents with alpha=0.24, seed=4
+2026-01-20 22:24:42,631 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:24:42,631 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:24:42,632 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:42,634 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:24:42,799 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:24:42,800 | INFO    | method |   Result: clusters=14, lifetime=11.00
+2026-01-20 22:24:42,800 | INFO    | method | Run 26/200: alpha=0.24, seed=5
+2026-01-20 22:24:42,800 | INFO    | method | Running simulation: alpha=0.24, n=100, seed=5, network=small_world
+2026-01-20 22:24:42,800 | DEBUG   | method | Initializing 100 agents with alpha=0.24, seed=5
+2026-01-20 22:24:42,803 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:24:42,803 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:24:42,804 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:42,806 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:24:42,994 | DEBUG   | method |   Converged at t=81
+2026-01-20 22:24:42,994 | INFO    | method |   Result: clusters=8, lifetime=27.33
+2026-01-20 22:24:42,994 | INFO    | method | Run 27/200: alpha=0.24, seed=6
+2026-01-20 22:24:42,994 | INFO    | method | Running simulation: alpha=0.24, n=100, seed=6, network=small_world
+2026-01-20 22:24:42,994 | DEBUG   | method | Initializing 100 agents with alpha=0.24, seed=6
+2026-01-20 22:24:42,999 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:24:42,999 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:24:43,000 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:43,004 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:24:43,131 | DEBUG   | method |   Converged at t=62
+2026-01-20 22:24:43,131 | INFO    | method |   Result: clusters=11, lifetime=21.00
+2026-01-20 22:24:43,131 | INFO    | method | Run 28/200: alpha=0.24, seed=7
+2026-01-20 22:24:43,131 | INFO    | method | Running simulation: alpha=0.24, n=100, seed=7, network=small_world
+2026-01-20 22:24:43,132 | DEBUG   | method | Initializing 100 agents with alpha=0.24, seed=7
+2026-01-20 22:24:43,135 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:24:43,135 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:24:43,135 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:43,137 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:24:43,317 | DEBUG   | method |   Converged at t=80
+2026-01-20 22:24:43,318 | INFO    | method |   Result: clusters=9, lifetime=40.50
+2026-01-20 22:24:43,318 | INFO    | method | Run 29/200: alpha=0.24, seed=8
+2026-01-20 22:24:43,318 | INFO    | method | Running simulation: alpha=0.24, n=100, seed=8, network=small_world
+2026-01-20 22:24:43,318 | DEBUG   | method | Initializing 100 agents with alpha=0.24, seed=8
+2026-01-20 22:24:43,321 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:24:43,322 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:24:43,322 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:43,324 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:24:43,477 | DEBUG   | method |   Converged at t=67
+2026-01-20 22:24:43,478 | INFO    | method |   Result: clusters=7, lifetime=22.67
+2026-01-20 22:24:43,478 | INFO    | method | Run 30/200: alpha=0.24, seed=9
+2026-01-20 22:24:43,478 | INFO    | method | Running simulation: alpha=0.24, n=100, seed=9, network=small_world
+2026-01-20 22:24:43,478 | DEBUG   | method | Initializing 100 agents with alpha=0.24, seed=9
+2026-01-20 22:24:43,481 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:24:43,482 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:24:43,483 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:43,485 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.075127
+2026-01-20 22:24:43,752 | DEBUG   | method |   t=100: clusters=8, variance=0.4246, max_change=0.000125
+2026-01-20 22:24:43,781 | DEBUG   | method |   Converged at t=108
+2026-01-20 22:24:43,782 | INFO    | method |   Result: clusters=8, lifetime=13.62
+2026-01-20 22:24:43,783 | INFO    | method | Run 31/200: alpha=0.31, seed=0
+2026-01-20 22:24:43,783 | INFO    | method | Running simulation: alpha=0.31, n=100, seed=0, network=small_world
+2026-01-20 22:24:43,783 | DEBUG   | method | Initializing 100 agents with alpha=0.31, seed=0
+2026-01-20 22:24:43,787 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:24:43,788 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:24:43,789 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:43,792 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.062649
+2026-01-20 22:24:43,964 | DEBUG   | method |   Converged at t=67
+2026-01-20 22:24:43,964 | INFO    | method |   Result: clusters=10, lifetime=22.67
+2026-01-20 22:24:43,965 | INFO    | method | Run 32/200: alpha=0.31, seed=1
+2026-01-20 22:24:43,965 | INFO    | method | Running simulation: alpha=0.31, n=100, seed=1, network=small_world
+2026-01-20 22:24:43,966 | DEBUG   | method | Initializing 100 agents with alpha=0.31, seed=1
+2026-01-20 22:24:43,970 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:24:43,971 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:24:43,972 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:43,974 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:24:44,161 | DEBUG   | method |   Converged at t=83
+2026-01-20 22:24:44,161 | INFO    | method |   Result: clusters=9, lifetime=16.80
+2026-01-20 22:24:44,161 | INFO    | method | Run 33/200: alpha=0.31, seed=2
+2026-01-20 22:24:44,161 | INFO    | method | Running simulation: alpha=0.31, n=100, seed=2, network=small_world
+2026-01-20 22:24:44,161 | DEBUG   | method | Initializing 100 agents with alpha=0.31, seed=2
+2026-01-20 22:24:44,165 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:24:44,165 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:24:44,165 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:44,167 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:24:44,398 | DEBUG   | method |   t=100: clusters=11, variance=0.4209, max_change=0.011541
+2026-01-20 22:24:44,576 | DEBUG   | method |   Converged at t=183
+2026-01-20 22:24:44,576 | INFO    | method |   Result: clusters=11, lifetime=13.14
+2026-01-20 22:24:44,576 | INFO    | method | Run 34/200: alpha=0.31, seed=3
+2026-01-20 22:24:44,576 | INFO    | method | Running simulation: alpha=0.31, n=100, seed=3, network=small_world
+2026-01-20 22:24:44,576 | DEBUG   | method | Initializing 100 agents with alpha=0.31, seed=3
+2026-01-20 22:24:44,580 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:24:44,580 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:24:44,581 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:44,583 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.069442
+2026-01-20 22:24:44,723 | DEBUG   | method |   Converged at t=70
+2026-01-20 22:24:44,724 | INFO    | method |   Result: clusters=11, lifetime=17.75
+2026-01-20 22:24:44,724 | INFO    | method | Run 35/200: alpha=0.31, seed=4
+2026-01-20 22:24:44,724 | INFO    | method | Running simulation: alpha=0.31, n=100, seed=4, network=small_world
+2026-01-20 22:24:44,724 | DEBUG   | method | Initializing 100 agents with alpha=0.31, seed=4
+2026-01-20 22:24:44,727 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:24:44,727 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:24:44,728 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:44,730 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:24:44,865 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:24:44,865 | INFO    | method |   Result: clusters=14, lifetime=11.00
+2026-01-20 22:24:44,865 | INFO    | method | Run 36/200: alpha=0.31, seed=5
+2026-01-20 22:24:44,865 | INFO    | method | Running simulation: alpha=0.31, n=100, seed=5, network=small_world
+2026-01-20 22:24:44,865 | DEBUG   | method | Initializing 100 agents with alpha=0.31, seed=5
+2026-01-20 22:24:44,869 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:24:44,869 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:24:44,869 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:44,872 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:24:45,043 | DEBUG   | method |   Converged at t=80
+2026-01-20 22:24:45,043 | INFO    | method |   Result: clusters=9, lifetime=27.00
+2026-01-20 22:24:45,043 | INFO    | method | Run 37/200: alpha=0.31, seed=6
+2026-01-20 22:24:45,043 | INFO    | method | Running simulation: alpha=0.31, n=100, seed=6, network=small_world
+2026-01-20 22:24:45,043 | DEBUG   | method | Initializing 100 agents with alpha=0.31, seed=6
+2026-01-20 22:24:45,046 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:24:45,047 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:24:45,047 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:45,049 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:24:45,191 | DEBUG   | method |   Converged at t=66
+2026-01-20 22:24:45,192 | INFO    | method |   Result: clusters=11, lifetime=22.33
+2026-01-20 22:24:45,192 | INFO    | method | Run 38/200: alpha=0.31, seed=7
+2026-01-20 22:24:45,192 | INFO    | method | Running simulation: alpha=0.31, n=100, seed=7, network=small_world
+2026-01-20 22:24:45,192 | DEBUG   | method | Initializing 100 agents with alpha=0.31, seed=7
+2026-01-20 22:24:45,196 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:24:45,197 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:24:45,197 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:45,200 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:24:45,372 | DEBUG   | method |   Converged at t=80
+2026-01-20 22:24:45,372 | INFO    | method |   Result: clusters=9, lifetime=40.50
+2026-01-20 22:24:45,372 | INFO    | method | Run 39/200: alpha=0.31, seed=8
+2026-01-20 22:24:45,372 | INFO    | method | Running simulation: alpha=0.31, n=100, seed=8, network=small_world
+2026-01-20 22:24:45,372 | DEBUG   | method | Initializing 100 agents with alpha=0.31, seed=8
+2026-01-20 22:24:45,376 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:24:45,376 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:24:45,377 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:45,379 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:24:45,546 | DEBUG   | method |   Converged at t=67
+2026-01-20 22:24:45,547 | INFO    | method |   Result: clusters=7, lifetime=22.67
+2026-01-20 22:24:45,547 | INFO    | method | Run 40/200: alpha=0.31, seed=9
+2026-01-20 22:24:45,547 | INFO    | method | Running simulation: alpha=0.31, n=100, seed=9, network=small_world
+2026-01-20 22:24:45,547 | DEBUG   | method | Initializing 100 agents with alpha=0.31, seed=9
+2026-01-20 22:24:45,550 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:24:45,551 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:24:45,551 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:45,553 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.067985
+2026-01-20 22:24:45,772 | DEBUG   | method |   t=100: clusters=8, variance=0.4246, max_change=0.000116
+2026-01-20 22:24:45,788 | DEBUG   | method |   Converged at t=106
+2026-01-20 22:24:45,788 | INFO    | method |   Result: clusters=8, lifetime=13.38
+2026-01-20 22:24:45,788 | INFO    | method | Run 41/200: alpha=0.38, seed=0
+2026-01-20 22:24:45,788 | INFO    | method | Running simulation: alpha=0.38, n=100, seed=0, network=small_world
+2026-01-20 22:24:45,788 | DEBUG   | method | Initializing 100 agents with alpha=0.38, seed=0
+2026-01-20 22:24:45,792 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:24:45,792 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:24:45,792 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:45,794 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.062649
+2026-01-20 22:24:45,945 | DEBUG   | method |   Converged at t=67
+2026-01-20 22:24:45,945 | INFO    | method |   Result: clusters=10, lifetime=22.67
+2026-01-20 22:24:45,945 | INFO    | method | Run 42/200: alpha=0.38, seed=1
+2026-01-20 22:24:45,945 | INFO    | method | Running simulation: alpha=0.38, n=100, seed=1, network=small_world
+2026-01-20 22:24:45,945 | DEBUG   | method | Initializing 100 agents with alpha=0.38, seed=1
+2026-01-20 22:24:45,949 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:24:45,949 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:24:45,950 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:45,953 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:24:46,189 | DEBUG   | method |   Converged at t=83
+2026-01-20 22:24:46,190 | INFO    | method |   Result: clusters=9, lifetime=16.80
+2026-01-20 22:24:46,190 | INFO    | method | Run 43/200: alpha=0.38, seed=2
+2026-01-20 22:24:46,190 | INFO    | method | Running simulation: alpha=0.38, n=100, seed=2, network=small_world
+2026-01-20 22:24:46,190 | DEBUG   | method | Initializing 100 agents with alpha=0.38, seed=2
+2026-01-20 22:24:46,197 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:24:46,198 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:24:46,200 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:46,205 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:24:46,407 | DEBUG   | method |   Converged at t=71
+2026-01-20 22:24:46,408 | INFO    | method |   Result: clusters=12, lifetime=12.00
+2026-01-20 22:24:46,408 | INFO    | method | Run 44/200: alpha=0.38, seed=3
+2026-01-20 22:24:46,408 | INFO    | method | Running simulation: alpha=0.38, n=100, seed=3, network=small_world
+2026-01-20 22:24:46,408 | DEBUG   | method | Initializing 100 agents with alpha=0.38, seed=3
+2026-01-20 22:24:46,412 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:24:46,412 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:24:46,413 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:46,415 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.069442
+2026-01-20 22:24:46,599 | DEBUG   | method |   Converged at t=71
+2026-01-20 22:24:46,600 | INFO    | method |   Result: clusters=11, lifetime=18.00
+2026-01-20 22:24:46,600 | INFO    | method | Run 45/200: alpha=0.38, seed=4
+2026-01-20 22:24:46,600 | INFO    | method | Running simulation: alpha=0.38, n=100, seed=4, network=small_world
+2026-01-20 22:24:46,600 | DEBUG   | method | Initializing 100 agents with alpha=0.38, seed=4
+2026-01-20 22:24:46,605 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:24:46,606 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:24:46,607 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:46,611 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:24:46,825 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:24:46,826 | INFO    | method |   Result: clusters=14, lifetime=11.00
+2026-01-20 22:24:46,826 | INFO    | method | Run 46/200: alpha=0.38, seed=5
+2026-01-20 22:24:46,826 | INFO    | method | Running simulation: alpha=0.38, n=100, seed=5, network=small_world
+2026-01-20 22:24:46,826 | DEBUG   | method | Initializing 100 agents with alpha=0.38, seed=5
+2026-01-20 22:24:46,830 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:24:46,830 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:24:46,831 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:46,833 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:24:47,063 | DEBUG   | method |   Converged at t=80
+2026-01-20 22:24:47,064 | INFO    | method |   Result: clusters=9, lifetime=27.00
+2026-01-20 22:24:47,064 | INFO    | method | Run 47/200: alpha=0.38, seed=6
+2026-01-20 22:24:47,064 | INFO    | method | Running simulation: alpha=0.38, n=100, seed=6, network=small_world
+2026-01-20 22:24:47,064 | DEBUG   | method | Initializing 100 agents with alpha=0.38, seed=6
+2026-01-20 22:24:47,068 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:24:47,069 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:24:47,069 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:47,072 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:24:47,265 | DEBUG   | method |   Converged at t=66
+2026-01-20 22:24:47,265 | INFO    | method |   Result: clusters=11, lifetime=22.33
+2026-01-20 22:24:47,266 | INFO    | method | Run 48/200: alpha=0.38, seed=7
+2026-01-20 22:24:47,266 | INFO    | method | Running simulation: alpha=0.38, n=100, seed=7, network=small_world
+2026-01-20 22:24:47,266 | DEBUG   | method | Initializing 100 agents with alpha=0.38, seed=7
+2026-01-20 22:24:47,274 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:24:47,275 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:24:47,276 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:47,285 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:24:47,517 | DEBUG   | method |   Converged at t=80
+2026-01-20 22:24:47,518 | INFO    | method |   Result: clusters=9, lifetime=40.50
+2026-01-20 22:24:47,518 | INFO    | method | Run 49/200: alpha=0.38, seed=8
+2026-01-20 22:24:47,518 | INFO    | method | Running simulation: alpha=0.38, n=100, seed=8, network=small_world
+2026-01-20 22:24:47,518 | DEBUG   | method | Initializing 100 agents with alpha=0.38, seed=8
+2026-01-20 22:24:47,524 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:24:47,524 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:24:47,525 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:47,527 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:24:47,712 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:24:47,714 | INFO    | method |   Result: clusters=6, lifetime=32.50
+2026-01-20 22:24:47,714 | INFO    | method | Run 50/200: alpha=0.38, seed=9
+2026-01-20 22:24:47,715 | INFO    | method | Running simulation: alpha=0.38, n=100, seed=9, network=small_world
+2026-01-20 22:24:47,715 | DEBUG   | method | Initializing 100 agents with alpha=0.38, seed=9
+2026-01-20 22:24:47,722 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:24:47,722 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:24:47,723 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:47,725 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.067985
+2026-01-20 22:24:47,970 | DEBUG   | method |   t=100: clusters=9, variance=0.4259, max_change=0.000141
+2026-01-20 22:24:47,992 | DEBUG   | method |   Converged at t=108
+2026-01-20 22:24:47,992 | INFO    | method |   Result: clusters=9, lifetime=15.57
+2026-01-20 22:24:47,993 | INFO    | method | Run 51/200: alpha=0.45, seed=0
+2026-01-20 22:24:47,993 | INFO    | method | Running simulation: alpha=0.45, n=100, seed=0, network=small_world
+2026-01-20 22:24:47,994 | DEBUG   | method | Initializing 100 agents with alpha=0.45, seed=0
+2026-01-20 22:24:48,000 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:24:48,001 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:24:48,002 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:48,007 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.062649
+2026-01-20 22:24:48,154 | DEBUG   | method |   Converged at t=67
+2026-01-20 22:24:48,155 | INFO    | method |   Result: clusters=10, lifetime=22.67
+2026-01-20 22:24:48,155 | INFO    | method | Run 52/200: alpha=0.45, seed=1
+2026-01-20 22:24:48,155 | INFO    | method | Running simulation: alpha=0.45, n=100, seed=1, network=small_world
+2026-01-20 22:24:48,155 | DEBUG   | method | Initializing 100 agents with alpha=0.45, seed=1
+2026-01-20 22:24:48,159 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:24:48,159 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:24:48,159 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:48,161 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:24:48,348 | DEBUG   | method |   Converged at t=83
+2026-01-20 22:24:48,349 | INFO    | method |   Result: clusters=10, lifetime=16.80
+2026-01-20 22:24:48,349 | INFO    | method | Run 53/200: alpha=0.45, seed=2
+2026-01-20 22:24:48,349 | INFO    | method | Running simulation: alpha=0.45, n=100, seed=2, network=small_world
+2026-01-20 22:24:48,349 | DEBUG   | method | Initializing 100 agents with alpha=0.45, seed=2
+2026-01-20 22:24:48,355 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:24:48,355 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:24:48,357 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:48,360 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:24:48,573 | DEBUG   | method |   Converged at t=86
+2026-01-20 22:24:48,573 | INFO    | method |   Result: clusters=11, lifetime=12.43
+2026-01-20 22:24:48,573 | INFO    | method | Run 54/200: alpha=0.45, seed=3
+2026-01-20 22:24:48,573 | INFO    | method | Running simulation: alpha=0.45, n=100, seed=3, network=small_world
+2026-01-20 22:24:48,573 | DEBUG   | method | Initializing 100 agents with alpha=0.45, seed=3
+2026-01-20 22:24:48,577 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:24:48,577 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:24:48,577 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:48,579 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.069442
+2026-01-20 22:24:48,727 | DEBUG   | method |   Converged at t=71
+2026-01-20 22:24:48,727 | INFO    | method |   Result: clusters=11, lifetime=18.00
+2026-01-20 22:24:48,728 | INFO    | method | Run 55/200: alpha=0.45, seed=4
+2026-01-20 22:24:48,728 | INFO    | method | Running simulation: alpha=0.45, n=100, seed=4, network=small_world
+2026-01-20 22:24:48,728 | DEBUG   | method | Initializing 100 agents with alpha=0.45, seed=4
+2026-01-20 22:24:48,731 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:24:48,731 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:24:48,732 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:48,734 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:24:48,907 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:24:48,907 | INFO    | method |   Result: clusters=14, lifetime=16.50
+2026-01-20 22:24:48,908 | INFO    | method | Run 56/200: alpha=0.45, seed=5
+2026-01-20 22:24:48,908 | INFO    | method | Running simulation: alpha=0.45, n=100, seed=5, network=small_world
+2026-01-20 22:24:48,908 | DEBUG   | method | Initializing 100 agents with alpha=0.45, seed=5
+2026-01-20 22:24:48,912 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:24:48,913 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:24:48,914 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:48,916 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:24:49,092 | DEBUG   | method |   Converged at t=80
+2026-01-20 22:24:49,092 | INFO    | method |   Result: clusters=9, lifetime=27.00
+2026-01-20 22:24:49,092 | INFO    | method | Run 57/200: alpha=0.45, seed=6
+2026-01-20 22:24:49,092 | INFO    | method | Running simulation: alpha=0.45, n=100, seed=6, network=small_world
+2026-01-20 22:24:49,092 | DEBUG   | method | Initializing 100 agents with alpha=0.45, seed=6
+2026-01-20 22:24:49,096 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:24:49,096 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:24:49,096 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:49,098 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:24:49,263 | DEBUG   | method |   Converged at t=67
+2026-01-20 22:24:49,263 | INFO    | method |   Result: clusters=11, lifetime=22.67
+2026-01-20 22:24:49,263 | INFO    | method | Run 58/200: alpha=0.45, seed=7
+2026-01-20 22:24:49,263 | INFO    | method | Running simulation: alpha=0.45, n=100, seed=7, network=small_world
+2026-01-20 22:24:49,263 | DEBUG   | method | Initializing 100 agents with alpha=0.45, seed=7
+2026-01-20 22:24:49,266 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:24:49,266 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:24:49,267 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:49,269 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:24:49,439 | DEBUG   | method |   Converged at t=81
+2026-01-20 22:24:49,440 | INFO    | method |   Result: clusters=9, lifetime=20.50
+2026-01-20 22:24:49,440 | INFO    | method | Run 59/200: alpha=0.45, seed=8
+2026-01-20 22:24:49,440 | INFO    | method | Running simulation: alpha=0.45, n=100, seed=8, network=small_world
+2026-01-20 22:24:49,440 | DEBUG   | method | Initializing 100 agents with alpha=0.45, seed=8
+2026-01-20 22:24:49,446 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:24:49,446 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:24:49,447 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:49,449 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:24:49,674 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:24:49,675 | INFO    | method |   Result: clusters=6, lifetime=32.50
+2026-01-20 22:24:49,675 | INFO    | method | Run 60/200: alpha=0.45, seed=9
+2026-01-20 22:24:49,675 | INFO    | method | Running simulation: alpha=0.45, n=100, seed=9, network=small_world
+2026-01-20 22:24:49,675 | DEBUG   | method | Initializing 100 agents with alpha=0.45, seed=9
+2026-01-20 22:24:49,680 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:24:49,680 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:24:49,681 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:49,684 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.067985
+2026-01-20 22:24:49,860 | DEBUG   | method |   Converged at t=66
+2026-01-20 22:24:49,861 | INFO    | method |   Result: clusters=10, lifetime=11.17
+2026-01-20 22:24:49,861 | INFO    | method | Run 61/200: alpha=0.52, seed=0
+2026-01-20 22:24:49,862 | INFO    | method | Running simulation: alpha=0.52, n=100, seed=0, network=small_world
+2026-01-20 22:24:49,862 | DEBUG   | method | Initializing 100 agents with alpha=0.52, seed=0
+2026-01-20 22:24:49,869 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:24:49,870 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:24:49,871 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:49,875 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.062649
+2026-01-20 22:24:50,014 | DEBUG   | method |   Converged at t=59
+2026-01-20 22:24:50,015 | INFO    | method |   Result: clusters=9, lifetime=30.00
+2026-01-20 22:24:50,015 | INFO    | method | Run 62/200: alpha=0.52, seed=1
+2026-01-20 22:24:50,015 | INFO    | method | Running simulation: alpha=0.52, n=100, seed=1, network=small_world
+2026-01-20 22:24:50,015 | DEBUG   | method | Initializing 100 agents with alpha=0.52, seed=1
+2026-01-20 22:24:50,019 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:24:50,019 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:24:50,020 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:50,023 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:24:50,211 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:24:50,212 | INFO    | method |   Result: clusters=10, lifetime=21.67
+2026-01-20 22:24:50,212 | INFO    | method | Run 63/200: alpha=0.52, seed=2
+2026-01-20 22:24:50,212 | INFO    | method | Running simulation: alpha=0.52, n=100, seed=2, network=small_world
+2026-01-20 22:24:50,212 | DEBUG   | method | Initializing 100 agents with alpha=0.52, seed=2
+2026-01-20 22:24:50,216 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:24:50,217 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:24:50,218 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:50,220 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:24:50,415 | DEBUG   | method |   Converged at t=71
+2026-01-20 22:24:50,416 | INFO    | method |   Result: clusters=11, lifetime=14.40
+2026-01-20 22:24:50,416 | INFO    | method | Run 64/200: alpha=0.52, seed=3
+2026-01-20 22:24:50,416 | INFO    | method | Running simulation: alpha=0.52, n=100, seed=3, network=small_world
+2026-01-20 22:24:50,416 | DEBUG   | method | Initializing 100 agents with alpha=0.52, seed=3
+2026-01-20 22:24:50,422 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:24:50,422 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:24:50,423 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:50,426 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.069442
+2026-01-20 22:24:50,634 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:24:50,635 | INFO    | method |   Result: clusters=12, lifetime=20.67
+2026-01-20 22:24:50,635 | INFO    | method | Run 65/200: alpha=0.52, seed=4
+2026-01-20 22:24:50,635 | INFO    | method | Running simulation: alpha=0.52, n=100, seed=4, network=small_world
+2026-01-20 22:24:50,636 | DEBUG   | method | Initializing 100 agents with alpha=0.52, seed=4
+2026-01-20 22:24:50,640 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:24:50,640 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:24:50,640 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:50,643 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:24:50,800 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:24:50,801 | INFO    | method |   Result: clusters=14, lifetime=11.00
+2026-01-20 22:24:50,801 | INFO    | method | Run 66/200: alpha=0.52, seed=5
+2026-01-20 22:24:50,801 | INFO    | method | Running simulation: alpha=0.52, n=100, seed=5, network=small_world
+2026-01-20 22:24:50,801 | DEBUG   | method | Initializing 100 agents with alpha=0.52, seed=5
+2026-01-20 22:24:50,804 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:24:50,805 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:24:50,805 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:50,807 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:24:50,970 | DEBUG   | method |   Converged at t=66
+2026-01-20 22:24:50,970 | INFO    | method |   Result: clusters=10, lifetime=33.50
+2026-01-20 22:24:50,970 | INFO    | method | Run 67/200: alpha=0.52, seed=6
+2026-01-20 22:24:50,971 | INFO    | method | Running simulation: alpha=0.52, n=100, seed=6, network=small_world
+2026-01-20 22:24:50,971 | DEBUG   | method | Initializing 100 agents with alpha=0.52, seed=6
+2026-01-20 22:24:50,974 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:24:50,974 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:24:50,975 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:50,977 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:24:51,120 | DEBUG   | method |   Converged at t=58
+2026-01-20 22:24:51,121 | INFO    | method |   Result: clusters=10, lifetime=29.50
+2026-01-20 22:24:51,121 | INFO    | method | Run 68/200: alpha=0.52, seed=7
+2026-01-20 22:24:51,121 | INFO    | method | Running simulation: alpha=0.52, n=100, seed=7, network=small_world
+2026-01-20 22:24:51,121 | DEBUG   | method | Initializing 100 agents with alpha=0.52, seed=7
+2026-01-20 22:24:51,127 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:24:51,127 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:24:51,128 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:51,132 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:24:51,289 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:24:51,289 | INFO    | method |   Result: clusters=10, lifetime=21.67
+2026-01-20 22:24:51,290 | INFO    | method | Run 69/200: alpha=0.52, seed=8
+2026-01-20 22:24:51,290 | INFO    | method | Running simulation: alpha=0.52, n=100, seed=8, network=small_world
+2026-01-20 22:24:51,290 | DEBUG   | method | Initializing 100 agents with alpha=0.52, seed=8
+2026-01-20 22:24:51,295 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:24:51,295 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:24:51,296 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:51,298 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:24:51,453 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:24:51,454 | INFO    | method |   Result: clusters=6, lifetime=32.50
+2026-01-20 22:24:51,454 | INFO    | method | Run 70/200: alpha=0.52, seed=9
+2026-01-20 22:24:51,454 | INFO    | method | Running simulation: alpha=0.52, n=100, seed=9, network=small_world
+2026-01-20 22:24:51,454 | DEBUG   | method | Initializing 100 agents with alpha=0.52, seed=9
+2026-01-20 22:24:51,457 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:24:51,458 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:24:51,458 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:51,461 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.067985
+2026-01-20 22:24:51,591 | DEBUG   | method |   Converged at t=63
+2026-01-20 22:24:51,591 | INFO    | method |   Result: clusters=10, lifetime=16.00
+2026-01-20 22:24:51,591 | INFO    | method | Run 71/200: alpha=0.59, seed=0
+2026-01-20 22:24:51,591 | INFO    | method | Running simulation: alpha=0.59, n=100, seed=0, network=small_world
+2026-01-20 22:24:51,591 | DEBUG   | method | Initializing 100 agents with alpha=0.59, seed=0
+2026-01-20 22:24:51,595 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:24:51,595 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:24:51,595 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:51,597 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.062649
+2026-01-20 22:24:51,719 | DEBUG   | method |   Converged at t=59
+2026-01-20 22:24:51,719 | INFO    | method |   Result: clusters=9, lifetime=30.00
+2026-01-20 22:24:51,720 | INFO    | method | Run 72/200: alpha=0.59, seed=1
+2026-01-20 22:24:51,720 | INFO    | method | Running simulation: alpha=0.59, n=100, seed=1, network=small_world
+2026-01-20 22:24:51,720 | DEBUG   | method | Initializing 100 agents with alpha=0.59, seed=1
+2026-01-20 22:24:51,723 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:24:51,724 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:24:51,725 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:51,727 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:24:51,896 | DEBUG   | method |   Converged at t=63
+2026-01-20 22:24:51,896 | INFO    | method |   Result: clusters=10, lifetime=21.33
+2026-01-20 22:24:51,896 | INFO    | method | Run 73/200: alpha=0.59, seed=2
+2026-01-20 22:24:51,896 | INFO    | method | Running simulation: alpha=0.59, n=100, seed=2, network=small_world
+2026-01-20 22:24:51,896 | DEBUG   | method | Initializing 100 agents with alpha=0.59, seed=2
+2026-01-20 22:24:51,900 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:24:51,900 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:24:51,900 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:51,902 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:24:52,080 | DEBUG   | method |   Converged at t=71
+2026-01-20 22:24:52,080 | INFO    | method |   Result: clusters=11, lifetime=14.40
+2026-01-20 22:24:52,080 | INFO    | method | Run 74/200: alpha=0.59, seed=3
+2026-01-20 22:24:52,080 | INFO    | method | Running simulation: alpha=0.59, n=100, seed=3, network=small_world
+2026-01-20 22:24:52,080 | DEBUG   | method | Initializing 100 agents with alpha=0.59, seed=3
+2026-01-20 22:24:52,084 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:24:52,084 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:24:52,084 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:52,086 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.069442
+2026-01-20 22:24:52,212 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:24:52,212 | INFO    | method |   Result: clusters=12, lifetime=15.50
+2026-01-20 22:24:52,212 | INFO    | method | Run 75/200: alpha=0.59, seed=4
+2026-01-20 22:24:52,212 | INFO    | method | Running simulation: alpha=0.59, n=100, seed=4, network=small_world
+2026-01-20 22:24:52,212 | DEBUG   | method | Initializing 100 agents with alpha=0.59, seed=4
+2026-01-20 22:24:52,216 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:24:52,217 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:24:52,218 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:52,220 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:24:52,357 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:24:52,357 | INFO    | method |   Result: clusters=12, lifetime=16.50
+2026-01-20 22:24:52,357 | INFO    | method | Run 76/200: alpha=0.59, seed=5
+2026-01-20 22:24:52,357 | INFO    | method | Running simulation: alpha=0.59, n=100, seed=5, network=small_world
+2026-01-20 22:24:52,357 | DEBUG   | method | Initializing 100 agents with alpha=0.59, seed=5
+2026-01-20 22:24:52,361 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:24:52,361 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:24:52,361 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:52,364 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:24:52,499 | DEBUG   | method |   Converged at t=66
+2026-01-20 22:24:52,499 | INFO    | method |   Result: clusters=10, lifetime=33.50
+2026-01-20 22:24:52,499 | INFO    | method | Run 77/200: alpha=0.59, seed=6
+2026-01-20 22:24:52,499 | INFO    | method | Running simulation: alpha=0.59, n=100, seed=6, network=small_world
+2026-01-20 22:24:52,499 | DEBUG   | method | Initializing 100 agents with alpha=0.59, seed=6
+2026-01-20 22:24:52,504 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:24:52,504 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:24:52,505 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:52,508 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:24:52,628 | DEBUG   | method |   Converged at t=58
+2026-01-20 22:24:52,628 | INFO    | method |   Result: clusters=10, lifetime=29.50
+2026-01-20 22:24:52,628 | INFO    | method | Run 78/200: alpha=0.59, seed=7
+2026-01-20 22:24:52,628 | INFO    | method | Running simulation: alpha=0.59, n=100, seed=7, network=small_world
+2026-01-20 22:24:52,628 | DEBUG   | method | Initializing 100 agents with alpha=0.59, seed=7
+2026-01-20 22:24:52,632 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:24:52,632 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:24:52,633 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:52,635 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:24:52,768 | DEBUG   | method |   Converged at t=62
+2026-01-20 22:24:52,768 | INFO    | method |   Result: clusters=10, lifetime=21.00
+2026-01-20 22:24:52,768 | INFO    | method | Run 79/200: alpha=0.59, seed=8
+2026-01-20 22:24:52,768 | INFO    | method | Running simulation: alpha=0.59, n=100, seed=8, network=small_world
+2026-01-20 22:24:52,768 | DEBUG   | method | Initializing 100 agents with alpha=0.59, seed=8
+2026-01-20 22:24:52,772 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:24:52,772 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:24:52,773 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:52,775 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:24:52,905 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:24:52,905 | INFO    | method |   Result: clusters=8, lifetime=32.50
+2026-01-20 22:24:52,906 | INFO    | method | Run 80/200: alpha=0.59, seed=9
+2026-01-20 22:24:52,906 | INFO    | method | Running simulation: alpha=0.59, n=100, seed=9, network=small_world
+2026-01-20 22:24:52,906 | DEBUG   | method | Initializing 100 agents with alpha=0.59, seed=9
+2026-01-20 22:24:52,909 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:24:52,909 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:24:52,910 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:52,912 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.067985
+2026-01-20 22:24:53,051 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:24:53,051 | INFO    | method |   Result: clusters=10, lifetime=31.00
+2026-01-20 22:24:53,052 | INFO    | method | Run 81/200: alpha=0.66, seed=0
+2026-01-20 22:24:53,052 | INFO    | method | Running simulation: alpha=0.66, n=100, seed=0, network=small_world
+2026-01-20 22:24:53,052 | DEBUG   | method | Initializing 100 agents with alpha=0.66, seed=0
+2026-01-20 22:24:53,058 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:24:53,058 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:24:53,059 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:53,060 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.062649
+2026-01-20 22:24:53,212 | DEBUG   | method |   Converged at t=59
+2026-01-20 22:24:53,212 | INFO    | method |   Result: clusters=10, lifetime=60.00
+2026-01-20 22:24:53,212 | INFO    | method | Run 82/200: alpha=0.66, seed=1
+2026-01-20 22:24:53,212 | INFO    | method | Running simulation: alpha=0.66, n=100, seed=1, network=small_world
+2026-01-20 22:24:53,212 | DEBUG   | method | Initializing 100 agents with alpha=0.66, seed=1
+2026-01-20 22:24:53,217 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:24:53,217 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:24:53,218 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:53,220 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:24:53,355 | DEBUG   | method |   Converged at t=63
+2026-01-20 22:24:53,355 | INFO    | method |   Result: clusters=10, lifetime=21.33
+2026-01-20 22:24:53,355 | INFO    | method | Run 83/200: alpha=0.66, seed=2
+2026-01-20 22:24:53,355 | INFO    | method | Running simulation: alpha=0.66, n=100, seed=2, network=small_world
+2026-01-20 22:24:53,356 | DEBUG   | method | Initializing 100 agents with alpha=0.66, seed=2
+2026-01-20 22:24:53,360 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:24:53,360 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:24:53,361 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:53,363 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:24:53,517 | DEBUG   | method |   Converged at t=71
+2026-01-20 22:24:53,517 | INFO    | method |   Result: clusters=11, lifetime=18.00
+2026-01-20 22:24:53,518 | INFO    | method | Run 84/200: alpha=0.66, seed=3
+2026-01-20 22:24:53,518 | INFO    | method | Running simulation: alpha=0.66, n=100, seed=3, network=small_world
+2026-01-20 22:24:53,518 | DEBUG   | method | Initializing 100 agents with alpha=0.66, seed=3
+2026-01-20 22:24:53,521 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:24:53,521 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:24:53,522 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:53,526 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.069442
+2026-01-20 22:24:53,697 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:24:53,698 | INFO    | method |   Result: clusters=12, lifetime=15.50
+2026-01-20 22:24:53,698 | INFO    | method | Run 85/200: alpha=0.66, seed=4
+2026-01-20 22:24:53,698 | INFO    | method | Running simulation: alpha=0.66, n=100, seed=4, network=small_world
+2026-01-20 22:24:53,698 | DEBUG   | method | Initializing 100 agents with alpha=0.66, seed=4
+2026-01-20 22:24:53,704 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:24:53,704 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:24:53,705 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:53,707 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:24:53,876 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:24:53,876 | INFO    | method |   Result: clusters=12, lifetime=16.50
+2026-01-20 22:24:53,876 | INFO    | method | Run 86/200: alpha=0.66, seed=5
+2026-01-20 22:24:53,876 | INFO    | method | Running simulation: alpha=0.66, n=100, seed=5, network=small_world
+2026-01-20 22:24:53,876 | DEBUG   | method | Initializing 100 agents with alpha=0.66, seed=5
+2026-01-20 22:24:53,880 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:24:53,880 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:24:53,881 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:53,883 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:24:54,024 | DEBUG   | method |   Converged at t=66
+2026-01-20 22:24:54,024 | INFO    | method |   Result: clusters=10, lifetime=33.50
+2026-01-20 22:24:54,024 | INFO    | method | Run 87/200: alpha=0.66, seed=6
+2026-01-20 22:24:54,024 | INFO    | method | Running simulation: alpha=0.66, n=100, seed=6, network=small_world
+2026-01-20 22:24:54,024 | DEBUG   | method | Initializing 100 agents with alpha=0.66, seed=6
+2026-01-20 22:24:54,028 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:24:54,028 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:24:54,029 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:54,032 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:24:54,154 | DEBUG   | method |   Converged at t=58
+2026-01-20 22:24:54,154 | INFO    | method |   Result: clusters=9, lifetime=59.00
+2026-01-20 22:24:54,154 | INFO    | method | Run 88/200: alpha=0.66, seed=7
+2026-01-20 22:24:54,154 | INFO    | method | Running simulation: alpha=0.66, n=100, seed=7, network=small_world
+2026-01-20 22:24:54,154 | DEBUG   | method | Initializing 100 agents with alpha=0.66, seed=7
+2026-01-20 22:24:54,159 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:24:54,159 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:24:54,160 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:54,163 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:24:54,296 | DEBUG   | method |   Converged at t=62
+2026-01-20 22:24:54,297 | INFO    | method |   Result: clusters=11, lifetime=31.50
+2026-01-20 22:24:54,297 | INFO    | method | Run 89/200: alpha=0.66, seed=8
+2026-01-20 22:24:54,297 | INFO    | method | Running simulation: alpha=0.66, n=100, seed=8, network=small_world
+2026-01-20 22:24:54,297 | DEBUG   | method | Initializing 100 agents with alpha=0.66, seed=8
+2026-01-20 22:24:54,301 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:24:54,301 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:24:54,301 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:54,303 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:24:54,426 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:24:54,426 | INFO    | method |   Result: clusters=8, lifetime=32.50
+2026-01-20 22:24:54,427 | INFO    | method | Run 90/200: alpha=0.66, seed=9
+2026-01-20 22:24:54,427 | INFO    | method | Running simulation: alpha=0.66, n=100, seed=9, network=small_world
+2026-01-20 22:24:54,427 | DEBUG   | method | Initializing 100 agents with alpha=0.66, seed=9
+2026-01-20 22:24:54,430 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:24:54,430 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:24:54,431 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:54,433 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.079852
+2026-01-20 22:24:54,563 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:24:54,563 | INFO    | method |   Result: clusters=10, lifetime=31.00
+2026-01-20 22:24:54,563 | INFO    | method | Run 91/200: alpha=0.73, seed=0
+2026-01-20 22:24:54,563 | INFO    | method | Running simulation: alpha=0.73, n=100, seed=0, network=small_world
+2026-01-20 22:24:54,563 | DEBUG   | method | Initializing 100 agents with alpha=0.73, seed=0
+2026-01-20 22:24:54,568 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:24:54,568 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:24:54,569 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:54,573 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.062649
+2026-01-20 22:24:54,684 | DEBUG   | method |   Converged at t=59
+2026-01-20 22:24:54,685 | INFO    | method |   Result: clusters=11, lifetime=30.00
+2026-01-20 22:24:54,685 | INFO    | method | Run 92/200: alpha=0.73, seed=1
+2026-01-20 22:24:54,685 | INFO    | method | Running simulation: alpha=0.73, n=100, seed=1, network=small_world
+2026-01-20 22:24:54,685 | DEBUG   | method | Initializing 100 agents with alpha=0.73, seed=1
+2026-01-20 22:24:54,688 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:24:54,688 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:24:54,689 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:54,691 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:24:54,824 | DEBUG   | method |   Converged at t=63
+2026-01-20 22:24:54,825 | INFO    | method |   Result: clusters=10, lifetime=21.33
+2026-01-20 22:24:54,825 | INFO    | method | Run 93/200: alpha=0.73, seed=2
+2026-01-20 22:24:54,825 | INFO    | method | Running simulation: alpha=0.73, n=100, seed=2, network=small_world
+2026-01-20 22:24:54,825 | DEBUG   | method | Initializing 100 agents with alpha=0.73, seed=2
+2026-01-20 22:24:54,828 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:24:54,828 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:24:54,829 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:54,831 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:24:54,965 | DEBUG   | method |   Converged at t=71
+2026-01-20 22:24:54,965 | INFO    | method |   Result: clusters=12, lifetime=24.00
+2026-01-20 22:24:54,965 | INFO    | method | Run 94/200: alpha=0.73, seed=3
+2026-01-20 22:24:54,965 | INFO    | method | Running simulation: alpha=0.73, n=100, seed=3, network=small_world
+2026-01-20 22:24:54,965 | DEBUG   | method | Initializing 100 agents with alpha=0.73, seed=3
+2026-01-20 22:24:54,969 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:24:54,969 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:24:54,970 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:54,972 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.069442
+2026-01-20 22:24:55,101 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:24:55,101 | INFO    | method |   Result: clusters=12, lifetime=15.50
+2026-01-20 22:24:55,101 | INFO    | method | Run 95/200: alpha=0.73, seed=4
+2026-01-20 22:24:55,101 | INFO    | method | Running simulation: alpha=0.73, n=100, seed=4, network=small_world
+2026-01-20 22:24:55,101 | DEBUG   | method | Initializing 100 agents with alpha=0.73, seed=4
+2026-01-20 22:24:55,104 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:24:55,104 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:24:55,105 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:55,107 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:24:55,271 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:24:55,271 | INFO    | method |   Result: clusters=12, lifetime=16.50
+2026-01-20 22:24:55,271 | INFO    | method | Run 96/200: alpha=0.73, seed=5
+2026-01-20 22:24:55,271 | INFO    | method | Running simulation: alpha=0.73, n=100, seed=5, network=small_world
+2026-01-20 22:24:55,271 | DEBUG   | method | Initializing 100 agents with alpha=0.73, seed=5
+2026-01-20 22:24:55,277 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:24:55,278 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:24:55,279 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:55,284 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:24:55,456 | DEBUG   | method |   Converged at t=66
+2026-01-20 22:24:55,456 | INFO    | method |   Result: clusters=10, lifetime=33.50
+2026-01-20 22:24:55,457 | INFO    | method | Run 97/200: alpha=0.73, seed=6
+2026-01-20 22:24:55,457 | INFO    | method | Running simulation: alpha=0.73, n=100, seed=6, network=small_world
+2026-01-20 22:24:55,458 | DEBUG   | method | Initializing 100 agents with alpha=0.73, seed=6
+2026-01-20 22:24:55,465 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:24:55,466 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:24:55,468 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:55,473 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:24:55,593 | DEBUG   | method |   Converged at t=58
+2026-01-20 22:24:55,593 | INFO    | method |   Result: clusters=9, lifetime=59.00
+2026-01-20 22:24:55,594 | INFO    | method | Run 98/200: alpha=0.73, seed=7
+2026-01-20 22:24:55,594 | INFO    | method | Running simulation: alpha=0.73, n=100, seed=7, network=small_world
+2026-01-20 22:24:55,595 | DEBUG   | method | Initializing 100 agents with alpha=0.73, seed=7
+2026-01-20 22:24:55,598 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:24:55,599 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:24:55,600 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:55,605 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:24:55,766 | DEBUG   | method |   Converged at t=60
+2026-01-20 22:24:55,767 | INFO    | method |   Result: clusters=12, lifetime=20.33
+2026-01-20 22:24:55,767 | INFO    | method | Run 99/200: alpha=0.73, seed=8
+2026-01-20 22:24:55,767 | INFO    | method | Running simulation: alpha=0.73, n=100, seed=8, network=small_world
+2026-01-20 22:24:55,767 | DEBUG   | method | Initializing 100 agents with alpha=0.73, seed=8
+2026-01-20 22:24:55,775 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:24:55,775 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:24:55,776 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:55,780 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:24:55,949 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:24:55,950 | INFO    | method |   Result: clusters=8, lifetime=32.50
+2026-01-20 22:24:55,950 | INFO    | method | Run 100/200: alpha=0.73, seed=9
+2026-01-20 22:24:55,951 | INFO    | method | Running simulation: alpha=0.73, n=100, seed=9, network=small_world
+2026-01-20 22:24:55,951 | DEBUG   | method | Initializing 100 agents with alpha=0.73, seed=9
+2026-01-20 22:24:55,957 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:24:55,958 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:24:55,959 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:55,963 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.079852
+2026-01-20 22:24:56,112 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:24:56,112 | INFO    | method |   Result: clusters=9, lifetime=31.00
+2026-01-20 22:24:56,113 | INFO    | method | Run 101/200: alpha=0.8, seed=0
+2026-01-20 22:24:56,113 | INFO    | method | Running simulation: alpha=0.8, n=100, seed=0, network=small_world
+2026-01-20 22:24:56,113 | DEBUG   | method | Initializing 100 agents with alpha=0.8, seed=0
+2026-01-20 22:24:56,117 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:24:56,120 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:24:56,121 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:56,123 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.062649
+2026-01-20 22:24:56,275 | DEBUG   | method |   Converged at t=59
+2026-01-20 22:24:56,275 | INFO    | method |   Result: clusters=11, lifetime=30.00
+2026-01-20 22:24:56,275 | INFO    | method | Run 102/200: alpha=0.8, seed=1
+2026-01-20 22:24:56,275 | INFO    | method | Running simulation: alpha=0.8, n=100, seed=1, network=small_world
+2026-01-20 22:24:56,275 | DEBUG   | method | Initializing 100 agents with alpha=0.8, seed=1
+2026-01-20 22:24:56,279 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:24:56,279 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:24:56,280 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:56,282 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:24:56,447 | DEBUG   | method |   Converged at t=63
+2026-01-20 22:24:56,448 | INFO    | method |   Result: clusters=10, lifetime=21.33
+2026-01-20 22:24:56,448 | INFO    | method | Run 103/200: alpha=0.8, seed=2
+2026-01-20 22:24:56,448 | INFO    | method | Running simulation: alpha=0.8, n=100, seed=2, network=small_world
+2026-01-20 22:24:56,448 | DEBUG   | method | Initializing 100 agents with alpha=0.8, seed=2
+2026-01-20 22:24:56,456 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:24:56,456 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:24:56,457 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:56,462 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:24:56,640 | DEBUG   | method |   Converged at t=71
+2026-01-20 22:24:56,640 | INFO    | method |   Result: clusters=12, lifetime=24.00
+2026-01-20 22:24:56,641 | INFO    | method | Run 104/200: alpha=0.8, seed=3
+2026-01-20 22:24:56,641 | INFO    | method | Running simulation: alpha=0.8, n=100, seed=3, network=small_world
+2026-01-20 22:24:56,641 | DEBUG   | method | Initializing 100 agents with alpha=0.8, seed=3
+2026-01-20 22:24:56,644 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:24:56,644 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:24:56,645 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:56,647 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.069442
+2026-01-20 22:24:56,811 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:24:56,811 | INFO    | method |   Result: clusters=12, lifetime=20.67
+2026-01-20 22:24:56,811 | INFO    | method | Run 105/200: alpha=0.8, seed=4
+2026-01-20 22:24:56,811 | INFO    | method | Running simulation: alpha=0.8, n=100, seed=4, network=small_world
+2026-01-20 22:24:56,811 | DEBUG   | method | Initializing 100 agents with alpha=0.8, seed=4
+2026-01-20 22:24:56,815 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:24:56,815 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:24:56,816 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:56,818 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:24:56,979 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:24:56,979 | INFO    | method |   Result: clusters=12, lifetime=16.50
+2026-01-20 22:24:56,979 | INFO    | method | Run 106/200: alpha=0.8, seed=5
+2026-01-20 22:24:56,979 | INFO    | method | Running simulation: alpha=0.8, n=100, seed=5, network=small_world
+2026-01-20 22:24:56,979 | DEBUG   | method | Initializing 100 agents with alpha=0.8, seed=5
+2026-01-20 22:24:56,983 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:24:56,983 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:24:56,984 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:56,987 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:24:57,201 | DEBUG   | method |   Converged at t=66
+2026-01-20 22:24:57,202 | INFO    | method |   Result: clusters=10, lifetime=33.50
+2026-01-20 22:24:57,202 | INFO    | method | Run 107/200: alpha=0.8, seed=6
+2026-01-20 22:24:57,202 | INFO    | method | Running simulation: alpha=0.8, n=100, seed=6, network=small_world
+2026-01-20 22:24:57,202 | DEBUG   | method | Initializing 100 agents with alpha=0.8, seed=6
+2026-01-20 22:24:57,207 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:24:57,207 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:24:57,208 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:57,211 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:24:57,397 | DEBUG   | method |   Converged at t=58
+2026-01-20 22:24:57,397 | INFO    | method |   Result: clusters=9, lifetime=59.00
+2026-01-20 22:24:57,397 | INFO    | method | Run 108/200: alpha=0.8, seed=7
+2026-01-20 22:24:57,398 | INFO    | method | Running simulation: alpha=0.8, n=100, seed=7, network=small_world
+2026-01-20 22:24:57,398 | DEBUG   | method | Initializing 100 agents with alpha=0.8, seed=7
+2026-01-20 22:24:57,406 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:24:57,407 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:24:57,408 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:57,415 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:24:57,589 | DEBUG   | method |   Converged at t=60
+2026-01-20 22:24:57,589 | INFO    | method |   Result: clusters=12, lifetime=20.33
+2026-01-20 22:24:57,589 | INFO    | method | Run 109/200: alpha=0.8, seed=8
+2026-01-20 22:24:57,589 | INFO    | method | Running simulation: alpha=0.8, n=100, seed=8, network=small_world
+2026-01-20 22:24:57,589 | DEBUG   | method | Initializing 100 agents with alpha=0.8, seed=8
+2026-01-20 22:24:57,593 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:24:57,593 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:24:57,595 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:57,598 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:24:57,761 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:24:57,762 | INFO    | method |   Result: clusters=8, lifetime=32.50
+2026-01-20 22:24:57,762 | INFO    | method | Run 110/200: alpha=0.8, seed=9
+2026-01-20 22:24:57,762 | INFO    | method | Running simulation: alpha=0.8, n=100, seed=9, network=small_world
+2026-01-20 22:24:57,762 | DEBUG   | method | Initializing 100 agents with alpha=0.8, seed=9
+2026-01-20 22:24:57,766 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:24:57,766 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:24:57,766 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:57,768 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.079852
+2026-01-20 22:24:57,924 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:24:57,924 | INFO    | method |   Result: clusters=9, lifetime=31.00
+2026-01-20 22:24:57,924 | INFO    | method | Run 111/200: alpha=0.87, seed=0
+2026-01-20 22:24:57,924 | INFO    | method | Running simulation: alpha=0.87, n=100, seed=0, network=small_world
+2026-01-20 22:24:57,924 | DEBUG   | method | Initializing 100 agents with alpha=0.87, seed=0
+2026-01-20 22:24:57,928 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:24:57,928 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:24:57,929 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:57,931 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.062649
+2026-01-20 22:24:58,085 | DEBUG   | method |   Converged at t=59
+2026-01-20 22:24:58,090 | INFO    | method |   Result: clusters=11, lifetime=30.00
+2026-01-20 22:24:58,090 | INFO    | method | Run 112/200: alpha=0.87, seed=1
+2026-01-20 22:24:58,090 | INFO    | method | Running simulation: alpha=0.87, n=100, seed=1, network=small_world
+2026-01-20 22:24:58,090 | DEBUG   | method | Initializing 100 agents with alpha=0.87, seed=1
+2026-01-20 22:24:58,097 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:24:58,097 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:24:58,098 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:58,111 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:24:58,277 | DEBUG   | method |   Converged at t=63
+2026-01-20 22:24:58,278 | INFO    | method |   Result: clusters=10, lifetime=21.33
+2026-01-20 22:24:58,278 | INFO    | method | Run 113/200: alpha=0.87, seed=2
+2026-01-20 22:24:58,278 | INFO    | method | Running simulation: alpha=0.87, n=100, seed=2, network=small_world
+2026-01-20 22:24:58,278 | DEBUG   | method | Initializing 100 agents with alpha=0.87, seed=2
+2026-01-20 22:24:58,283 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:24:58,283 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:24:58,284 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:58,286 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:24:58,496 | DEBUG   | method |   Converged at t=71
+2026-01-20 22:24:58,497 | INFO    | method |   Result: clusters=12, lifetime=24.00
+2026-01-20 22:24:58,498 | INFO    | method | Run 114/200: alpha=0.87, seed=3
+2026-01-20 22:24:58,498 | INFO    | method | Running simulation: alpha=0.87, n=100, seed=3, network=small_world
+2026-01-20 22:24:58,498 | DEBUG   | method | Initializing 100 agents with alpha=0.87, seed=3
+2026-01-20 22:24:58,506 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:24:58,506 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:24:58,507 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:58,510 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.069442
+2026-01-20 22:24:58,682 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:24:58,683 | INFO    | method |   Result: clusters=12, lifetime=20.67
+2026-01-20 22:24:58,683 | INFO    | method | Run 115/200: alpha=0.87, seed=4
+2026-01-20 22:24:58,683 | INFO    | method | Running simulation: alpha=0.87, n=100, seed=4, network=small_world
+2026-01-20 22:24:58,683 | DEBUG   | method | Initializing 100 agents with alpha=0.87, seed=4
+2026-01-20 22:24:58,686 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:24:58,687 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:24:58,688 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:58,695 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:24:58,893 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:24:58,894 | INFO    | method |   Result: clusters=12, lifetime=16.50
+2026-01-20 22:24:58,894 | INFO    | method | Run 116/200: alpha=0.87, seed=5
+2026-01-20 22:24:58,894 | INFO    | method | Running simulation: alpha=0.87, n=100, seed=5, network=small_world
+2026-01-20 22:24:58,895 | DEBUG   | method | Initializing 100 agents with alpha=0.87, seed=5
+2026-01-20 22:24:58,900 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:24:58,900 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:24:58,901 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:58,903 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:24:59,092 | DEBUG   | method |   Converged at t=66
+2026-01-20 22:24:59,092 | INFO    | method |   Result: clusters=10, lifetime=33.50
+2026-01-20 22:24:59,092 | INFO    | method | Run 117/200: alpha=0.87, seed=6
+2026-01-20 22:24:59,092 | INFO    | method | Running simulation: alpha=0.87, n=100, seed=6, network=small_world
+2026-01-20 22:24:59,093 | DEBUG   | method | Initializing 100 agents with alpha=0.87, seed=6
+2026-01-20 22:24:59,097 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:24:59,097 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:24:59,098 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:59,100 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:24:59,272 | DEBUG   | method |   Converged at t=58
+2026-01-20 22:24:59,272 | INFO    | method |   Result: clusters=9, lifetime=59.00
+2026-01-20 22:24:59,272 | INFO    | method | Run 118/200: alpha=0.87, seed=7
+2026-01-20 22:24:59,272 | INFO    | method | Running simulation: alpha=0.87, n=100, seed=7, network=small_world
+2026-01-20 22:24:59,272 | DEBUG   | method | Initializing 100 agents with alpha=0.87, seed=7
+2026-01-20 22:24:59,276 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:24:59,276 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:24:59,277 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:59,280 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:24:59,432 | DEBUG   | method |   Converged at t=60
+2026-01-20 22:24:59,432 | INFO    | method |   Result: clusters=12, lifetime=20.33
+2026-01-20 22:24:59,432 | INFO    | method | Run 119/200: alpha=0.87, seed=8
+2026-01-20 22:24:59,432 | INFO    | method | Running simulation: alpha=0.87, n=100, seed=8, network=small_world
+2026-01-20 22:24:59,432 | DEBUG   | method | Initializing 100 agents with alpha=0.87, seed=8
+2026-01-20 22:24:59,437 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:24:59,438 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:24:59,439 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:59,443 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:24:59,578 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:24:59,579 | INFO    | method |   Result: clusters=8, lifetime=32.50
+2026-01-20 22:24:59,579 | INFO    | method | Run 120/200: alpha=0.87, seed=9
+2026-01-20 22:24:59,579 | INFO    | method | Running simulation: alpha=0.87, n=100, seed=9, network=small_world
+2026-01-20 22:24:59,579 | DEBUG   | method | Initializing 100 agents with alpha=0.87, seed=9
+2026-01-20 22:24:59,583 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:24:59,583 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:24:59,585 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:59,587 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.079852
+2026-01-20 22:24:59,760 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:24:59,761 | INFO    | method |   Result: clusters=9, lifetime=31.00
+2026-01-20 22:24:59,761 | INFO    | method | Run 121/200: alpha=0.94, seed=0
+2026-01-20 22:24:59,761 | INFO    | method | Running simulation: alpha=0.94, n=100, seed=0, network=small_world
+2026-01-20 22:24:59,761 | DEBUG   | method | Initializing 100 agents with alpha=0.94, seed=0
+2026-01-20 22:24:59,766 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:24:59,766 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:24:59,767 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:59,769 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.062649
+2026-01-20 22:24:59,913 | DEBUG   | method |   Converged at t=59
+2026-01-20 22:24:59,913 | INFO    | method |   Result: clusters=11, lifetime=30.00
+2026-01-20 22:24:59,913 | INFO    | method | Run 122/200: alpha=0.94, seed=1
+2026-01-20 22:24:59,913 | INFO    | method | Running simulation: alpha=0.94, n=100, seed=1, network=small_world
+2026-01-20 22:24:59,913 | DEBUG   | method | Initializing 100 agents with alpha=0.94, seed=1
+2026-01-20 22:24:59,917 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:24:59,917 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:24:59,918 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:24:59,920 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:25:00,117 | DEBUG   | method |   Converged at t=63
+2026-01-20 22:25:00,118 | INFO    | method |   Result: clusters=10, lifetime=21.33
+2026-01-20 22:25:00,118 | INFO    | method | Run 123/200: alpha=0.94, seed=2
+2026-01-20 22:25:00,118 | INFO    | method | Running simulation: alpha=0.94, n=100, seed=2, network=small_world
+2026-01-20 22:25:00,118 | DEBUG   | method | Initializing 100 agents with alpha=0.94, seed=2
+2026-01-20 22:25:00,122 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:25:00,122 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:25:00,123 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:00,127 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:25:00,328 | DEBUG   | method |   Converged at t=71
+2026-01-20 22:25:00,328 | INFO    | method |   Result: clusters=12, lifetime=24.00
+2026-01-20 22:25:00,329 | INFO    | method | Run 124/200: alpha=0.94, seed=3
+2026-01-20 22:25:00,329 | INFO    | method | Running simulation: alpha=0.94, n=100, seed=3, network=small_world
+2026-01-20 22:25:00,329 | DEBUG   | method | Initializing 100 agents with alpha=0.94, seed=3
+2026-01-20 22:25:00,332 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:25:00,332 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:25:00,333 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:00,335 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.069442
+2026-01-20 22:25:00,514 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:25:00,514 | INFO    | method |   Result: clusters=12, lifetime=20.67
+2026-01-20 22:25:00,514 | INFO    | method | Run 125/200: alpha=0.94, seed=4
+2026-01-20 22:25:00,515 | INFO    | method | Running simulation: alpha=0.94, n=100, seed=4, network=small_world
+2026-01-20 22:25:00,515 | DEBUG   | method | Initializing 100 agents with alpha=0.94, seed=4
+2026-01-20 22:25:00,519 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:25:00,519 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:25:00,520 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:00,522 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:25:00,671 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:25:00,671 | INFO    | method |   Result: clusters=12, lifetime=16.50
+2026-01-20 22:25:00,671 | INFO    | method | Run 126/200: alpha=0.94, seed=5
+2026-01-20 22:25:00,671 | INFO    | method | Running simulation: alpha=0.94, n=100, seed=5, network=small_world
+2026-01-20 22:25:00,671 | DEBUG   | method | Initializing 100 agents with alpha=0.94, seed=5
+2026-01-20 22:25:00,675 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:25:00,676 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:25:00,676 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:00,679 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:25:00,850 | DEBUG   | method |   Converged at t=66
+2026-01-20 22:25:00,850 | INFO    | method |   Result: clusters=10, lifetime=33.50
+2026-01-20 22:25:00,851 | INFO    | method | Run 127/200: alpha=0.94, seed=6
+2026-01-20 22:25:00,851 | INFO    | method | Running simulation: alpha=0.94, n=100, seed=6, network=small_world
+2026-01-20 22:25:00,851 | DEBUG   | method | Initializing 100 agents with alpha=0.94, seed=6
+2026-01-20 22:25:00,856 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:25:00,856 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:25:00,857 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:00,859 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:25:00,990 | DEBUG   | method |   Converged at t=58
+2026-01-20 22:25:00,990 | INFO    | method |   Result: clusters=9, lifetime=59.00
+2026-01-20 22:25:00,990 | INFO    | method | Run 128/200: alpha=0.94, seed=7
+2026-01-20 22:25:00,990 | INFO    | method | Running simulation: alpha=0.94, n=100, seed=7, network=small_world
+2026-01-20 22:25:00,990 | DEBUG   | method | Initializing 100 agents with alpha=0.94, seed=7
+2026-01-20 22:25:00,994 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:25:00,995 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:25:00,996 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:00,999 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:25:01,152 | DEBUG   | method |   Converged at t=60
+2026-01-20 22:25:01,153 | INFO    | method |   Result: clusters=12, lifetime=20.33
+2026-01-20 22:25:01,153 | INFO    | method | Run 129/200: alpha=0.94, seed=8
+2026-01-20 22:25:01,153 | INFO    | method | Running simulation: alpha=0.94, n=100, seed=8, network=small_world
+2026-01-20 22:25:01,154 | DEBUG   | method | Initializing 100 agents with alpha=0.94, seed=8
+2026-01-20 22:25:01,158 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:25:01,158 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:25:01,159 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:01,161 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:25:01,338 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:25:01,339 | INFO    | method |   Result: clusters=8, lifetime=32.50
+2026-01-20 22:25:01,339 | INFO    | method | Run 130/200: alpha=0.94, seed=9
+2026-01-20 22:25:01,339 | INFO    | method | Running simulation: alpha=0.94, n=100, seed=9, network=small_world
+2026-01-20 22:25:01,339 | DEBUG   | method | Initializing 100 agents with alpha=0.94, seed=9
+2026-01-20 22:25:01,343 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:25:01,344 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:25:01,345 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:01,347 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.079852
+2026-01-20 22:25:01,513 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:25:01,514 | INFO    | method |   Result: clusters=9, lifetime=31.00
+2026-01-20 22:25:01,514 | INFO    | method | Run 131/200: alpha=1.01, seed=0
+2026-01-20 22:25:01,514 | INFO    | method | Running simulation: alpha=1.01, n=100, seed=0, network=small_world
+2026-01-20 22:25:01,514 | DEBUG   | method | Initializing 100 agents with alpha=1.01, seed=0
+2026-01-20 22:25:01,521 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:25:01,522 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:25:01,523 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:01,528 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.062649
+2026-01-20 22:25:01,718 | DEBUG   | method |   Converged at t=59
+2026-01-20 22:25:01,719 | INFO    | method |   Result: clusters=11, lifetime=30.00
+2026-01-20 22:25:01,719 | INFO    | method | Run 132/200: alpha=1.01, seed=1
+2026-01-20 22:25:01,719 | INFO    | method | Running simulation: alpha=1.01, n=100, seed=1, network=small_world
+2026-01-20 22:25:01,719 | DEBUG   | method | Initializing 100 agents with alpha=1.01, seed=1
+2026-01-20 22:25:01,725 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:25:01,729 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:25:01,730 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:01,733 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:25:01,931 | DEBUG   | method |   Converged at t=63
+2026-01-20 22:25:01,932 | INFO    | method |   Result: clusters=10, lifetime=21.33
+2026-01-20 22:25:01,932 | INFO    | method | Run 133/200: alpha=1.01, seed=2
+2026-01-20 22:25:01,932 | INFO    | method | Running simulation: alpha=1.01, n=100, seed=2, network=small_world
+2026-01-20 22:25:01,933 | DEBUG   | method | Initializing 100 agents with alpha=1.01, seed=2
+2026-01-20 22:25:01,937 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:25:01,937 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:25:01,938 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:01,940 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:25:02,364 | DEBUG   | method |   Converged at t=71
+2026-01-20 22:25:02,365 | INFO    | method |   Result: clusters=12, lifetime=24.00
+2026-01-20 22:25:02,365 | INFO    | method | Run 134/200: alpha=1.01, seed=3
+2026-01-20 22:25:02,365 | INFO    | method | Running simulation: alpha=1.01, n=100, seed=3, network=small_world
+2026-01-20 22:25:02,365 | DEBUG   | method | Initializing 100 agents with alpha=1.01, seed=3
+2026-01-20 22:25:02,373 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:25:02,373 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:25:02,377 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:02,384 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.069442
+2026-01-20 22:25:02,612 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:25:02,613 | INFO    | method |   Result: clusters=12, lifetime=20.67
+2026-01-20 22:25:02,613 | INFO    | method | Run 135/200: alpha=1.01, seed=4
+2026-01-20 22:25:02,613 | INFO    | method | Running simulation: alpha=1.01, n=100, seed=4, network=small_world
+2026-01-20 22:25:02,614 | DEBUG   | method | Initializing 100 agents with alpha=1.01, seed=4
+2026-01-20 22:25:02,624 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:25:02,625 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:25:02,626 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:02,634 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:25:02,901 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:25:02,901 | INFO    | method |   Result: clusters=12, lifetime=16.50
+2026-01-20 22:25:02,902 | INFO    | method | Run 136/200: alpha=1.01, seed=5
+2026-01-20 22:25:02,902 | INFO    | method | Running simulation: alpha=1.01, n=100, seed=5, network=small_world
+2026-01-20 22:25:02,902 | DEBUG   | method | Initializing 100 agents with alpha=1.01, seed=5
+2026-01-20 22:25:02,909 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:25:02,910 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:25:02,911 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:02,918 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:25:03,152 | DEBUG   | method |   Converged at t=66
+2026-01-20 22:25:03,153 | INFO    | method |   Result: clusters=10, lifetime=33.50
+2026-01-20 22:25:03,153 | INFO    | method | Run 137/200: alpha=1.01, seed=6
+2026-01-20 22:25:03,153 | INFO    | method | Running simulation: alpha=1.01, n=100, seed=6, network=small_world
+2026-01-20 22:25:03,153 | DEBUG   | method | Initializing 100 agents with alpha=1.01, seed=6
+2026-01-20 22:25:03,161 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:25:03,163 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:25:03,164 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:03,167 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:25:03,392 | DEBUG   | method |   Converged at t=58
+2026-01-20 22:25:03,392 | INFO    | method |   Result: clusters=9, lifetime=59.00
+2026-01-20 22:25:03,392 | INFO    | method | Run 138/200: alpha=1.01, seed=7
+2026-01-20 22:25:03,392 | INFO    | method | Running simulation: alpha=1.01, n=100, seed=7, network=small_world
+2026-01-20 22:25:03,392 | DEBUG   | method | Initializing 100 agents with alpha=1.01, seed=7
+2026-01-20 22:25:03,396 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:25:03,396 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:25:03,397 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:03,401 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:25:03,644 | DEBUG   | method |   Converged at t=60
+2026-01-20 22:25:03,645 | INFO    | method |   Result: clusters=12, lifetime=20.33
+2026-01-20 22:25:03,653 | INFO    | method | Run 139/200: alpha=1.01, seed=8
+2026-01-20 22:25:03,654 | INFO    | method | Running simulation: alpha=1.01, n=100, seed=8, network=small_world
+2026-01-20 22:25:03,654 | DEBUG   | method | Initializing 100 agents with alpha=1.01, seed=8
+2026-01-20 22:25:03,682 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:25:03,682 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:25:03,683 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:03,685 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:25:03,875 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:25:03,876 | INFO    | method |   Result: clusters=8, lifetime=32.50
+2026-01-20 22:25:03,876 | INFO    | method | Run 140/200: alpha=1.01, seed=9
+2026-01-20 22:25:03,876 | INFO    | method | Running simulation: alpha=1.01, n=100, seed=9, network=small_world
+2026-01-20 22:25:03,876 | DEBUG   | method | Initializing 100 agents with alpha=1.01, seed=9
+2026-01-20 22:25:03,880 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:25:03,881 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:25:03,882 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:03,886 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.079852
+2026-01-20 22:25:04,051 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:25:04,051 | INFO    | method |   Result: clusters=9, lifetime=31.00
+2026-01-20 22:25:04,052 | INFO    | method | Run 141/200: alpha=1.08, seed=0
+2026-01-20 22:25:04,052 | INFO    | method | Running simulation: alpha=1.08, n=100, seed=0, network=small_world
+2026-01-20 22:25:04,052 | DEBUG   | method | Initializing 100 agents with alpha=1.08, seed=0
+2026-01-20 22:25:04,055 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:25:04,056 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:25:04,057 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:04,060 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.062649
+2026-01-20 22:25:04,249 | DEBUG   | method |   Converged at t=59
+2026-01-20 22:25:04,249 | INFO    | method |   Result: clusters=11, lifetime=30.00
+2026-01-20 22:25:04,249 | INFO    | method | Run 142/200: alpha=1.08, seed=1
+2026-01-20 22:25:04,249 | INFO    | method | Running simulation: alpha=1.08, n=100, seed=1, network=small_world
+2026-01-20 22:25:04,249 | DEBUG   | method | Initializing 100 agents with alpha=1.08, seed=1
+2026-01-20 22:25:04,254 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:25:04,254 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:25:04,255 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:04,258 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:25:04,445 | DEBUG   | method |   Converged at t=63
+2026-01-20 22:25:04,446 | INFO    | method |   Result: clusters=10, lifetime=21.33
+2026-01-20 22:25:04,446 | INFO    | method | Run 143/200: alpha=1.08, seed=2
+2026-01-20 22:25:04,446 | INFO    | method | Running simulation: alpha=1.08, n=100, seed=2, network=small_world
+2026-01-20 22:25:04,446 | DEBUG   | method | Initializing 100 agents with alpha=1.08, seed=2
+2026-01-20 22:25:04,450 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:25:04,451 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:25:04,452 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:04,455 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:25:04,657 | DEBUG   | method |   Converged at t=71
+2026-01-20 22:25:04,657 | INFO    | method |   Result: clusters=12, lifetime=24.00
+2026-01-20 22:25:04,658 | INFO    | method | Run 144/200: alpha=1.08, seed=3
+2026-01-20 22:25:04,658 | INFO    | method | Running simulation: alpha=1.08, n=100, seed=3, network=small_world
+2026-01-20 22:25:04,658 | DEBUG   | method | Initializing 100 agents with alpha=1.08, seed=3
+2026-01-20 22:25:04,665 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:25:04,666 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:25:04,667 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:04,673 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.069442
+2026-01-20 22:25:04,832 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:25:04,833 | INFO    | method |   Result: clusters=12, lifetime=20.67
+2026-01-20 22:25:04,833 | INFO    | method | Run 145/200: alpha=1.08, seed=4
+2026-01-20 22:25:04,833 | INFO    | method | Running simulation: alpha=1.08, n=100, seed=4, network=small_world
+2026-01-20 22:25:04,833 | DEBUG   | method | Initializing 100 agents with alpha=1.08, seed=4
+2026-01-20 22:25:04,837 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:25:04,837 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:25:04,838 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:04,840 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:25:05,070 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:25:05,070 | INFO    | method |   Result: clusters=12, lifetime=16.50
+2026-01-20 22:25:05,070 | INFO    | method | Run 146/200: alpha=1.08, seed=5
+2026-01-20 22:25:05,070 | INFO    | method | Running simulation: alpha=1.08, n=100, seed=5, network=small_world
+2026-01-20 22:25:05,070 | DEBUG   | method | Initializing 100 agents with alpha=1.08, seed=5
+2026-01-20 22:25:05,074 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:25:05,074 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:25:05,075 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:05,081 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:25:05,297 | DEBUG   | method |   Converged at t=66
+2026-01-20 22:25:05,318 | INFO    | method |   Result: clusters=10, lifetime=33.50
+2026-01-20 22:25:05,319 | INFO    | method | Run 147/200: alpha=1.08, seed=6
+2026-01-20 22:25:05,319 | INFO    | method | Running simulation: alpha=1.08, n=100, seed=6, network=small_world
+2026-01-20 22:25:05,319 | DEBUG   | method | Initializing 100 agents with alpha=1.08, seed=6
+2026-01-20 22:25:05,328 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:25:05,329 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:25:05,330 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:05,337 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:25:05,515 | DEBUG   | method |   Converged at t=58
+2026-01-20 22:25:05,515 | INFO    | method |   Result: clusters=9, lifetime=59.00
+2026-01-20 22:25:05,516 | INFO    | method | Run 148/200: alpha=1.08, seed=7
+2026-01-20 22:25:05,516 | INFO    | method | Running simulation: alpha=1.08, n=100, seed=7, network=small_world
+2026-01-20 22:25:05,516 | DEBUG   | method | Initializing 100 agents with alpha=1.08, seed=7
+2026-01-20 22:25:05,522 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:25:05,522 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:25:05,523 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:05,527 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:25:05,663 | DEBUG   | method |   Converged at t=60
+2026-01-20 22:25:05,663 | INFO    | method |   Result: clusters=12, lifetime=20.33
+2026-01-20 22:25:05,663 | INFO    | method | Run 149/200: alpha=1.08, seed=8
+2026-01-20 22:25:05,663 | INFO    | method | Running simulation: alpha=1.08, n=100, seed=8, network=small_world
+2026-01-20 22:25:05,663 | DEBUG   | method | Initializing 100 agents with alpha=1.08, seed=8
+2026-01-20 22:25:05,667 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:25:05,667 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:25:05,668 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:05,670 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:25:05,811 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:25:05,811 | INFO    | method |   Result: clusters=8, lifetime=32.50
+2026-01-20 22:25:05,811 | INFO    | method | Run 150/200: alpha=1.08, seed=9
+2026-01-20 22:25:05,811 | INFO    | method | Running simulation: alpha=1.08, n=100, seed=9, network=small_world
+2026-01-20 22:25:05,811 | DEBUG   | method | Initializing 100 agents with alpha=1.08, seed=9
+2026-01-20 22:25:05,815 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:25:05,815 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:25:05,815 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:05,817 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.079852
+2026-01-20 22:25:05,963 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:25:05,964 | INFO    | method |   Result: clusters=9, lifetime=31.00
+2026-01-20 22:25:05,964 | INFO    | method | Run 151/200: alpha=1.15, seed=0
+2026-01-20 22:25:05,964 | INFO    | method | Running simulation: alpha=1.15, n=100, seed=0, network=small_world
+2026-01-20 22:25:05,964 | DEBUG   | method | Initializing 100 agents with alpha=1.15, seed=0
+2026-01-20 22:25:05,967 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:25:05,967 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:25:05,968 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:05,970 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.062649
+2026-01-20 22:25:06,087 | DEBUG   | method |   Converged at t=59
+2026-01-20 22:25:06,087 | INFO    | method |   Result: clusters=11, lifetime=30.00
+2026-01-20 22:25:06,087 | INFO    | method | Run 152/200: alpha=1.15, seed=1
+2026-01-20 22:25:06,088 | INFO    | method | Running simulation: alpha=1.15, n=100, seed=1, network=small_world
+2026-01-20 22:25:06,088 | DEBUG   | method | Initializing 100 agents with alpha=1.15, seed=1
+2026-01-20 22:25:06,091 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:25:06,091 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:25:06,092 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:06,094 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:25:06,217 | DEBUG   | method |   Converged at t=63
+2026-01-20 22:25:06,217 | INFO    | method |   Result: clusters=10, lifetime=21.33
+2026-01-20 22:25:06,217 | INFO    | method | Run 153/200: alpha=1.15, seed=2
+2026-01-20 22:25:06,217 | INFO    | method | Running simulation: alpha=1.15, n=100, seed=2, network=small_world
+2026-01-20 22:25:06,218 | DEBUG   | method | Initializing 100 agents with alpha=1.15, seed=2
+2026-01-20 22:25:06,221 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:25:06,221 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:25:06,221 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:06,223 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:25:06,364 | DEBUG   | method |   Converged at t=71
+2026-01-20 22:25:06,365 | INFO    | method |   Result: clusters=12, lifetime=24.00
+2026-01-20 22:25:06,365 | INFO    | method | Run 154/200: alpha=1.15, seed=3
+2026-01-20 22:25:06,365 | INFO    | method | Running simulation: alpha=1.15, n=100, seed=3, network=small_world
+2026-01-20 22:25:06,365 | DEBUG   | method | Initializing 100 agents with alpha=1.15, seed=3
+2026-01-20 22:25:06,369 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:25:06,369 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:25:06,370 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:06,372 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.069442
+2026-01-20 22:25:06,502 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:25:06,502 | INFO    | method |   Result: clusters=12, lifetime=20.67
+2026-01-20 22:25:06,503 | INFO    | method | Run 155/200: alpha=1.15, seed=4
+2026-01-20 22:25:06,503 | INFO    | method | Running simulation: alpha=1.15, n=100, seed=4, network=small_world
+2026-01-20 22:25:06,503 | DEBUG   | method | Initializing 100 agents with alpha=1.15, seed=4
+2026-01-20 22:25:06,510 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:25:06,510 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:25:06,511 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:06,515 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:25:06,645 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:25:06,645 | INFO    | method |   Result: clusters=12, lifetime=16.50
+2026-01-20 22:25:06,645 | INFO    | method | Run 156/200: alpha=1.15, seed=5
+2026-01-20 22:25:06,645 | INFO    | method | Running simulation: alpha=1.15, n=100, seed=5, network=small_world
+2026-01-20 22:25:06,645 | DEBUG   | method | Initializing 100 agents with alpha=1.15, seed=5
+2026-01-20 22:25:06,649 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:25:06,649 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:25:06,650 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:06,652 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:25:06,827 | DEBUG   | method |   Converged at t=66
+2026-01-20 22:25:06,828 | INFO    | method |   Result: clusters=10, lifetime=33.50
+2026-01-20 22:25:06,828 | INFO    | method | Run 157/200: alpha=1.15, seed=6
+2026-01-20 22:25:06,828 | INFO    | method | Running simulation: alpha=1.15, n=100, seed=6, network=small_world
+2026-01-20 22:25:06,828 | DEBUG   | method | Initializing 100 agents with alpha=1.15, seed=6
+2026-01-20 22:25:06,832 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:25:06,832 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:25:06,833 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:06,835 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:25:06,958 | DEBUG   | method |   Converged at t=58
+2026-01-20 22:25:06,959 | INFO    | method |   Result: clusters=9, lifetime=59.00
+2026-01-20 22:25:06,959 | INFO    | method | Run 158/200: alpha=1.15, seed=7
+2026-01-20 22:25:06,959 | INFO    | method | Running simulation: alpha=1.15, n=100, seed=7, network=small_world
+2026-01-20 22:25:06,959 | DEBUG   | method | Initializing 100 agents with alpha=1.15, seed=7
+2026-01-20 22:25:06,962 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:25:06,963 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:25:06,963 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:06,965 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:25:07,094 | DEBUG   | method |   Converged at t=60
+2026-01-20 22:25:07,095 | INFO    | method |   Result: clusters=12, lifetime=20.33
+2026-01-20 22:25:07,095 | INFO    | method | Run 159/200: alpha=1.15, seed=8
+2026-01-20 22:25:07,095 | INFO    | method | Running simulation: alpha=1.15, n=100, seed=8, network=small_world
+2026-01-20 22:25:07,095 | DEBUG   | method | Initializing 100 agents with alpha=1.15, seed=8
+2026-01-20 22:25:07,099 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:25:07,099 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:25:07,100 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:07,102 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:25:07,256 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:25:07,256 | INFO    | method |   Result: clusters=8, lifetime=32.50
+2026-01-20 22:25:07,256 | INFO    | method | Run 160/200: alpha=1.15, seed=9
+2026-01-20 22:25:07,256 | INFO    | method | Running simulation: alpha=1.15, n=100, seed=9, network=small_world
+2026-01-20 22:25:07,257 | DEBUG   | method | Initializing 100 agents with alpha=1.15, seed=9
+2026-01-20 22:25:07,262 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:25:07,262 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:25:07,264 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:07,266 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.079852
+2026-01-20 22:25:07,388 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:25:07,389 | INFO    | method |   Result: clusters=9, lifetime=31.00
+2026-01-20 22:25:07,389 | INFO    | method | Run 161/200: alpha=1.22, seed=0
+2026-01-20 22:25:07,389 | INFO    | method | Running simulation: alpha=1.22, n=100, seed=0, network=small_world
+2026-01-20 22:25:07,389 | DEBUG   | method | Initializing 100 agents with alpha=1.22, seed=0
+2026-01-20 22:25:07,393 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:25:07,393 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:25:07,393 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:07,395 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.062649
+2026-01-20 22:25:07,523 | DEBUG   | method |   Converged at t=59
+2026-01-20 22:25:07,523 | INFO    | method |   Result: clusters=11, lifetime=30.00
+2026-01-20 22:25:07,524 | INFO    | method | Run 162/200: alpha=1.22, seed=1
+2026-01-20 22:25:07,524 | INFO    | method | Running simulation: alpha=1.22, n=100, seed=1, network=small_world
+2026-01-20 22:25:07,524 | DEBUG   | method | Initializing 100 agents with alpha=1.22, seed=1
+2026-01-20 22:25:07,527 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:25:07,527 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:25:07,528 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:07,531 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:25:07,672 | DEBUG   | method |   Converged at t=63
+2026-01-20 22:25:07,672 | INFO    | method |   Result: clusters=10, lifetime=21.33
+2026-01-20 22:25:07,673 | INFO    | method | Run 163/200: alpha=1.22, seed=2
+2026-01-20 22:25:07,673 | INFO    | method | Running simulation: alpha=1.22, n=100, seed=2, network=small_world
+2026-01-20 22:25:07,673 | DEBUG   | method | Initializing 100 agents with alpha=1.22, seed=2
+2026-01-20 22:25:07,677 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:25:07,677 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:25:07,678 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:07,680 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:25:07,869 | DEBUG   | method |   Converged at t=71
+2026-01-20 22:25:07,870 | INFO    | method |   Result: clusters=12, lifetime=24.00
+2026-01-20 22:25:07,870 | INFO    | method | Run 164/200: alpha=1.22, seed=3
+2026-01-20 22:25:07,870 | INFO    | method | Running simulation: alpha=1.22, n=100, seed=3, network=small_world
+2026-01-20 22:25:07,870 | DEBUG   | method | Initializing 100 agents with alpha=1.22, seed=3
+2026-01-20 22:25:07,876 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:25:07,876 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:25:07,877 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:07,880 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.069442
+2026-01-20 22:25:08,012 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:25:08,013 | INFO    | method |   Result: clusters=12, lifetime=20.67
+2026-01-20 22:25:08,013 | INFO    | method | Run 165/200: alpha=1.22, seed=4
+2026-01-20 22:25:08,013 | INFO    | method | Running simulation: alpha=1.22, n=100, seed=4, network=small_world
+2026-01-20 22:25:08,013 | DEBUG   | method | Initializing 100 agents with alpha=1.22, seed=4
+2026-01-20 22:25:08,016 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:25:08,017 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:25:08,017 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:08,019 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:25:08,160 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:25:08,160 | INFO    | method |   Result: clusters=12, lifetime=16.50
+2026-01-20 22:25:08,160 | INFO    | method | Run 166/200: alpha=1.22, seed=5
+2026-01-20 22:25:08,160 | INFO    | method | Running simulation: alpha=1.22, n=100, seed=5, network=small_world
+2026-01-20 22:25:08,161 | DEBUG   | method | Initializing 100 agents with alpha=1.22, seed=5
+2026-01-20 22:25:08,164 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:25:08,164 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:25:08,165 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:08,167 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:25:08,311 | DEBUG   | method |   Converged at t=66
+2026-01-20 22:25:08,312 | INFO    | method |   Result: clusters=10, lifetime=33.50
+2026-01-20 22:25:08,312 | INFO    | method | Run 167/200: alpha=1.22, seed=6
+2026-01-20 22:25:08,312 | INFO    | method | Running simulation: alpha=1.22, n=100, seed=6, network=small_world
+2026-01-20 22:25:08,312 | DEBUG   | method | Initializing 100 agents with alpha=1.22, seed=6
+2026-01-20 22:25:08,315 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:25:08,316 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:25:08,316 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:08,318 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:25:08,447 | DEBUG   | method |   Converged at t=58
+2026-01-20 22:25:08,447 | INFO    | method |   Result: clusters=9, lifetime=59.00
+2026-01-20 22:25:08,448 | INFO    | method | Run 168/200: alpha=1.22, seed=7
+2026-01-20 22:25:08,448 | INFO    | method | Running simulation: alpha=1.22, n=100, seed=7, network=small_world
+2026-01-20 22:25:08,448 | DEBUG   | method | Initializing 100 agents with alpha=1.22, seed=7
+2026-01-20 22:25:08,452 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:25:08,452 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:25:08,453 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:08,455 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:25:08,590 | DEBUG   | method |   Converged at t=60
+2026-01-20 22:25:08,590 | INFO    | method |   Result: clusters=12, lifetime=20.33
+2026-01-20 22:25:08,590 | INFO    | method | Run 169/200: alpha=1.22, seed=8
+2026-01-20 22:25:08,590 | INFO    | method | Running simulation: alpha=1.22, n=100, seed=8, network=small_world
+2026-01-20 22:25:08,590 | DEBUG   | method | Initializing 100 agents with alpha=1.22, seed=8
+2026-01-20 22:25:08,594 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:25:08,594 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:25:08,595 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:08,597 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:25:08,730 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:25:08,730 | INFO    | method |   Result: clusters=8, lifetime=32.50
+2026-01-20 22:25:08,730 | INFO    | method | Run 170/200: alpha=1.22, seed=9
+2026-01-20 22:25:08,730 | INFO    | method | Running simulation: alpha=1.22, n=100, seed=9, network=small_world
+2026-01-20 22:25:08,730 | DEBUG   | method | Initializing 100 agents with alpha=1.22, seed=9
+2026-01-20 22:25:08,733 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:25:08,734 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:25:08,734 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:08,736 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.079852
+2026-01-20 22:25:08,854 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:25:08,855 | INFO    | method |   Result: clusters=9, lifetime=31.00
+2026-01-20 22:25:08,855 | INFO    | method | Run 171/200: alpha=1.29, seed=0
+2026-01-20 22:25:08,855 | INFO    | method | Running simulation: alpha=1.29, n=100, seed=0, network=small_world
+2026-01-20 22:25:08,855 | DEBUG   | method | Initializing 100 agents with alpha=1.29, seed=0
+2026-01-20 22:25:08,859 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:25:08,859 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:25:08,860 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:08,862 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.062649
+2026-01-20 22:25:08,977 | DEBUG   | method |   Converged at t=59
+2026-01-20 22:25:08,977 | INFO    | method |   Result: clusters=11, lifetime=30.00
+2026-01-20 22:25:08,977 | INFO    | method | Run 172/200: alpha=1.29, seed=1
+2026-01-20 22:25:08,977 | INFO    | method | Running simulation: alpha=1.29, n=100, seed=1, network=small_world
+2026-01-20 22:25:08,977 | DEBUG   | method | Initializing 100 agents with alpha=1.29, seed=1
+2026-01-20 22:25:08,981 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:25:08,981 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:25:08,982 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:08,984 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:25:09,163 | DEBUG   | method |   Converged at t=63
+2026-01-20 22:25:09,163 | INFO    | method |   Result: clusters=10, lifetime=21.33
+2026-01-20 22:25:09,163 | INFO    | method | Run 173/200: alpha=1.29, seed=2
+2026-01-20 22:25:09,164 | INFO    | method | Running simulation: alpha=1.29, n=100, seed=2, network=small_world
+2026-01-20 22:25:09,164 | DEBUG   | method | Initializing 100 agents with alpha=1.29, seed=2
+2026-01-20 22:25:09,167 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:25:09,167 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:25:09,168 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:09,170 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:25:09,351 | DEBUG   | method |   Converged at t=71
+2026-01-20 22:25:09,351 | INFO    | method |   Result: clusters=12, lifetime=24.00
+2026-01-20 22:25:09,352 | INFO    | method | Run 174/200: alpha=1.29, seed=3
+2026-01-20 22:25:09,352 | INFO    | method | Running simulation: alpha=1.29, n=100, seed=3, network=small_world
+2026-01-20 22:25:09,352 | DEBUG   | method | Initializing 100 agents with alpha=1.29, seed=3
+2026-01-20 22:25:09,355 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:25:09,355 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:25:09,356 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:09,358 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.069442
+2026-01-20 22:25:09,500 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:25:09,500 | INFO    | method |   Result: clusters=12, lifetime=20.67
+2026-01-20 22:25:09,500 | INFO    | method | Run 175/200: alpha=1.29, seed=4
+2026-01-20 22:25:09,500 | INFO    | method | Running simulation: alpha=1.29, n=100, seed=4, network=small_world
+2026-01-20 22:25:09,500 | DEBUG   | method | Initializing 100 agents with alpha=1.29, seed=4
+2026-01-20 22:25:09,504 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:25:09,504 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:25:09,505 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:09,507 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:25:09,631 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:25:09,631 | INFO    | method |   Result: clusters=12, lifetime=16.50
+2026-01-20 22:25:09,632 | INFO    | method | Run 176/200: alpha=1.29, seed=5
+2026-01-20 22:25:09,632 | INFO    | method | Running simulation: alpha=1.29, n=100, seed=5, network=small_world
+2026-01-20 22:25:09,632 | DEBUG   | method | Initializing 100 agents with alpha=1.29, seed=5
+2026-01-20 22:25:09,635 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:25:09,635 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:25:09,636 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:09,638 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:25:09,782 | DEBUG   | method |   Converged at t=66
+2026-01-20 22:25:09,783 | INFO    | method |   Result: clusters=10, lifetime=33.50
+2026-01-20 22:25:09,783 | INFO    | method | Run 177/200: alpha=1.29, seed=6
+2026-01-20 22:25:09,783 | INFO    | method | Running simulation: alpha=1.29, n=100, seed=6, network=small_world
+2026-01-20 22:25:09,783 | DEBUG   | method | Initializing 100 agents with alpha=1.29, seed=6
+2026-01-20 22:25:09,786 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:25:09,787 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:25:09,787 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:09,789 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:25:09,909 | DEBUG   | method |   Converged at t=58
+2026-01-20 22:25:09,909 | INFO    | method |   Result: clusters=9, lifetime=59.00
+2026-01-20 22:25:09,909 | INFO    | method | Run 178/200: alpha=1.29, seed=7
+2026-01-20 22:25:09,909 | INFO    | method | Running simulation: alpha=1.29, n=100, seed=7, network=small_world
+2026-01-20 22:25:09,909 | DEBUG   | method | Initializing 100 agents with alpha=1.29, seed=7
+2026-01-20 22:25:09,913 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:25:09,913 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:25:09,914 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:09,916 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:25:10,043 | DEBUG   | method |   Converged at t=60
+2026-01-20 22:25:10,043 | INFO    | method |   Result: clusters=12, lifetime=20.33
+2026-01-20 22:25:10,043 | INFO    | method | Run 179/200: alpha=1.29, seed=8
+2026-01-20 22:25:10,043 | INFO    | method | Running simulation: alpha=1.29, n=100, seed=8, network=small_world
+2026-01-20 22:25:10,043 | DEBUG   | method | Initializing 100 agents with alpha=1.29, seed=8
+2026-01-20 22:25:10,049 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:25:10,049 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:25:10,050 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:10,052 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:25:10,184 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:25:10,184 | INFO    | method |   Result: clusters=8, lifetime=32.50
+2026-01-20 22:25:10,185 | INFO    | method | Run 180/200: alpha=1.29, seed=9
+2026-01-20 22:25:10,185 | INFO    | method | Running simulation: alpha=1.29, n=100, seed=9, network=small_world
+2026-01-20 22:25:10,185 | DEBUG   | method | Initializing 100 agents with alpha=1.29, seed=9
+2026-01-20 22:25:10,188 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:25:10,188 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:25:10,190 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:10,192 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.079852
+2026-01-20 22:25:10,321 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:25:10,321 | INFO    | method |   Result: clusters=9, lifetime=31.00
+2026-01-20 22:25:10,321 | INFO    | method | Run 181/200: alpha=1.36, seed=0
+2026-01-20 22:25:10,322 | INFO    | method | Running simulation: alpha=1.36, n=100, seed=0, network=small_world
+2026-01-20 22:25:10,322 | DEBUG   | method | Initializing 100 agents with alpha=1.36, seed=0
+2026-01-20 22:25:10,327 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:25:10,327 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:25:10,328 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:10,331 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.062649
+2026-01-20 22:25:10,450 | DEBUG   | method |   Converged at t=59
+2026-01-20 22:25:10,451 | INFO    | method |   Result: clusters=11, lifetime=30.00
+2026-01-20 22:25:10,451 | INFO    | method | Run 182/200: alpha=1.36, seed=1
+2026-01-20 22:25:10,451 | INFO    | method | Running simulation: alpha=1.36, n=100, seed=1, network=small_world
+2026-01-20 22:25:10,451 | DEBUG   | method | Initializing 100 agents with alpha=1.36, seed=1
+2026-01-20 22:25:10,454 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:25:10,454 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:25:10,455 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:10,457 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:25:10,600 | DEBUG   | method |   Converged at t=63
+2026-01-20 22:25:10,600 | INFO    | method |   Result: clusters=10, lifetime=21.33
+2026-01-20 22:25:10,600 | INFO    | method | Run 183/200: alpha=1.36, seed=2
+2026-01-20 22:25:10,600 | INFO    | method | Running simulation: alpha=1.36, n=100, seed=2, network=small_world
+2026-01-20 22:25:10,600 | DEBUG   | method | Initializing 100 agents with alpha=1.36, seed=2
+2026-01-20 22:25:10,604 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:25:10,604 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:25:10,605 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:10,607 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:25:10,759 | DEBUG   | method |   Converged at t=71
+2026-01-20 22:25:10,760 | INFO    | method |   Result: clusters=12, lifetime=24.00
+2026-01-20 22:25:10,760 | INFO    | method | Run 184/200: alpha=1.36, seed=3
+2026-01-20 22:25:10,760 | INFO    | method | Running simulation: alpha=1.36, n=100, seed=3, network=small_world
+2026-01-20 22:25:10,760 | DEBUG   | method | Initializing 100 agents with alpha=1.36, seed=3
+2026-01-20 22:25:10,763 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:25:10,763 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:25:10,764 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:10,766 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.069442
+2026-01-20 22:25:10,900 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:25:10,900 | INFO    | method |   Result: clusters=12, lifetime=20.67
+2026-01-20 22:25:10,900 | INFO    | method | Run 185/200: alpha=1.36, seed=4
+2026-01-20 22:25:10,900 | INFO    | method | Running simulation: alpha=1.36, n=100, seed=4, network=small_world
+2026-01-20 22:25:10,900 | DEBUG   | method | Initializing 100 agents with alpha=1.36, seed=4
+2026-01-20 22:25:10,904 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:25:10,904 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:25:10,905 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:10,907 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:25:11,039 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:25:11,039 | INFO    | method |   Result: clusters=12, lifetime=16.50
+2026-01-20 22:25:11,040 | INFO    | method | Run 186/200: alpha=1.36, seed=5
+2026-01-20 22:25:11,040 | INFO    | method | Running simulation: alpha=1.36, n=100, seed=5, network=small_world
+2026-01-20 22:25:11,040 | DEBUG   | method | Initializing 100 agents with alpha=1.36, seed=5
+2026-01-20 22:25:11,043 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:25:11,043 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:25:11,044 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:11,046 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:25:11,211 | DEBUG   | method |   Converged at t=66
+2026-01-20 22:25:11,212 | INFO    | method |   Result: clusters=10, lifetime=33.50
+2026-01-20 22:25:11,212 | INFO    | method | Run 187/200: alpha=1.36, seed=6
+2026-01-20 22:25:11,213 | INFO    | method | Running simulation: alpha=1.36, n=100, seed=6, network=small_world
+2026-01-20 22:25:11,213 | DEBUG   | method | Initializing 100 agents with alpha=1.36, seed=6
+2026-01-20 22:25:11,217 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:25:11,218 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:25:11,218 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:11,220 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:25:11,338 | DEBUG   | method |   Converged at t=58
+2026-01-20 22:25:11,338 | INFO    | method |   Result: clusters=9, lifetime=59.00
+2026-01-20 22:25:11,338 | INFO    | method | Run 188/200: alpha=1.36, seed=7
+2026-01-20 22:25:11,339 | INFO    | method | Running simulation: alpha=1.36, n=100, seed=7, network=small_world
+2026-01-20 22:25:11,339 | DEBUG   | method | Initializing 100 agents with alpha=1.36, seed=7
+2026-01-20 22:25:11,342 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:25:11,342 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:25:11,343 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:11,345 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:25:11,470 | DEBUG   | method |   Converged at t=60
+2026-01-20 22:25:11,470 | INFO    | method |   Result: clusters=12, lifetime=20.33
+2026-01-20 22:25:11,470 | INFO    | method | Run 189/200: alpha=1.36, seed=8
+2026-01-20 22:25:11,470 | INFO    | method | Running simulation: alpha=1.36, n=100, seed=8, network=small_world
+2026-01-20 22:25:11,470 | DEBUG   | method | Initializing 100 agents with alpha=1.36, seed=8
+2026-01-20 22:25:11,474 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:25:11,474 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:25:11,474 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:11,477 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:25:11,602 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:25:11,603 | INFO    | method |   Result: clusters=8, lifetime=32.50
+2026-01-20 22:25:11,603 | INFO    | method | Run 190/200: alpha=1.36, seed=9
+2026-01-20 22:25:11,603 | INFO    | method | Running simulation: alpha=1.36, n=100, seed=9, network=small_world
+2026-01-20 22:25:11,603 | DEBUG   | method | Initializing 100 agents with alpha=1.36, seed=9
+2026-01-20 22:25:11,606 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:25:11,606 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:25:11,607 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:11,609 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.079852
+2026-01-20 22:25:11,720 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:25:11,721 | INFO    | method |   Result: clusters=9, lifetime=31.00
+2026-01-20 22:25:11,721 | INFO    | method | Run 191/200: alpha=1.43, seed=0
+2026-01-20 22:25:11,721 | INFO    | method | Running simulation: alpha=1.43, n=100, seed=0, network=small_world
+2026-01-20 22:25:11,721 | DEBUG   | method | Initializing 100 agents with alpha=1.43, seed=0
+2026-01-20 22:25:11,725 | DEBUG   | method | Agent opinions: mean=0.168, std=0.648
+2026-01-20 22:25:11,725 | DEBUG   | method | Creating small_world network with 100 nodes, seed=0
+2026-01-20 22:25:11,725 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:11,728 | DEBUG   | method |   t=0: clusters=10, variance=0.4205, max_change=0.062649
+2026-01-20 22:25:11,848 | DEBUG   | method |   Converged at t=59
+2026-01-20 22:25:11,849 | INFO    | method |   Result: clusters=11, lifetime=30.00
+2026-01-20 22:25:11,849 | INFO    | method | Run 192/200: alpha=1.43, seed=1
+2026-01-20 22:25:11,849 | INFO    | method | Running simulation: alpha=1.43, n=100, seed=1, network=small_world
+2026-01-20 22:25:11,849 | DEBUG   | method | Initializing 100 agents with alpha=1.43, seed=1
+2026-01-20 22:25:11,852 | DEBUG   | method | Agent opinions: mean=0.069, std=0.712
+2026-01-20 22:25:11,853 | DEBUG   | method | Creating small_world network with 100 nodes, seed=1
+2026-01-20 22:25:11,853 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:11,856 | DEBUG   | method |   t=0: clusters=7, variance=0.5075, max_change=0.099033
+2026-01-20 22:25:11,987 | DEBUG   | method |   Converged at t=63
+2026-01-20 22:25:11,987 | INFO    | method |   Result: clusters=10, lifetime=21.33
+2026-01-20 22:25:11,988 | INFO    | method | Run 193/200: alpha=1.43, seed=2
+2026-01-20 22:25:11,988 | INFO    | method | Running simulation: alpha=1.43, n=100, seed=2, network=small_world
+2026-01-20 22:25:11,988 | DEBUG   | method | Initializing 100 agents with alpha=1.43, seed=2
+2026-01-20 22:25:11,991 | DEBUG   | method | Agent opinions: mean=0.006, std=0.657
+2026-01-20 22:25:11,991 | DEBUG   | method | Creating small_world network with 100 nodes, seed=2
+2026-01-20 22:25:11,992 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:11,994 | DEBUG   | method |   t=0: clusters=10, variance=0.4315, max_change=0.096021
+2026-01-20 22:25:12,167 | DEBUG   | method |   Converged at t=71
+2026-01-20 22:25:12,167 | INFO    | method |   Result: clusters=12, lifetime=24.00
+2026-01-20 22:25:12,167 | INFO    | method | Run 194/200: alpha=1.43, seed=3
+2026-01-20 22:25:12,167 | INFO    | method | Running simulation: alpha=1.43, n=100, seed=3, network=small_world
+2026-01-20 22:25:12,168 | DEBUG   | method | Initializing 100 agents with alpha=1.43, seed=3
+2026-01-20 22:25:12,172 | DEBUG   | method | Agent opinions: mean=0.038, std=0.648
+2026-01-20 22:25:12,172 | DEBUG   | method | Creating small_world network with 100 nodes, seed=3
+2026-01-20 22:25:12,173 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:12,175 | DEBUG   | method |   t=0: clusters=9, variance=0.4198, max_change=0.069442
+2026-01-20 22:25:12,303 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:25:12,303 | INFO    | method |   Result: clusters=12, lifetime=20.67
+2026-01-20 22:25:12,303 | INFO    | method | Run 195/200: alpha=1.43, seed=4
+2026-01-20 22:25:12,304 | INFO    | method | Running simulation: alpha=1.43, n=100, seed=4, network=small_world
+2026-01-20 22:25:12,304 | DEBUG   | method | Initializing 100 agents with alpha=1.43, seed=4
+2026-01-20 22:25:12,307 | DEBUG   | method | Agent opinions: mean=0.041, std=0.611
+2026-01-20 22:25:12,307 | DEBUG   | method | Creating small_world network with 100 nodes, seed=4
+2026-01-20 22:25:12,308 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:12,310 | DEBUG   | method |   t=0: clusters=9, variance=0.3733, max_change=0.082170
+2026-01-20 22:25:12,466 | DEBUG   | method |   Converged at t=65
+2026-01-20 22:25:12,466 | INFO    | method |   Result: clusters=12, lifetime=16.50
+2026-01-20 22:25:12,467 | INFO    | method | Run 196/200: alpha=1.43, seed=5
+2026-01-20 22:25:12,467 | INFO    | method | Running simulation: alpha=1.43, n=100, seed=5, network=small_world
+2026-01-20 22:25:12,467 | DEBUG   | method | Initializing 100 agents with alpha=1.43, seed=5
+2026-01-20 22:25:12,470 | DEBUG   | method | Agent opinions: mean=0.025, std=0.685
+2026-01-20 22:25:12,470 | DEBUG   | method | Creating small_world network with 100 nodes, seed=5
+2026-01-20 22:25:12,471 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:12,473 | DEBUG   | method |   t=0: clusters=9, variance=0.4691, max_change=0.087800
+2026-01-20 22:25:12,630 | DEBUG   | method |   Converged at t=66
+2026-01-20 22:25:12,630 | INFO    | method |   Result: clusters=10, lifetime=33.50
+2026-01-20 22:25:12,631 | INFO    | method | Run 197/200: alpha=1.43, seed=6
+2026-01-20 22:25:12,631 | INFO    | method | Running simulation: alpha=1.43, n=100, seed=6, network=small_world
+2026-01-20 22:25:12,631 | DEBUG   | method | Initializing 100 agents with alpha=1.43, seed=6
+2026-01-20 22:25:12,634 | DEBUG   | method | Agent opinions: mean=0.023, std=0.708
+2026-01-20 22:25:12,634 | DEBUG   | method | Creating small_world network with 100 nodes, seed=6
+2026-01-20 22:25:12,635 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:12,637 | DEBUG   | method |   t=0: clusters=9, variance=0.5015, max_change=0.083687
+2026-01-20 22:25:12,763 | DEBUG   | method |   Converged at t=58
+2026-01-20 22:25:12,763 | INFO    | method |   Result: clusters=9, lifetime=59.00
+2026-01-20 22:25:12,763 | INFO    | method | Run 198/200: alpha=1.43, seed=7
+2026-01-20 22:25:12,763 | INFO    | method | Running simulation: alpha=1.43, n=100, seed=7, network=small_world
+2026-01-20 22:25:12,764 | DEBUG   | method | Initializing 100 agents with alpha=1.43, seed=7
+2026-01-20 22:25:12,767 | DEBUG   | method | Agent opinions: mean=0.110, std=0.706
+2026-01-20 22:25:12,767 | DEBUG   | method | Creating small_world network with 100 nodes, seed=7
+2026-01-20 22:25:12,768 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:12,770 | DEBUG   | method |   t=0: clusters=10, variance=0.4980, max_change=0.082900
+2026-01-20 22:25:12,929 | DEBUG   | method |   Converged at t=60
+2026-01-20 22:25:12,929 | INFO    | method |   Result: clusters=12, lifetime=20.33
+2026-01-20 22:25:12,929 | INFO    | method | Run 199/200: alpha=1.43, seed=8
+2026-01-20 22:25:12,929 | INFO    | method | Running simulation: alpha=1.43, n=100, seed=8, network=small_world
+2026-01-20 22:25:12,929 | DEBUG   | method | Initializing 100 agents with alpha=1.43, seed=8
+2026-01-20 22:25:12,934 | DEBUG   | method | Agent opinions: mean=0.025, std=0.680
+2026-01-20 22:25:12,934 | DEBUG   | method | Creating small_world network with 100 nodes, seed=8
+2026-01-20 22:25:12,935 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:12,940 | DEBUG   | method |   t=0: clusters=7, variance=0.4622, max_change=0.091361
+2026-01-20 22:25:13,106 | DEBUG   | method |   Converged at t=64
+2026-01-20 22:25:13,106 | INFO    | method |   Result: clusters=8, lifetime=32.50
+2026-01-20 22:25:13,106 | INFO    | method | Run 200/200: alpha=1.43, seed=9
+2026-01-20 22:25:13,107 | INFO    | method | Running simulation: alpha=1.43, n=100, seed=9, network=small_world
+2026-01-20 22:25:13,107 | DEBUG   | method | Initializing 100 agents with alpha=1.43, seed=9
+2026-01-20 22:25:13,113 | DEBUG   | method | Agent opinions: mean=0.011, std=0.656
+2026-01-20 22:25:13,114 | DEBUG   | method | Creating small_world network with 100 nodes, seed=9
+2026-01-20 22:25:13,115 | DEBUG   | method | Network created: 300 edges, avg_degree=6.00
+2026-01-20 22:25:13,117 | DEBUG   | method |   t=0: clusters=8, variance=0.4307, max_change=0.079852
+2026-01-20 22:25:13,273 | DEBUG   | method |   Converged at t=61
+2026-01-20 22:25:13,482 | INFO    | method |   Result: clusters=9, lifetime=31.00
+2026-01-20 22:25:13,484 | INFO    | method | METHOD experiment took 37.64 seconds (200 simulations)
+2026-01-20 22:25:13,484 | INFO    | method | 
+========================================
+2026-01-20 22:25:13,484 | INFO    | method | AGGREGATING RESULTS
+2026-01-20 22:25:13,484 | INFO    | method | ========================================
+2026-01-20 22:25:13,485 | INFO    | method | BASELINE: avg_lifetime=15.95, avg_clusters=9.7
+2026-01-20 22:25:13,485 | INFO    | method | METHOD:   avg_lifetime=26.03, avg_clusters=10.3
+2026-01-20 22:25:13,488 | INFO    | method | T-test (lifetime): t=-2.751, p=0.0065
+2026-01-20 22:25:13,489 | INFO    | method | Correlation (alpha vs lifetime): r=0.331, p=0.0000
+2026-01-20 22:25:13,489 | INFO    | method | 
+========================================
+2026-01-20 22:25:13,489 | INFO    | method | GENERATING OUTPUT
+2026-01-20 22:25:13,490 | INFO    | method | ========================================
+2026-01-20 22:25:13,631 | INFO    | method | Validating output structure before saving...
+2026-01-20 22:25:13,632 | INFO    | method | Output validation PASSED!
+2026-01-20 22:25:13,632 | INFO    | method | Saving output to: /home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260120_210012/invention_loop/iter2_experiment_workspace_idx0/output/method_out.json
+2026-01-20 22:25:13,659 | INFO    | method | Generated 200 examples
+2026-01-20 22:25:13,659 | INFO    | method | Output preview: {
+  "input": "Simulate opinion dynamics with 100 agents on small_world network. Measure cluster stability (lifetime) with perception asymmetry alpha=0.1.",
+  "output": "Hypothesis: Higher perception asymmetry (alpha) leads to more stable opinion bubbles because agents discount outgroup signals, preventing cluster merging.",
+  "context": {
+    "experiment_type": "parameter_sweep",
+    "n_agents": 100,
+    "network_type": "small_world",
+    "max_timesteps": 300,
+    "seed": 0,
+    ... [TRUNCATED, total 519 chars]
+2026-01-20 22:25:13,701 | INFO    | method | Saved raw results to: /home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260120_210012/invention_loop/iter2_experiment_workspace_idx0/output/raw_results.csv
+2026-01-20 22:25:13,701 | INFO    | method | 
+============================================================
+2026-01-20 22:25:13,702 | INFO    | method | EXPERIMENT COMPLETE
+2026-01-20 22:25:13,702 | INFO    | method | ============================================================
+2026-01-20 22:25:13,702 | INFO    | method | Total runtime: 41.26 seconds
+2026-01-20 22:25:13,702 | INFO    | method | Total simulations: 210
+2026-01-20 22:25:13,702 | INFO    | method | Average time per simulation: 0.20 seconds
+2026-01-20 22:25:13,702 | INFO    | method | 
+========================================
+2026-01-20 22:25:13,702 | INFO    | method | RUNTIME ESTIMATION FOR FULL DATASET
+2026-01-20 22:25:13,702 | INFO    | method | ========================================
+2026-01-20 22:25:13,702 | INFO    | method | Current runtime (200 opinions): 41.26 seconds
+2026-01-20 22:25:13,702 | INFO    | method | Note: Simulation count is independent of dataset size (opinions are sampled)
+2026-01-20 22:25:13,702 | INFO    | method | Estimated full runtime: same as current (~0.7 minutes)
+2026-01-20 22:25:13,702 | INFO    | method | Full dataset will complete well within 1 hour limit.

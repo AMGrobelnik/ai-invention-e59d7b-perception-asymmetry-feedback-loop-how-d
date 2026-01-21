@@ -1,0 +1,6 @@
+2026-01-20 21:57:01.448 | INFO     | __main__:main:905 - [94mLoading opinion distribution from: /home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260120_210012/invention_loop/iter2_experiment_workspace_idx0/dependencies/Political_Bias_Opinion_Distribution_Dataset_for_Ag/full_data_out.json[0m
+2026-01-20 21:57:01.450 | INFO     | __main__:main:907 - Loaded 200 opinion scores
+2026-01-20 21:57:01.451 | INFO     | __main__:main:910 - Opinion distribution: mean=0.052, std=0.697, min=-1.000, max=1.000
+2026-01-20 22:05:41.646 | INFO     | __main__:main:919 - [94mLoading opinion distribution from: /home/adrian/projects/ai-inventor/aii_pipeline/runs/run__20260120_210012/invention_loop/iter2_experiment_workspace_idx0/dependencies/Political_Bias_Opinion_Distribution_Dataset_for_Ag/full_data_out.json[0m
+2026-01-20 22:05:41.648 | INFO     | __main__:main:921 - Loaded 200 opinion scores
+2026-01-20 22:05:41.649 | INFO     | __main__:main:924 - Opinion distribution: mean=0.052, std=0.697, min=-1.000, max=1.000

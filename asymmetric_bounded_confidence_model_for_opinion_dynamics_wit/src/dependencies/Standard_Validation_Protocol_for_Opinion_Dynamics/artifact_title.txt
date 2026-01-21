@@ -1,0 +1,1 @@
+Standard Validation Protocol for Opinion Dynamics Models: Metrics, Benchmarks, and Phase Transition Detection

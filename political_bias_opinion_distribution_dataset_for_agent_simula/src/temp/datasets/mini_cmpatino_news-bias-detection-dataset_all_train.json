@@ -1,0 +1,17 @@
+[
+  {
+    "sentence_id": "002620d6dc5d4371aece7ca96c65e2f5",
+    "text": "The Republican president assumed he was helping the industry at the expense of the environment – a trade-off Trump was happy to make since he rejects climate science anyway. ",
+    "label": 1
+  },
+  {
+    "sentence_id": "00674c2959874ebfaa1bad11ee6b46a5",
+    "text": "Though the indictment of a woman for her own pregnancy loss is unusual in Alabama, it is not unusual for prosecutors to charge people with murder even if they never killed anyone. ",
+    "label": 0
+  },
+  {
+    "sentence_id": "007b10b8e495437cab5a94b0fd6c2a07",
+    "text": "The tragedy of America’s 18 years in Afghanistan has been a stubborn refusal to admit the Afghan government is incapable of standing on its own, no matter how much money is poured into it, how much training its troops are given, or how many of its battles American soldiers fight.",
+    "label": 1
+  }
+]

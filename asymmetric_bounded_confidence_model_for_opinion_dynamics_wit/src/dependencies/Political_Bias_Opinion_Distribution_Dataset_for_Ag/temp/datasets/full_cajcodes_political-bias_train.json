@@ -1,0 +1,2630 @@
+[
+  {
+    "text":"The government should reduce taxes significantly because it will stimulate economic growth and allow businesses to thrive.",
+    "label":0
+  },
+  {
+    "text":"Cutting welfare programs is necessary to encourage personal responsibility and reduce dependency on the state.",
+    "label":0
+  },
+  {
+    "text":"A strong military is essential for national security and to protect our interests abroad.",
+    "label":0
+  },
+  {
+    "text":"Deregulation is crucial to promote free market competition and innovation.",
+    "label":0
+  },
+  {
+    "text":"Traditional family values should be upheld to maintain social order and stability.",
+    "label":0
+  },
+  {
+    "text":"Fiscal responsibility is important because it ensures the government lives within its means.",
+    "label":1
+  },
+  {
+    "text":"Balancing the budget should be a priority to avoid burdening future generations with debt.",
+    "label":1
+  },
+  {
+    "text":"Supporting small businesses is key to a healthy economy and job creation.",
+    "label":1
+  },
+  {
+    "text":"Moderate tax cuts can boost consumer spending and economic growth.",
+    "label":1
+  },
+  {
+    "text":"A strong emphasis on law and order is necessary to maintain public safety.",
+    "label":1
+  },
+  {
+    "text":"In a balanced view, both sides of the argument suggest that economic policies should promote growth while ensuring fairness.",
+    "label":2
+  },
+  {
+    "text":"Effective governance requires balancing the needs of various stakeholders in society.",
+    "label":2
+  },
+  {
+    "text":"Public policies should be designed to address the concerns of both the affluent and the disadvantaged.",
+    "label":2
+  },
+  {
+    "text":"A healthy democracy values diverse perspectives and encourages open debate.",
+    "label":2
+  },
+  {
+    "text":"It is important to consider the long-term impact of policy decisions on all citizens.",
+    "label":2
+  },
+  {
+    "text":"Social programs are essential because they provide a safety net for the most vulnerable members of society.",
+    "label":3
+  },
+  {
+    "text":"Investing in education and healthcare is crucial for a more equitable society.",
+    "label":3
+  },
+  {
+    "text":"Moderate regulation is necessary to protect consumers and the environment.",
+    "label":3
+  },
+  {
+    "text":"Progressive tax policies can help reduce income inequality and fund essential public services.",
+    "label":3
+  },
+  {
+    "text":"A balanced approach to immigration can benefit the economy and enrich cultural diversity.",
+    "label":3
+  },
+  {
+    "text":"We need to significantly increase social spending because it will reduce poverty and improve quality of life for all.",
+    "label":4
+  },
+  {
+    "text":"Universal healthcare is a fundamental right that should be accessible to everyone, regardless of income.",
+    "label":4
+  },
+  {
+    "text":"Aggressive action is required to combat climate change and protect the environment.",
+    "label":4
+  },
+  {
+    "text":"We should raise the minimum wage to ensure that all workers earn a living wage.",
+    "label":4
+  },
+  {
+    "text":"Expanding civil rights protections is essential to ensure equality and justice for all individuals.",
+    "label":4
+  },
+  {
+    "text":"The free market should be the primary driver of economic decisions to maximize efficiency and innovation.",
+    "label":0
+  },
+  {
+    "text":"Lowering corporate taxes will encourage businesses to reinvest in the economy and create jobs.",
+    "label":0
+  },
+  {
+    "text":"Government intervention in the market should be minimal to allow for natural economic cycles.",
+    "label":0
+  },
+  {
+    "text":"Reducing the size of government is necessary to limit overreach and preserve individual freedoms.",
+    "label":0
+  },
+  {
+    "text":"A strong national defense budget ensures our country remains a global leader.",
+    "label":0
+  },
+  {
+    "text":"Maintaining a balanced budget is crucial to avoid excessive national debt and inflation.",
+    "label":1
+  },
+  {
+    "text":"Moderate fiscal policies can support sustainable economic growth without excessive government spending.",
+    "label":1
+  },
+  {
+    "text":"Supporting law enforcement agencies is key to maintaining community safety and order.",
+    "label":1
+  },
+  {
+    "text":"Tax incentives for businesses can spur investment and economic expansion.",
+    "label":1
+  },
+  {
+    "text":"Efficient government spending is necessary to maximize the impact of taxpayer dollars.",
+    "label":1
+  },
+  {
+    "text":"Informed public discourse requires considering both the potential benefits and drawbacks of policy proposals.",
+    "label":2
+  },
+  {
+    "text":"Effective policy-making involves weighing short-term gains against long-term consequences.",
+    "label":2
+  },
+  {
+    "text":"A fair economic system requires addressing both wealth creation and wealth distribution.",
+    "label":2
+  },
+  {
+    "text":"Balanced immigration policies should enhance economic growth while protecting national interests.",
+    "label":2
+  },
+  {
+    "text":"Sound environmental policies should balance economic growth with ecological sustainability.",
+    "label":2
+  },
+  {
+    "text":"Public investment in infrastructure is essential for long-term economic growth and stability.",
+    "label":3
+  },
+  {
+    "text":"Expanding access to affordable housing is key to reducing homelessness and economic inequality.",
+    "label":3
+  },
+  {
+    "text":"Moderate social policies can enhance community welfare without excessive government intervention.",
+    "label":3
+  },
+  {
+    "text":"Public education funding is critical for creating equal opportunities for all students.",
+    "label":3
+  },
+  {
+    "text":"Ensuring fair wages through legislation can help reduce economic disparities.",
+    "label":3
+  },
+  {
+    "text":"Increasing public health funding will improve healthcare outcomes and reduce long-term costs.",
+    "label":4
+  },
+  {
+    "text":"Investment in renewable energy is essential to reduce reliance on fossil fuels and combat climate change.",
+    "label":4
+  },
+  {
+    "text":"Expanding social security benefits can provide better support for the elderly and disabled.",
+    "label":4
+  },
+  {
+    "text":"Implementing universal pre-K education will support early childhood development and future success.",
+    "label":4
+  },
+  {
+    "text":"Strengthening labor rights is necessary to protect workers and promote fair employment practices.",
+    "label":4
+  },
+  {
+    "text":"Reducing barriers to higher education is crucial for increasing access to economic opportunities.",
+    "label":4
+  },
+  {
+    "text":"Expanding public transportation networks can reduce traffic congestion and lower carbon emissions.",
+    "label":4
+  },
+  {
+    "text":"Enhancing mental health services is essential to address growing public health needs.",
+    "label":4
+  },
+  {
+    "text":"Government subsidies for renewable energy can accelerate the transition to a green economy.",
+    "label":4
+  },
+  {
+    "text":"Increasing funding for public health initiatives will improve national health and safety.",
+    "label":4
+  },
+  {
+    "text":"Tax cuts for high-income earners will stimulate investment and economic growth.",
+    "label":0
+  },
+  {
+    "text":"Reducing government spending on social programs will encourage personal responsibility and self-reliance.",
+    "label":0
+  },
+  {
+    "text":"A robust national defense is essential to deter potential threats and maintain global stability.",
+    "label":0
+  },
+  {
+    "text":"Free market principles should guide economic policy to promote innovation and efficiency.",
+    "label":0
+  },
+  {
+    "text":"Lowering taxes on businesses will lead to job creation and economic expansion.",
+    "label":0
+  },
+  {
+    "text":"Encouraging private sector solutions is key to addressing economic challenges effectively.",
+    "label":1
+  },
+  {
+    "text":"A moderate approach to fiscal policy can balance economic growth with responsible spending.",
+    "label":1
+  },
+  {
+    "text":"Supporting community policing initiatives will enhance public safety and trust.",
+    "label":1
+  },
+  {
+    "text":"Tax credits for research and development can drive technological advancements.",
+    "label":1
+  },
+  {
+    "text":"Promoting energy independence through domestic production is vital for national security.",
+    "label":1
+  },
+  {
+    "text":"A well-rounded policy debate should consider both economic efficiency and social equity.",
+    "label":2
+  },
+  {
+    "text":"Effective legislation requires balancing economic incentives with regulatory safeguards.",
+    "label":2
+  },
+  {
+    "text":"Inclusive policy-making should address the needs of both urban and rural communities.",
+    "label":2
+  },
+  {
+    "text":"Balancing economic growth with environmental protection is crucial for sustainable development.",
+    "label":2
+  },
+  {
+    "text":"Constructive political discourse should embrace a variety of perspectives to find common ground.",
+    "label":2
+  },
+  {
+    "text":"Investing in public health infrastructure is essential to prepare for future health crises.",
+    "label":3
+  },
+  {
+    "text":"Promoting renewable energy adoption can reduce carbon emissions and foster economic growth.",
+    "label":3
+  },
+  {
+    "text":"Moderate labor regulations can protect workers' rights without stifling business innovation.",
+    "label":3
+  },
+  {
+    "text":"Expanding public health insurance options can improve healthcare accessibility.",
+    "label":3
+  },
+  {
+    "text":"Public investments in technology infrastructure can boost economic competitiveness.",
+    "label":3
+  },
+  {
+    "text":"Increasing minimum wage standards can help reduce poverty and boost consumer spending.",
+    "label":4
+  },
+  {
+    "text":"Promoting diversity and inclusion in the workplace is essential for social and economic progress.",
+    "label":4
+  },
+  {
+    "text":"Implementing progressive taxation can fund essential public services and reduce inequality.",
+    "label":4
+  },
+  {
+    "text":"Strengthening climate change policies is necessary to protect the environment and public health.",
+    "label":4
+  },
+  {
+    "text":"Expanding educational opportunities for underrepresented groups is key to social equity.",
+    "label":4
+  },
+  {
+    "text":"Providing universal childcare can support working families and promote gender equality.",
+    "label":4
+  },
+  {
+    "text":"Enhancing social safety nets can reduce poverty and provide economic security for all.",
+    "label":4
+  },
+  {
+    "text":"Subsidizing clean energy technologies can accelerate the transition to a sustainable economy.",
+    "label":4
+  },
+  {
+    "text":"Promoting affordable housing initiatives is crucial to address homelessness and housing insecurity.",
+    "label":4
+  },
+  {
+    "text":"Investing in mental health services is essential for comprehensive healthcare.",
+    "label":4
+  },
+  {
+    "text":"Reducing corporate taxes will increase business investment and job creation.",
+    "label":0
+  },
+  {
+    "text":"Minimal government intervention in the economy is crucial for fostering innovation and growth.",
+    "label":0
+  },
+  {
+    "text":"Privatizing public services can lead to more efficient and cost-effective solutions.",
+    "label":0
+  },
+  {
+    "text":"A strong military presence deters adversaries and safeguards national interests.",
+    "label":0
+  },
+  {
+    "text":"Deregulation helps eliminate unnecessary burdens on businesses spurring economic activity.",
+    "label":0
+  },
+  {
+    "text":"Tax relief for high-income earners can lead to greater investment in the economy.",
+    "label":0
+  },
+  {
+    "text":"Encouraging competition through deregulation can lower prices and improve quality.",
+    "label":0
+  },
+  {
+    "text":"Traditional values are essential for maintaining a cohesive and stable society.",
+    "label":0
+  },
+  {
+    "text":"Reducing government debt is critical to prevent economic instability and inflation.",
+    "label":0
+  },
+  {
+    "text":"Empowering states with more control can lead to more effective and tailored governance.",
+    "label":0
+  },
+  {
+    "text":"Maintaining a balanced budget is essential for sustainable economic policy.",
+    "label":1
+  },
+  {
+    "text":"Tax incentives for small businesses can boost local economies and job creation.",
+    "label":1
+  },
+  {
+    "text":"Moderate regulatory policies can protect consumers without stifling innovation.",
+    "label":1
+  },
+  {
+    "text":"Supporting infrastructure development is key to economic growth and efficiency.",
+    "label":1
+  },
+  {
+    "text":"A balanced approach to immigration can benefit both the economy and social cohesion.",
+    "label":1
+  },
+  {
+    "text":"Encouraging public-private partnerships can enhance infrastructure and public services.",
+    "label":1
+  },
+  {
+    "text":"Moderate fiscal policies help maintain economic stability and growth.",
+    "label":1
+  },
+  {
+    "text":"Ensuring public safety through effective law enforcement is crucial for community well-being.",
+    "label":1
+  },
+  {
+    "text":"Promoting energy independence can enhance national security and economic stability.",
+    "label":1
+  },
+  {
+    "text":"Tax deductions for charitable donations encourage philanthropy and community support.",
+    "label":1
+  },
+  {
+    "text":"Effective policy-making should balance economic benefits with environmental sustainability.",
+    "label":2
+  },
+  {
+    "text":"Inclusive economic policies should address both growth and equity.",
+    "label":2
+  },
+  {
+    "text":"Balancing short-term economic gains with long-term sustainability is essential.",
+    "label":2
+  },
+  {
+    "text":"A comprehensive approach to policy-making should consider diverse stakeholder interests.",
+    "label":2
+  },
+  {
+    "text":"Promoting bipartisan solutions can lead to more balanced and effective policies.",
+    "label":2
+  },
+  {
+    "text":"Effective governance requires balancing individual freedoms with social responsibilities.",
+    "label":2
+  },
+  {
+    "text":"A balanced approach to economic policy should consider both growth and fairness.",
+    "label":2
+  },
+  {
+    "text":"Inclusive policies should ensure equitable opportunities for all citizens.",
+    "label":2
+  },
+  {
+    "text":"Considering the environmental impact is essential for sustainable economic policies.",
+    "label":3
+  },
+  {
+    "text":"A balanced view on healthcare should consider both cost and accessibility.",
+    "label":2
+  },
+  {
+    "text":"Investing in renewable energy is crucial for a sustainable future and economic growth.",
+    "label":3
+  },
+  {
+    "text":"Expanding access to higher education can reduce inequality and boost economic mobility.",
+    "label":3
+  },
+  {
+    "text":"Moderate environmental regulations can protect natural resources while supporting economic growth.",
+    "label":3
+  },
+  {
+    "text":"Public investment in healthcare can lead to a healthier more productive population.",
+    "label":3
+  },
+  {
+    "text":"Supporting clean energy initiatives can reduce environmental impact and create jobs.",
+    "label":3
+  },
+  {
+    "text":"Public funding for research and development can drive innovation and economic progress.",
+    "label":3
+  },
+  {
+    "text":"Expanding social welfare programs can provide a safety net for the most vulnerable.",
+    "label":3
+  },
+  {
+    "text":"Moderate increases in the minimum wage can improve living standards without harming employment.",
+    "label":3
+  },
+  {
+    "text":"Investing in public education is key to fostering a skilled and competitive workforce.",
+    "label":3
+  },
+  {
+    "text":"Supporting affordable housing initiatives can reduce homelessness and economic disparity.",
+    "label":3
+  },
+  {
+    "text":"Increasing public funding for mental health services is essential for comprehensive healthcare.",
+    "label":4
+  },
+  {
+    "text":"Promoting renewable energy through subsidies can accelerate the transition to a green economy.",
+    "label":4
+  },
+  {
+    "text":"Expanding healthcare coverage is essential for ensuring all citizens have access to medical care.",
+    "label":4
+  },
+  {
+    "text":"Implementing progressive tax reforms can reduce inequality and fund public services.",
+    "label":4
+  },
+  {
+    "text":"Strengthening labor rights protections is necessary for fair and equitable employment.",
+    "label":4
+  },
+  {
+    "text":"Providing universal basic income can reduce poverty and economic insecurity.",
+    "label":4
+  },
+  {
+    "text":"Increasing funding for public transportation can reduce traffic congestion and emissions.",
+    "label":4
+  },
+  {
+    "text":"Promoting equal opportunities in education is essential for social and economic justice.",
+    "label":4
+  },
+  {
+    "text":"Supporting green technology development is crucial for a sustainable future.",
+    "label":4
+  },
+  {
+    "text":"Expanding civil liberties protections ensures equality and justice for all individuals.",
+    "label":4
+  },
+  {
+    "text":"Lowering taxes on capital gains will encourage investment and economic growth.",
+    "label":0
+  },
+  {
+    "text":"Reducing government oversight in businesses will lead to a more dynamic economy.",
+    "label":0
+  },
+  {
+    "text":"Privatizing healthcare can lead to more efficient and innovative services.",
+    "label":0
+  },
+  {
+    "text":"A strong military ensures national security and supports global stability.",
+    "label":0
+  },
+  {
+    "text":"Reducing regulations on small businesses can spur entrepreneurship and job creation.",
+    "label":0
+  },
+  {
+    "text":"Tax cuts for corporations will result in increased economic activity and job opportunities.",
+    "label":0
+  },
+  {
+    "text":"Promoting free trade can enhance economic growth and consumer choice.",
+    "label":0
+  },
+  {
+    "text":"Traditional family structures are fundamental for societal stability and well-being.",
+    "label":0
+  },
+  {
+    "text":"Limiting government spending is crucial to prevent inflation and economic downturns.",
+    "label":0
+  },
+  {
+    "text":"Empowering local governments can lead to more responsive and effective policies.",
+    "label":0
+  },
+  {
+    "text":"Maintaining a surplus budget is important to prepare for future economic challenges.",
+    "label":1
+  },
+  {
+    "text":"Providing tax incentives for renewable energy can drive innovation and sustainability.",
+    "label":1
+  },
+  {
+    "text":"Balanced immigration policies should enhance economic growth while maintaining security.",
+    "label":1
+  },
+  {
+    "text":"Supporting small and medium-sized enterprises is key to a resilient economy.",
+    "label":1
+  },
+  {
+    "text":"A moderate approach to social policies can balance welfare and economic efficiency.",
+    "label":1
+  },
+  {
+    "text":"Promoting vocational training can help address skill gaps and boost employment.",
+    "label":1
+  },
+  {
+    "text":"Moderate fiscal policies can ensure economic growth and stability.",
+    "label":1
+  },
+  {
+    "text":"Investing in cybersecurity is essential to protect national interests and infrastructure.",
+    "label":1
+  },
+  {
+    "text":"Supporting agricultural subsidies can help stabilize food prices and support farmers.",
+    "label":1
+  },
+  {
+    "text":"Encouraging technological innovation is key to maintaining economic competitiveness.",
+    "label":1
+  },
+  {
+    "text":"Effective policy-making should consider both economic growth and social equity.",
+    "label":2
+  },
+  {
+    "text":"Inclusive governance requires balancing the needs of various demographic groups.",
+    "label":2
+  },
+  {
+    "text":"Balancing economic policies should include considerations for both growth and sustainability.",
+    "label":2
+  },
+  {
+    "text":"A fair policy approach should address both urban and rural community needs.",
+    "label":2
+  },
+  {
+    "text":"Promoting civil discourse is essential for effective and inclusive policy-making.",
+    "label":2
+  },
+  {
+    "text":"Balanced economic policies should consider both short-term and long-term impacts.",
+    "label":2
+  },
+  {
+    "text":"Effective governance requires balancing economic growth with environmental conservation.",
+    "label":2
+  },
+  {
+    "text":"Inclusive education policies should address disparities and promote equal opportunities.",
+    "label":2
+  },
+  {
+    "text":"Balanced healthcare policies should consider both accessibility and cost efficiency.",
+    "label":2
+  },
+  {
+    "text":"Sustainable economic policies should balance growth with environmental impact.",
+    "label":2
+  },
+  {
+    "text":"Investing in public transportation can reduce pollution and improve mobility.",
+    "label":3
+  },
+  {
+    "text":"Expanding access to affordable healthcare is crucial for a healthy society.",
+    "label":3
+  },
+  {
+    "text":"Moderate environmental policies can support economic growth and protect natural resources.",
+    "label":3
+  },
+  {
+    "text":"Public investment in education is key to long-term economic prosperity.",
+    "label":3
+  },
+  {
+    "text":"Promoting clean energy can reduce environmental impact and enhance energy security.",
+    "label":3
+  },
+  {
+    "text":"Supporting public health initiatives can improve community health and reduce healthcare costs.",
+    "label":3
+  },
+  {
+    "text":"Expanding affordable housing can reduce economic inequality and homelessness.",
+    "label":3
+  },
+  {
+    "text":"Moderate increases in social welfare can support vulnerable populations without excessive spending.",
+    "label":3
+  },
+  {
+    "text":"Investing in digital infrastructure can boost economic growth and connectivity.",
+    "label":3
+  },
+  {
+    "text":"Public funding for the arts can enhance cultural richness and community engagement.",
+    "label":3
+  },
+  {
+    "text":"Increasing renewable energy subsidies can accelerate the transition to a sustainable economy.",
+    "label":4
+  },
+  {
+    "text":"Promoting healthcare reform is essential to ensure universal access to medical services.",
+    "label":4
+  },
+  {
+    "text":"Implementing progressive tax policies can fund public services and reduce income inequality.",
+    "label":4
+  },
+  {
+    "text":"Strengthening worker protections is necessary to ensure fair labor practices and economic justice.",
+    "label":4
+  },
+  {
+    "text":"Providing universal childcare can support working families and promote gender equality.",
+    "label":4
+  },
+  {
+    "text":"Increasing funding for green technologies can drive innovation and combat climate change.",
+    "label":4
+  },
+  {
+    "text":"Supporting public health campaigns is essential for preventing disease and promoting wellness.",
+    "label":4
+  },
+  {
+    "text":"Expanding educational funding is crucial for ensuring equal opportunities for all students.",
+    "label":4
+  },
+  {
+    "text":"Promoting affordable healthcare initiatives is key to reducing medical costs and improving access.",
+    "label":4
+  },
+  {
+    "text":"Strengthening environmental regulations is necessary to protect natural resources and public health.",
+    "label":4
+  },
+  {
+    "text":"Economic policies should promote both growth and fairness to ensure balanced development.",
+    "label":2
+  },
+  {
+    "text":"Effective governance balances economic growth with social responsibility.",
+    "label":2
+  },
+  {
+    "text":"Policies should aim for a fair distribution of resources to benefit all citizens.",
+    "label":2
+  },
+  {
+    "text":"A balanced approach to taxation should consider both revenue needs and economic impact.",
+    "label":2
+  },
+  {
+    "text":"Public policies should address the needs of both the affluent and the disadvantaged.",
+    "label":2
+  },
+  {
+    "text":"Balanced economic policies should focus on both growth and equitable distribution.",
+    "label":2
+  },
+  {
+    "text":"Effective policy-making requires considering diverse perspectives and interests.",
+    "label":2
+  },
+  {
+    "text":"A balanced view on healthcare should weigh both accessibility and affordability.",
+    "label":2
+  },
+  {
+    "text":"Policies should aim to balance environmental sustainability with economic growth.",
+    "label":2
+  },
+  {
+    "text":"Inclusive governance should consider the interests of all demographic groups.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should ensure both competitiveness and social equity.",
+    "label":2
+  },
+  {
+    "text":"Balanced regulations should protect consumers without stifling innovation.",
+    "label":2
+  },
+  {
+    "text":"Effective policy-making balances economic incentives with environmental protections.",
+    "label":2
+  },
+  {
+    "text":"Governance should aim to balance individual freedoms with community welfare.",
+    "label":2
+  },
+  {
+    "text":"A balanced approach to trade policies should consider both domestic and global impacts.",
+    "label":2
+  },
+  {
+    "text":"Policies should promote both technological innovation and job security.",
+    "label":2
+  },
+  {
+    "text":"Effective economic policies balance short-term gains with long-term stability.",
+    "label":2
+  },
+  {
+    "text":"A balanced view on immigration should consider both economic benefits and social integration.",
+    "label":2
+  },
+  {
+    "text":"Policies should ensure both economic efficiency and social justice.",
+    "label":2
+  },
+  {
+    "text":"Balanced governance should address both current needs and future sustainability.",
+    "label":2
+  },
+  {
+    "text":"Public investment should balance economic growth with environmental conservation.",
+    "label":2
+  },
+  {
+    "text":"Effective policies should balance economic development with quality of life.",
+    "label":2
+  },
+  {
+    "text":"A balanced approach to education funding should promote both access and quality.",
+    "label":2
+  },
+  {
+    "text":"Policies should aim for economic growth that is both inclusive and sustainable.",
+    "label":2
+  },
+  {
+    "text":"Governance should balance fiscal responsibility with social welfare.",
+    "label":2
+  },
+  {
+    "text":"A balanced approach to healthcare should ensure both quality and affordability.",
+    "label":2
+  },
+  {
+    "text":"Policies should address both economic disparities and opportunities for growth.",
+    "label":2
+  },
+  {
+    "text":"Effective governance balances economic priorities with social justice.",
+    "label":2
+  },
+  {
+    "text":"A balanced approach to regulation should protect public interests without hindering progress.",
+    "label":2
+  },
+  {
+    "text":"Policies should promote both economic dynamism and social stability.",
+    "label":2
+  },
+  {
+    "text":"Balanced governance should ensure both economic resilience and environmental health.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should aim for both growth and income equality.",
+    "label":2
+  },
+  {
+    "text":"A balanced view on energy policy should consider both sustainability and affordability.",
+    "label":2
+  },
+  {
+    "text":"Governance should balance economic development with cultural preservation.",
+    "label":2
+  },
+  {
+    "text":"Policies should promote both competitive markets and consumer protections.",
+    "label":2
+  },
+  {
+    "text":"Effective policy-making requires balancing economic efficiency with ethical considerations.",
+    "label":2
+  },
+  {
+    "text":"A balanced approach to labor policies should ensure both productivity and worker rights.",
+    "label":2
+  },
+  {
+    "text":"Governance should balance technological advancement with societal well-being.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should promote both innovation and economic security.",
+    "label":2
+  },
+  {
+    "text":"A balanced view on fiscal policy should consider both growth and equity.",
+    "label":2
+  },
+  {
+    "text":"Policies should aim to balance economic opportunity with environmental stewardship.",
+    "label":2
+  },
+  {
+    "text":"Effective governance balances market freedom with regulatory safeguards.",
+    "label":2
+  },
+  {
+    "text":"A balanced approach to social policies should ensure both economic and social benefits.",
+    "label":2
+  },
+  {
+    "text":"Policies should promote both fiscal discipline and social investment.",
+    "label":2
+  },
+  {
+    "text":"Governance should balance economic goals with public health priorities.",
+    "label":2
+  },
+  {
+    "text":"A balanced approach to economic reform should consider both efficiency and equity.",
+    "label":2
+  },
+  {
+    "text":"Policies should address both economic challenges and opportunities for inclusion.",
+    "label":2
+  },
+  {
+    "text":"Effective governance balances economic growth with human rights protections.",
+    "label":2
+  },
+  {
+    "text":"A balanced view on public spending should consider both economic and social outcomes.",
+    "label":2
+  },
+  {
+    "text":"Governance should aim to balance innovation with traditional values.",
+    "label":2
+  },
+  {
+    "text":"Moderate tax policies should aim to stimulate growth while ensuring fairness.",
+    "label":1
+  },
+  {
+    "text":"Balancing budget priorities requires careful consideration of both fiscal discipline and social needs.",
+    "label":1
+  },
+  {
+    "text":"Supporting clean energy development can enhance economic growth while protecting the environment.",
+    "label":1
+  },
+  {
+    "text":"Moderate regulation can ensure market stability without stifling innovation.",
+    "label":1
+  },
+  {
+    "text":"Investing in education is crucial for long-term economic prosperity and social equity.",
+    "label":1
+  },
+  {
+    "text":"Balancing law enforcement with community engagement can enhance public safety and trust.",
+    "label":1
+  },
+  {
+    "text":"Moderate healthcare reforms should focus on improving access and controlling costs.",
+    "label":1
+  },
+  {
+    "text":"Supporting infrastructure development is key to economic growth and quality of life.",
+    "label":1
+  },
+  {
+    "text":"Balanced immigration policies can boost the economy while ensuring security.",
+    "label":1
+  },
+  {
+    "text":"Moderate fiscal policies can promote sustainable growth without excessive government intervention.",
+    "label":1
+  },
+  {
+    "text":"Encouraging small business development can spur local economic growth.",
+    "label":1
+  },
+  {
+    "text":"Moderate approaches to social programs can provide support without encouraging dependency.",
+    "label":1
+  },
+  {
+    "text":"Balanced energy policies should promote both sustainability and economic viability.",
+    "label":1
+  },
+  {
+    "text":"Supporting vocational training can address skill gaps and enhance employment opportunities.",
+    "label":1
+  },
+  {
+    "text":"Moderate tax incentives can stimulate investment without significantly reducing government revenue.",
+    "label":1
+  },
+  {
+    "text":"Promoting renewable energy can balance economic growth with environmental stewardship.",
+    "label":1
+  },
+  {
+    "text":"Balanced labor policies should protect worker rights while encouraging productivity.",
+    "label":1
+  },
+  {
+    "text":"Moderate social policies can enhance welfare without burdening the economy.",
+    "label":1
+  },
+  {
+    "text":"Encouraging technological innovation can drive economic growth and improve quality of life.",
+    "label":1
+  },
+  {
+    "text":"Moderate increases in public spending can support growth while maintaining fiscal responsibility.",
+    "label":1
+  },
+  {
+    "text":"Balanced trade policies should promote economic growth while protecting domestic industries.",
+    "label":1
+  },
+  {
+    "text":"Supporting research and development can drive innovation and economic competitiveness.",
+    "label":1
+  },
+  {
+    "text":"Moderate environmental regulations can protect resources while supporting economic growth.",
+    "label":1
+  },
+  {
+    "text":"Balanced healthcare policies should ensure quality care while controlling costs.",
+    "label":1
+  },
+  {
+    "text":"Encouraging public-private partnerships can enhance infrastructure and services.",
+    "label":1
+  },
+  {
+    "text":"Moderate education policies should promote both access and quality.",
+    "label":1
+  },
+  {
+    "text":"Supporting moderate increases in minimum wage can boost income without harming employment.",
+    "label":1
+  },
+  {
+    "text":"Balanced approaches to public safety should consider both enforcement and prevention.",
+    "label":1
+  },
+  {
+    "text":"Encouraging investment in technology can enhance productivity and economic growth.",
+    "label":1
+  },
+  {
+    "text":"Moderate public health policies should promote wellness while controlling expenditures.",
+    "label":1
+  },
+  {
+    "text":"Balanced tax policies should consider both revenue needs and economic impact.",
+    "label":1
+  },
+  {
+    "text":"Encouraging energy efficiency can reduce costs and environmental impact.",
+    "label":1
+  },
+  {
+    "text":"Moderate social welfare policies should support those in need while encouraging self-sufficiency.",
+    "label":1
+  },
+  {
+    "text":"Balanced fiscal policies should ensure economic stability and growth.",
+    "label":1
+  },
+  {
+    "text":"Supporting moderate labor reforms can protect workers while enhancing economic flexibility.",
+    "label":1
+  },
+  {
+    "text":"Moderate regulatory policies can protect consumers without hindering business innovation.",
+    "label":1
+  },
+  {
+    "text":"Balanced education funding should support both public and private institutions.",
+    "label":1
+  },
+  {
+    "text":"Encouraging sustainable agriculture can enhance food security and economic growth.",
+    "label":1
+  },
+  {
+    "text":"Moderate healthcare reforms should balance cost control with quality improvement.",
+    "label":1
+  },
+  {
+    "text":"Supporting renewable energy research can drive innovation and environmental benefits.",
+    "label":1
+  },
+  {
+    "text":"Balanced economic policies should promote growth and reduce inequality.",
+    "label":1
+  },
+  {
+    "text":"Encouraging moderate increases in public investment can stimulate growth.",
+    "label":1
+  },
+  {
+    "text":"Moderate tax reforms should aim to simplify the system while ensuring fairness.",
+    "label":1
+  },
+  {
+    "text":"Balanced approaches to social services should ensure support without excessive spending.",
+    "label":1
+  },
+  {
+    "text":"Supporting moderate fiscal discipline can enhance economic resilience.",
+    "label":1
+  },
+  {
+    "text":"Encouraging balanced urban development can enhance economic and social outcomes.",
+    "label":1
+  },
+  {
+    "text":"Moderate transportation policies should promote efficiency and sustainability.",
+    "label":1
+  },
+  {
+    "text":"Balanced economic strategies should consider both growth and social equity.",
+    "label":1
+  },
+  {
+    "text":"Supporting moderate innovation policies can drive progress without significant risk.",
+    "label":1
+  },
+  {
+    "text":"Moderate public safety reforms should balance enforcement with community relations.",
+    "label":1
+  },
+  {
+    "text":"Economic policies should aim for growth while ensuring equitable opportunities for all.",
+    "label":2
+  },
+  {
+    "text":"Balanced governance should consider both economic efficiency and social justice.",
+    "label":2
+  },
+  {
+    "text":"Public policies should promote both individual freedom and community welfare.",
+    "label":2
+  },
+  {
+    "text":"Effective policy-making requires balancing economic growth with social equity.",
+    "label":2
+  },
+  {
+    "text":"Governance should aim to balance market dynamics with regulatory safeguards.",
+    "label":2
+  },
+  {
+    "text":"Economic development should be pursued while ensuring environmental sustainability.",
+    "label":2
+  },
+  {
+    "text":"Balanced public spending should address both current needs and future challenges.",
+    "label":2
+  },
+  {
+    "text":"Policy decisions should weigh both economic benefits and social impacts.",
+    "label":2
+  },
+  {
+    "text":"Inclusive governance requires considering diverse perspectives and interests.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should balance growth with fair distribution of resources.",
+    "label":2
+  },
+  {
+    "text":"Effective governance should address both economic opportunities and social disparities.",
+    "label":2
+  },
+  {
+    "text":"Balanced regulation should protect consumers while fostering innovation.",
+    "label":2
+  },
+  {
+    "text":"Governance should aim for both fiscal responsibility and social welfare.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should support growth while promoting environmental conservation.",
+    "label":2
+  },
+  {
+    "text":"Public policies should balance economic development with quality of life improvements.",
+    "label":2
+  },
+  {
+    "text":"Balanced governance should consider both short-term gains and long-term sustainability.",
+    "label":2
+  },
+  {
+    "text":"Economic strategies should promote both competitiveness and social inclusion.",
+    "label":2
+  },
+  {
+    "text":"Public investment should balance economic growth with community benefits.",
+    "label":2
+  },
+  {
+    "text":"Effective policies should address both economic challenges and social needs.",
+    "label":2
+  },
+  {
+    "text":"Governance should balance economic freedom with public welfare.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should support innovation while ensuring equitable outcomes.",
+    "label":2
+  },
+  {
+    "text":"Balanced public policies should consider both economic and environmental impacts.",
+    "label":2
+  },
+  {
+    "text":"Governance should aim to balance economic growth with equitable resource distribution.",
+    "label":2
+  },
+  {
+    "text":"Economic development should promote both progress and sustainability.",
+    "label":2
+  },
+  {
+    "text":"Effective policy-making should address both market efficiency and social equity.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should ensure growth while promoting fair opportunities for all.",
+    "label":2
+  },
+  {
+    "text":"Balanced governance should focus on both economic vitality and social justice.",
+    "label":2
+  },
+  {
+    "text":"Public policies should balance economic interests with public health considerations.",
+    "label":2
+  },
+  {
+    "text":"Economic strategies should ensure both growth and equitable wealth distribution.",
+    "label":2
+  },
+  {
+    "text":"Governance should aim to balance technological advancement with social responsibility.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should promote innovation while ensuring fair access to opportunities.",
+    "label":2
+  },
+  {
+    "text":"Balanced public spending should address both infrastructure needs and social programs.",
+    "label":2
+  },
+  {
+    "text":"Governance should balance economic incentives with regulatory protections.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should support growth while addressing social inequalities.",
+    "label":2
+  },
+  {
+    "text":"Effective governance should promote both economic dynamism and social welfare.",
+    "label":2
+  },
+  {
+    "text":"Economic strategies should focus on both competitiveness and equitable growth.",
+    "label":2
+  },
+  {
+    "text":"Governance should balance market freedoms with social safety nets.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should ensure growth while promoting environmental responsibility.",
+    "label":2
+  },
+  {
+    "text":"Balanced public policies should consider both economic development and social justice.",
+    "label":2
+  },
+  {
+    "text":"Governance should aim to balance economic progress with community well-being.",
+    "label":2
+  },
+  {
+    "text":"Economic strategies should promote both innovation and social equity.",
+    "label":2
+  },
+  {
+    "text":"Public policies should balance economic growth with public interest protections.",
+    "label":2
+  },
+  {
+    "text":"Governance should balance technological progress with ethical considerations.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should support competitiveness while promoting social inclusion.",
+    "label":2
+  },
+  {
+    "text":"Balanced public spending should consider both economic benefits and social impacts.",
+    "label":2
+  },
+  {
+    "text":"Governance should aim to balance economic growth with environmental sustainability.",
+    "label":2
+  },
+  {
+    "text":"Economic strategies should ensure both progress and equitable opportunities.",
+    "label":2
+  },
+  {
+    "text":"Public policies should promote both economic efficiency and social justice.",
+    "label":2
+  },
+  {
+    "text":"Investing in renewable energy can drive economic growth and environmental sustainability.",
+    "label":3
+  },
+  {
+    "text":"Expanding access to education is crucial for reducing social inequalities.",
+    "label":3
+  },
+  {
+    "text":"Moderate social policies should enhance welfare while promoting economic growth.",
+    "label":3
+  },
+  {
+    "text":"Supporting public health initiatives can improve overall quality of life.",
+    "label":3
+  },
+  {
+    "text":"Moderate tax reforms can support economic growth and reduce income inequality.",
+    "label":3
+  },
+  {
+    "text":"Public investment in green technology can boost economic competitiveness.",
+    "label":3
+  },
+  {
+    "text":"Expanding affordable healthcare is essential for social and economic well-being.",
+    "label":3
+  },
+  {
+    "text":"Moderate increases in social welfare can reduce poverty without excessive spending.",
+    "label":3
+  },
+  {
+    "text":"Investing in public education is key to fostering equal opportunities.",
+    "label":3
+  },
+  {
+    "text":"Supporting renewable energy initiatives can drive sustainable economic growth.",
+    "label":3
+  },
+  {
+    "text":"Moderate environmental policies can protect resources while supporting economic growth.",
+    "label":3
+  },
+  {
+    "text":"Expanding access to affordable housing can reduce economic disparities.",
+    "label":3
+  },
+  {
+    "text":"Moderate healthcare reforms can improve access while controlling costs.",
+    "label":3
+  },
+  {
+    "text":"Public investment in infrastructure can enhance economic efficiency and social equity.",
+    "label":3
+  },
+  {
+    "text":"Supporting clean energy development is crucial for long-term sustainability.",
+    "label":3
+  },
+  {
+    "text":"Expanding social programs can provide a safety net for vulnerable populations.",
+    "label":3
+  },
+  {
+    "text":"Moderate regulation can protect consumers while fostering economic innovation.",
+    "label":3
+  },
+  {
+    "text":"Investing in public health can lead to a healthier and more productive society.",
+    "label":3
+  },
+  {
+    "text":"Supporting vocational training can boost employment and economic mobility.",
+    "label":3
+  },
+  {
+    "text":"Moderate increases in public spending can stimulate economic growth and social welfare.",
+    "label":3
+  },
+  {
+    "text":"Promoting green energy technologies can enhance economic growth and environmental protection.",
+    "label":3
+  },
+  {
+    "text":"Expanding public transportation can reduce traffic congestion and promote sustainability.",
+    "label":3
+  },
+  {
+    "text":"Moderate tax incentives can encourage investment in renewable energy.",
+    "label":3
+  },
+  {
+    "text":"Supporting public-private partnerships can enhance infrastructure and social services.",
+    "label":3
+  },
+  {
+    "text":"Investing in mental health services is essential for comprehensive healthcare.",
+    "label":3
+  },
+  {
+    "text":"Moderate increases in minimum wage can improve living standards and boost the economy.",
+    "label":3
+  },
+  {
+    "text":"Promoting affordable healthcare is key to reducing medical costs and improving access.",
+    "label":3
+  },
+  {
+    "text":"Expanding access to quality education can reduce social and economic disparities.",
+    "label":3
+  },
+  {
+    "text":"Supporting public health campaigns can improve community health and well-being.",
+    "label":3
+  },
+  {
+    "text":"Investing in renewable energy research can drive innovation and sustainability.",
+    "label":3
+  },
+  {
+    "text":"Moderate increases in social spending can reduce poverty and enhance economic stability.",
+    "label":3
+  },
+  {
+    "text":"Promoting equal opportunities in education is essential for social equity.",
+    "label":3
+  },
+  {
+    "text":"Supporting green infrastructure projects can enhance economic and environmental outcomes.",
+    "label":3
+  },
+  {
+    "text":"Expanding civil rights protections is essential for ensuring social justice.",
+    "label":4
+  },
+  {
+    "text":"Implementing progressive tax policies can fund essential public services.",
+    "label":4
+  },
+  {
+    "text":"Strengthening labor rights can promote fair employment practices and economic justice.",
+    "label":4
+  },
+  {
+    "text":"Providing universal basic income can reduce economic insecurity and poverty.",
+    "label":4
+  },
+  {
+    "text":"Increasing public funding for green technology can drive innovation and sustainability.",
+    "label":4
+  },
+  {
+    "text":"Supporting universal healthcare ensures all citizens have access to medical care.",
+    "label":4
+  },
+  {
+    "text":"Expanding public health initiatives is crucial for comprehensive healthcare.",
+    "label":4
+  },
+  {
+    "text":"Promoting affordable housing policies can reduce homelessness and economic disparity.",
+    "label":4
+  },
+  {
+    "text":"Implementing renewable energy subsidies can accelerate the transition to a green economy.",
+    "label":4
+  },
+  {
+    "text":"Supporting public health reforms is essential for improving healthcare outcomes.",
+    "label":4
+  },
+  {
+    "text":"Expanding access to higher education is key to reducing social inequalities.",
+    "label":4
+  },
+  {
+    "text":"Strengthening environmental regulations is necessary to protect public health and natural resources.",
+    "label":4
+  },
+  {
+    "text":"Promoting social welfare programs can reduce poverty and improve quality of life.",
+    "label":4
+  },
+  {
+    "text":"Implementing progressive labor policies can ensure fair wages and worker protections.",
+    "label":4
+  },
+  {
+    "text":"Supporting public transportation initiatives can reduce emissions and improve mobility.",
+    "label":4
+  },
+  {
+    "text":"Expanding public health coverage can reduce medical costs and improve access.",
+    "label":4
+  },
+  {
+    "text":"Promoting green energy policies is essential for environmental sustainability.",
+    "label":4
+  },
+  {
+    "text":"Strengthening civil liberties protections is crucial for ensuring equality and justice.",
+    "label":4
+  },
+  {
+    "text":"Providing universal pre-K education can support early childhood development.",
+    "label":4
+  },
+  {
+    "text":"Increasing funding for mental health services is essential for public health.",
+    "label":4
+  },
+  {
+    "text":"Supporting public health campaigns is crucial for disease prevention and wellness.",
+    "label":4
+  },
+  {
+    "text":"Expanding educational funding is key to ensuring equal opportunities for all students.",
+    "label":4
+  },
+  {
+    "text":"Promoting affordable healthcare initiatives can reduce medical costs and improve access.",
+    "label":4
+  },
+  {
+    "text":"Implementing progressive tax reforms can reduce inequality and fund public services.",
+    "label":4
+  },
+  {
+    "text":"Supporting renewable energy research is essential for a sustainable future.",
+    "label":4
+  },
+  {
+    "text":"Providing universal childcare can support working families and promote equality.",
+    "label":4
+  },
+  {
+    "text":"Strengthening climate policies is crucial to combat global warming and protect the environment.",
+    "label":4
+  },
+  {
+    "text":"Increasing funding for public transportation can enhance mobility and reduce emissions.",
+    "label":4
+  },
+  {
+    "text":"Promoting equal opportunities in education is essential for social and economic justice.",
+    "label":4
+  },
+  {
+    "text":"Supporting green technology development is crucial for a sustainable economy.",
+    "label":4
+  },
+  {
+    "text":"Expanding civil liberties protections ensures equality and justice for all.",
+    "label":4
+  },
+  {
+    "text":"Reducing taxes on high-income earners will stimulate investment and job creation.",
+    "label":0
+  },
+  {
+    "text":"Minimal government regulation is essential for a thriving free market economy.",
+    "label":0
+  },
+  {
+    "text":"Lowering corporate taxes will lead to increased economic activity and employment.",
+    "label":0
+  },
+  {
+    "text":"Privatizing public services can lead to greater efficiency and cost savings.",
+    "label":0
+  },
+  {
+    "text":"A strong military budget is necessary to maintain national security and global influence.",
+    "label":0
+  },
+  {
+    "text":"Reducing welfare programs will encourage personal responsibility and economic independence.",
+    "label":0
+  },
+  {
+    "text":"Deregulation of industries promotes competition and innovation.",
+    "label":0
+  },
+  {
+    "text":"Lowering capital gains taxes will boost investment and economic growth.",
+    "label":0
+  },
+  {
+    "text":"A limited government ensures individual freedoms and economic prosperity.",
+    "label":0
+  },
+  {
+    "text":"Promoting traditional values is essential for maintaining social order.",
+    "label":0
+  },
+  {
+    "text":"Cutting government spending will reduce the national debt and stimulate the economy.",
+    "label":0
+  },
+  {
+    "text":"Reducing corporate tax rates will make the economy more competitive globally.",
+    "label":0
+  },
+  {
+    "text":"A free market economy is the best way to ensure economic growth and innovation.",
+    "label":0
+  },
+  {
+    "text":"Lowering income taxes will increase disposable income and boost consumer spending.",
+    "label":0
+  },
+  {
+    "text":"Minimal state intervention is key to preserving individual liberties and economic freedom.",
+    "label":0
+  },
+  {
+    "text":"Reducing regulations on businesses will enhance economic growth and job creation.",
+    "label":0
+  },
+  {
+    "text":"Lowering taxes on businesses will spur investment and create jobs.",
+    "label":0
+  },
+  {
+    "text":"A strong national defense is crucial for protecting the nation's interests.",
+    "label":0
+  },
+  {
+    "text":"Reducing government oversight will promote business innovation and efficiency.",
+    "label":0
+  },
+  {
+    "text":"Encouraging private sector solutions can lead to more effective and efficient public services.",
+    "label":0
+  },
+  {
+    "text":"Maintaining a balanced budget is essential for economic stability and growth.",
+    "label":1
+  },
+  {
+    "text":"Moderate tax cuts can stimulate economic growth without compromising public services.",
+    "label":1
+  },
+  {
+    "text":"Supporting small businesses is key to economic resilience and job creation.",
+    "label":1
+  },
+  {
+    "text":"Fiscal responsibility ensures sustainable government spending and economic stability.",
+    "label":1
+  },
+  {
+    "text":"Promoting energy independence can enhance national security and economic growth.",
+    "label":1
+  },
+  {
+    "text":"Moderate regulatory policies can protect consumers while fostering economic growth.",
+    "label":1
+  },
+  {
+    "text":"Encouraging public-private partnerships can enhance infrastructure development.",
+    "label":1
+  },
+  {
+    "text":"Balancing the budget should be a priority to ensure long-term economic health.",
+    "label":1
+  },
+  {
+    "text":"Supporting moderate tax reforms can enhance economic efficiency.",
+    "label":1
+  },
+  {
+    "text":"Promoting vocational training can address skill gaps and boost employment.",
+    "label":1
+  },
+  {
+    "text":"Moderate healthcare reforms can improve access while maintaining fiscal responsibility.",
+    "label":1
+  },
+  {
+    "text":"Supporting infrastructure investment is crucial for economic growth and efficiency.",
+    "label":1
+  },
+  {
+    "text":"Moderate increases in public spending can support essential services and stimulate growth.",
+    "label":1
+  },
+  {
+    "text":"Promoting balanced trade policies can enhance economic growth and competitiveness.",
+    "label":1
+  },
+  {
+    "text":"Moderate fiscal policies can support economic stability and growth.",
+    "label":1
+  },
+  {
+    "text":"Supporting community policing can enhance public safety and trust.",
+    "label":1
+  },
+  {
+    "text":"Encouraging energy efficiency can reduce costs and enhance economic resilience.",
+    "label":1
+  },
+  {
+    "text":"Moderate social policies can enhance welfare without excessive government intervention.",
+    "label":1
+  },
+  {
+    "text":"Balancing economic growth with fiscal responsibility is essential for long-term prosperity.",
+    "label":1
+  },
+  {
+    "text":"Supporting moderate environmental regulations can protect resources without stifling growth.",
+    "label":1
+  },
+  {
+    "text":"Economic policies should promote both growth and fairness to ensure balanced development.",
+    "label":2
+  },
+  {
+    "text":"Balanced governance should consider both economic efficiency and social justice.",
+    "label":2
+  },
+  {
+    "text":"Public policies should promote both individual freedom and community welfare.",
+    "label":2
+  },
+  {
+    "text":"Effective policy-making requires balancing economic growth with social equity.",
+    "label":2
+  },
+  {
+    "text":"Governance should aim to balance market dynamics with regulatory safeguards.",
+    "label":2
+  },
+  {
+    "text":"Economic development should be pursued while ensuring environmental sustainability.",
+    "label":2
+  },
+  {
+    "text":"Balanced public spending should address both current needs and future challenges.",
+    "label":2
+  },
+  {
+    "text":"Policy decisions should weigh both economic benefits and social impacts.",
+    "label":2
+  },
+  {
+    "text":"Inclusive governance requires considering diverse perspectives and interests.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should balance growth with fair distribution of resources.",
+    "label":2
+  },
+  {
+    "text":"Effective governance should address both economic opportunities and social disparities.",
+    "label":2
+  },
+  {
+    "text":"Balanced regulation should protect consumers while fostering innovation.",
+    "label":2
+  },
+  {
+    "text":"Governance should aim for both fiscal responsibility and social welfare.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should support growth while promoting environmental conservation.",
+    "label":2
+  },
+  {
+    "text":"Public policies should balance economic development with quality of life improvements.",
+    "label":2
+  },
+  {
+    "text":"Balanced governance should consider both short-term gains and long-term sustainability.",
+    "label":2
+  },
+  {
+    "text":"Economic strategies should promote both competitiveness and social inclusion.",
+    "label":2
+  },
+  {
+    "text":"Public investment should balance economic growth with community benefits.",
+    "label":2
+  },
+  {
+    "text":"Effective policies should address both economic challenges and social needs.",
+    "label":2
+  },
+  {
+    "text":"Governance should balance economic freedom with public welfare.",
+    "label":2
+  },
+  {
+    "text":"Moderate tax policies should balance revenue generation with economic growth.",
+    "label":1
+  },
+  {
+    "text":"Supporting innovation through moderate regulation can enhance economic development.",
+    "label":1
+  },
+  {
+    "text":"Fiscal responsibility involves managing government spending while promoting growth.",
+    "label":1
+  },
+  {
+    "text":"Balanced trade policies should consider both domestic industry protection and global competitiveness.",
+    "label":1
+  },
+  {
+    "text":"Moderate healthcare reforms should balance cost control with quality improvement.",
+    "label":1
+  },
+  {
+    "text":"Encouraging energy independence through diverse energy sources can enhance security.",
+    "label":1
+  },
+  {
+    "text":"Promoting vocational education can help align workforce skills with industry needs.",
+    "label":1
+  },
+  {
+    "text":"Moderate tax incentives can support small business growth without reducing revenue.",
+    "label":1
+  },
+  {
+    "text":"Balanced public policies should consider both economic efficiency and social welfare.",
+    "label":1
+  },
+  {
+    "text":"Supporting technological advancements through moderate regulation can boost economic growth.",
+    "label":1
+  },
+  {
+    "text":"Moderate environmental policies should protect natural resources while supporting economic activity.",
+    "label":1
+  },
+  {
+    "text":"Encouraging infrastructure development can enhance economic resilience and efficiency.",
+    "label":1
+  },
+  {
+    "text":"Moderate fiscal policies can promote economic stability and sustainable growth.",
+    "label":1
+  },
+  {
+    "text":"Supporting balanced labor regulations can protect workers while encouraging job creation.",
+    "label":1
+  },
+  {
+    "text":"Moderate social programs should provide safety nets without creating dependency.",
+    "label":1
+  },
+  {
+    "text":"Promoting moderate tax cuts can stimulate consumer spending and economic expansion.",
+    "label":1
+  },
+  {
+    "text":"Balanced economic policies should aim to enhance growth while ensuring fairness.",
+    "label":1
+  },
+  {
+    "text":"Supporting public-private partnerships can drive innovation in public services.",
+    "label":1
+  },
+  {
+    "text":"Moderate increases in minimum wage can improve living standards without harming employment.",
+    "label":1
+  },
+  {
+    "text":"Encouraging sustainable practices through moderate regulation can benefit the economy.",
+    "label":1
+  },
+  {
+    "text":"Balanced fiscal discipline is crucial for long-term economic health and stability.",
+    "label":1
+  },
+  {
+    "text":"Supporting moderate public investment can stimulate growth and enhance quality of life.",
+    "label":1
+  },
+  {
+    "text":"Moderate healthcare policies should ensure accessibility while controlling public spending.",
+    "label":1
+  },
+  {
+    "text":"Encouraging technological innovation with balanced policies can drive economic progress.",
+    "label":1
+  },
+  {
+    "text":"Moderate energy policies should promote efficiency and sustainability.",
+    "label":1
+  },
+  {
+    "text":"Supporting moderate increases in infrastructure spending can enhance economic growth.",
+    "label":1
+  },
+  {
+    "text":"Balanced economic strategies should focus on both growth and social equity.",
+    "label":1
+  },
+  {
+    "text":"Promoting moderate tax reforms can simplify the system and improve efficiency.",
+    "label":1
+  },
+  {
+    "text":"Moderate public health policies should focus on prevention and cost-effective care.",
+    "label":1
+  },
+  {
+    "text":"Encouraging balanced urban development can enhance economic and social outcomes.",
+    "label":1
+  },
+  {
+    "text":"Moderate transportation policies should improve efficiency and reduce environmental impact.",
+    "label":1
+  },
+  {
+    "text":"Supporting balanced education funding can promote equal opportunities and economic growth.",
+    "label":1
+  },
+  {
+    "text":"Moderate increases in renewable energy investment can enhance sustainability.",
+    "label":1
+  },
+  {
+    "text":"Encouraging moderate economic reforms can enhance competitiveness and inclusivity.",
+    "label":1
+  },
+  {
+    "text":"Balanced fiscal policies should support both economic dynamism and social stability.",
+    "label":1
+  },
+  {
+    "text":"Supporting moderate innovation policies can drive technological advancement and economic growth.",
+    "label":1
+  },
+  {
+    "text":"Moderate public safety reforms should balance enforcement with community relations.",
+    "label":1
+  },
+  {
+    "text":"Encouraging balanced economic policies can enhance growth while reducing inequality.",
+    "label":1
+  },
+  {
+    "text":"Supporting moderate increases in social investment can reduce disparities and promote stability.",
+    "label":1
+  },
+  {
+    "text":"Balanced healthcare strategies should consider both public health outcomes and economic sustainability.",
+    "label":1
+  },
+  {
+    "text":"Moderate regulatory policies should ensure market stability and consumer protection.",
+    "label":1
+  },
+  {
+    "text":"Promoting balanced environmental regulations can protect ecosystems and support economic activity.",
+    "label":1
+  },
+  {
+    "text":"Moderate fiscal strategies should aim to balance growth with responsible spending.",
+    "label":1
+  },
+  {
+    "text":"Encouraging moderate public investment in technology can drive innovation and economic progress.",
+    "label":1
+  },
+  {
+    "text":"Balanced economic policies should aim to enhance both competitiveness and social equity.",
+    "label":1
+  },
+  {
+    "text":"Supporting moderate public health initiatives can improve wellness and economic productivity.",
+    "label":1
+  },
+  {
+    "text":"Moderate tax policies should aim to enhance revenue without stifling growth.",
+    "label":1
+  },
+  {
+    "text":"Encouraging balanced trade policies can boost economic growth while protecting domestic interests.",
+    "label":1
+  },
+  {
+    "text":"Moderate approaches to social services should ensure support without excessive expenditure.",
+    "label":1
+  },
+  {
+    "text":"Effective governance balances economic growth with social responsibility and environmental stewardship.",
+    "label":2
+  },
+  {
+    "text":"Public policies should aim to ensure both economic vitality and social equity.",
+    "label":2
+  },
+  {
+    "text":"Balanced regulation should foster innovation while protecting public interests.",
+    "label":2
+  },
+  {
+    "text":"Governance should promote both economic progress and social inclusion.",
+    "label":2
+  },
+  {
+    "text":"Balanced economic policies should consider both short-term benefits and long-term sustainability.",
+    "label":2
+  },
+  {
+    "text":"Governance should balance market freedom with necessary regulatory oversight.",
+    "label":2
+  },
+  {
+    "text":"Effective policy-making should address both economic growth and social well-being.",
+    "label":2
+  },
+  {
+    "text":"Public policies should promote both individual opportunity and collective welfare.",
+    "label":2
+  },
+  {
+    "text":"Balanced governance should ensure both economic dynamism and social stability.",
+    "label":2
+  },
+  {
+    "text":"Effective governance should promote both technological progress and ethical considerations.",
+    "label":2
+  },
+  {
+    "text":"Economic strategies should focus on both competitiveness and inclusive growth.",
+    "label":2
+  },
+  {
+    "text":"Balanced public spending should consider both economic benefits and social impacts.",
+    "label":2
+  },
+  {
+    "text":"Governance should balance economic incentives with public health protections.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should support both innovation and equitable opportunities.",
+    "label":2
+  },
+  {
+    "text":"Balanced economic development should promote both progress and sustainability.",
+    "label":2
+  },
+  {
+    "text":"Governance should aim to balance economic growth with social justice.",
+    "label":2
+  },
+  {
+    "text":"Effective policies should address both market efficiency and social equity.",
+    "label":2
+  },
+  {
+    "text":"Economic strategies should ensure both growth and fair distribution of wealth.",
+    "label":2
+  },
+  {
+    "text":"Governance should promote both economic freedom and community welfare.",
+    "label":2
+  },
+  {
+    "text":"Balanced economic policies should support both competitiveness and social inclusion.",
+    "label":2
+  },
+  {
+    "text":"Governance should balance economic growth with environmental conservation.",
+    "label":2
+  },
+  {
+    "text":"Public policies should promote both economic efficiency and social welfare.",
+    "label":2
+  },
+  {
+    "text":"Effective governance should address both economic opportunities and social disparities.",
+    "label":2
+  },
+  {
+    "text":"Balanced regulation should protect consumers while encouraging innovation.",
+    "label":2
+  },
+  {
+    "text":"Governance should promote both fiscal responsibility and social investment.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should support growth while promoting environmental responsibility.",
+    "label":2
+  },
+  {
+    "text":"Balanced public policies should address both economic development and quality of life.",
+    "label":2
+  },
+  {
+    "text":"Governance should aim for both economic vitality and social equity.",
+    "label":2
+  },
+  {
+    "text":"Economic strategies should promote both competitiveness and social welfare.",
+    "label":2
+  },
+  {
+    "text":"Balanced public spending should support both infrastructure and social programs.",
+    "label":2
+  },
+  {
+    "text":"Effective governance should balance market dynamics with regulatory safeguards.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should promote both growth and fair distribution of resources.",
+    "label":2
+  },
+  {
+    "text":"Balanced economic development should ensure both progress and equity.",
+    "label":2
+  },
+  {
+    "text":"Governance should promote both technological advancement and social responsibility.",
+    "label":2
+  },
+  {
+    "text":"Effective policy-making should consider both economic benefits and social impacts.",
+    "label":2
+  },
+  {
+    "text":"Economic strategies should ensure both growth and equitable access to opportunities.",
+    "label":2
+  },
+  {
+    "text":"Governance should balance economic incentives with environmental protections.",
+    "label":2
+  },
+  {
+    "text":"Public policies should promote both innovation and inclusive growth.",
+    "label":2
+  },
+  {
+    "text":"Balanced governance should address both economic opportunities and social justice.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should support both competitiveness and environmental sustainability.",
+    "label":2
+  },
+  {
+    "text":"Balanced regulation should ensure market stability while protecting public interests.",
+    "label":2
+  },
+  {
+    "text":"Governance should aim for both economic progress and community well-being.",
+    "label":2
+  },
+  {
+    "text":"Economic strategies should focus on both competitiveness and equitable development.",
+    "label":2
+  },
+  {
+    "text":"Balanced public policies should consider both economic growth and social equity.",
+    "label":2
+  },
+  {
+    "text":"Governance should balance technological progress with ethical considerations.",
+    "label":2
+  },
+  {
+    "text":"Economic policies should promote innovation while ensuring fair distribution of benefits.",
+    "label":2
+  },
+  {
+    "text":"Balanced economic strategies should enhance both growth and social inclusion.",
+    "label":2
+  },
+  {
+    "text":"Governance should promote both economic freedom and public welfare.",
+    "label":2
+  },
+  {
+    "text":"Balanced economic policies should support both innovation and social justice.",
+    "label":2
+  },
+  {
+    "text":"Moderate tax cuts can stimulate economic growth while maintaining essential public services.",
+    "label":1
+  },
+  {
+    "text":"Supporting clean energy development can enhance economic growth and environmental sustainability.",
+    "label":3
+  },
+  {
+    "text":"Fiscal responsibility involves balancing government spending with economic growth.",
+    "label":1
+  },
+  {
+    "text":"Moderate healthcare reforms should improve access while controlling costs.",
+    "label":3
+  },
+  {
+    "text":"Encouraging energy independence can enhance both economic security and sustainability.",
+    "label":3
+  },
+  {
+    "text":"Promoting vocational training can address skill gaps and boost employment opportunities.",
+    "label":1
+  },
+  {
+    "text":"Moderate regulation can ensure market stability while fostering innovation.",
+    "label":1
+  },
+  {
+    "text":"Supporting renewable energy initiatives can drive sustainable economic growth.",
+    "label":3
+  },
+  {
+    "text":"Balanced trade policies should protect domestic industries while promoting global competitiveness.",
+    "label":1
+  },
+  {
+    "text":"Public investment in education is crucial for long-term economic prosperity and social equity.",
+    "label":3
+  },
+  {
+    "text":"Encouraging public-private partnerships can enhance infrastructure and services.",
+    "label":1
+  },
+  {
+    "text":"Moderate environmental policies can protect resources while supporting economic growth.",
+    "label":3
+  },
+  {
+    "text":"Supporting small businesses is key to economic resilience and job creation.",
+    "label":1
+  },
+  {
+    "text":"Investing in public health can lead to a healthier more productive society.",
+    "label":3
+  },
+  {
+    "text":"Moderate tax incentives can stimulate investment without reducing government revenue.",
+    "label":1
+  },
+  {
+    "text":"Expanding affordable healthcare is essential for social and economic well-being.",
+    "label":3
+  },
+  {
+    "text":"Promoting energy efficiency can reduce costs and enhance economic resilience.",
+    "label":1
+  },
+  {
+    "text":"Moderate social programs should provide a safety net without creating dependency.",
+    "label":1
+  },
+  {
+    "text":"Supporting clean energy research can boost economic growth and environmental sustainability.",
+    "label":3
+  },
+  {
+    "text":"Balanced fiscal policies should promote economic stability and sustainable growth.",
+    "label":1
+  },
+  {
+    "text":"Encouraging public health initiatives can improve overall quality of life.",
+    "label":3
+  },
+  {
+    "text":"Moderate increases in minimum wage can boost income without harming employment.",
+    "label":3
+  },
+  {
+    "text":"Supporting infrastructure development is key to economic growth and efficiency.",
+    "label":1
+  },
+  {
+    "text":"Promoting affordable housing initiatives can reduce economic disparities.",
+    "label":3
+  },
+  {
+    "text":"Balanced economic policies should enhance growth while ensuring fairness.",
+    "label":1
+  },
+  {
+    "text":"Moderate healthcare reforms should balance cost control with quality improvement.",
+    "label":3
+  },
+  {
+    "text":"Encouraging balanced urban development can enhance economic and social outcomes.",
+    "label":3
+  },
+  {
+    "text":"Supporting moderate increases in public spending can stimulate growth.",
+    "label":1
+  },
+  {
+    "text":"Promoting green energy technologies can enhance economic growth and environmental protection.",
+    "label":3
+  },
+  {
+    "text":"Moderate labor policies should protect workers while encouraging job creation.",
+    "label":1
+  },
+  {
+    "text":"Expanding social programs can provide support for vulnerable populations.",
+    "label":3
+  },
+  {
+    "text":"Supporting technological innovation can drive economic growth and improve quality of life.",
+    "label":1
+  },
+  {
+    "text":"Investing in renewable energy is crucial for long-term sustainability and economic growth.",
+    "label":3
+  },
+  {
+    "text":"Moderate fiscal policies should balance economic growth with responsible spending.",
+    "label":1
+  },
+  {
+    "text":"Promoting public health campaigns can improve community health and wellness.",
+    "label":3
+  },
+  {
+    "text":"Encouraging moderate economic reforms can enhance competitiveness and inclusivity.",
+    "label":1
+  },
+  {
+    "text":"Supporting renewable energy adoption can reduce carbon emissions and boost economic growth.",
+    "label":3
+  },
+  {
+    "text":"Balanced economic strategies should focus on growth and social equity.",
+    "label":1
+  },
+  {
+    "text":"Moderate environmental regulations can protect ecosystems while supporting economic activity.",
+    "label":3
+  },
+  {
+    "text":"Encouraging sustainable practices through moderate regulation can benefit the economy.",
+    "label":1
+  },
+  {
+    "text":"Promoting public investment in green technology can drive innovation and sustainability.",
+    "label":3
+  },
+  {
+    "text":"Balanced fiscal discipline is crucial for long-term economic health.",
+    "label":1
+  },
+  {
+    "text":"Supporting clean energy initiatives can drive sustainable economic progress.",
+    "label":3
+  },
+  {
+    "text":"Moderate increases in public investment can enhance infrastructure and quality of life.",
+    "label":1
+  },
+  {
+    "text":"Encouraging moderate healthcare reforms can improve access and control costs.",
+    "label":3
+  },
+  {
+    "text":"Supporting moderate innovation policies can drive technological advancement and economic growth.",
+    "label":1
+  },
+  {
+    "text":"Promoting affordable healthcare is key to reducing medical costs and improving access.",
+    "label":3
+  },
+  {
+    "text":"Balanced economic policies should aim to enhance both growth and social equity.",
+    "label":1
+  },
+  {
+    "text":"Supporting balanced environmental policies can protect natural resources and promote economic activity.",
+    "label":3
+  },
+  {
+    "text":"Moderate public safety reforms should balance enforcement with community relations.",
+    "label":1
+  },
+  {
+    "text":"Encouraging balanced trade policies can boost economic growth while protecting domestic interests.",
+    "label":1
+  },
+  {
+    "text":"Moderate tax reforms can enhance economic efficiency while maintaining essential services.",
+    "label":1
+  },
+  {
+    "text":"Supporting renewable energy development can create jobs and promote sustainability.",
+    "label":3
+  },
+  {
+    "text":"Fiscal responsibility involves prudent spending and investment in growth areas.",
+    "label":1
+  },
+  {
+    "text":"Moderate healthcare reforms should ensure affordability and improve quality.",
+    "label":3
+  },
+  {
+    "text":"Encouraging balanced energy policies can enhance both economic and environmental outcomes.",
+    "label":3
+  },
+  {
+    "text":"Promoting technical education can boost employment and meet industry needs.",
+    "label":1
+  },
+  {
+    "text":"Moderate regulation can balance economic growth with consumer protection.",
+    "label":1
+  },
+  {
+    "text":"Supporting green technology can drive sustainable economic development.",
+    "label":3
+  },
+  {
+    "text":"Balanced trade policies should support domestic growth and global integration.",
+    "label":1
+  },
+  {
+    "text":"Public investment in healthcare can improve social outcomes and economic productivity.",
+    "label":3
+  },
+  {
+    "text":"Encouraging moderate tax cuts can boost disposable income and stimulate spending.",
+    "label":1
+  },
+  {
+    "text":"Moderate environmental initiatives can protect resources and foster economic growth.",
+    "label":3
+  },
+  {
+    "text":"Supporting entrepreneurship is crucial for economic vitality and innovation.",
+    "label":1
+  },
+  {
+    "text":"Investing in public transportation can reduce congestion and promote sustainability.",
+    "label":3
+  },
+  {
+    "text":"Moderate tax incentives can encourage business investment and economic growth.",
+    "label":1
+  },
+  {
+    "text":"Expanding access to healthcare can enhance public health and economic stability.",
+    "label":3
+  },
+  {
+    "text":"Promoting energy efficiency can save costs and enhance economic competitiveness.",
+    "label":1
+  },
+  {
+    "text":"Moderate social safety nets should support those in need while encouraging self-reliance.",
+    "label":1
+  },
+  {
+    "text":"Supporting clean energy research can boost both economic and environmental benefits.",
+    "label":3
+  },
+  {
+    "text":"Balanced fiscal strategies should promote stability and long-term growth.",
+    "label":1
+  },
+  {
+    "text":"Encouraging public health measures can improve community well-being and productivity.",
+    "label":3
+  },
+  {
+    "text":"Moderate wage policies can raise incomes without negatively impacting employment.",
+    "label":3
+  },
+  {
+    "text":"Supporting infrastructure projects is key to economic growth and resilience.",
+    "label":1
+  },
+  {
+    "text":"Promoting affordable housing can reduce inequality and support economic growth.",
+    "label":3
+  },
+  {
+    "text":"Balanced economic policies should foster growth while ensuring equitable opportunities.",
+    "label":1
+  },
+  {
+    "text":"Moderate healthcare reforms should balance cost efficiency with access improvement.",
+    "label":3
+  },
+  {
+    "text":"Encouraging balanced development policies can enhance economic and social outcomes.",
+    "label":3
+  },
+  {
+    "text":"Supporting moderate public investment can drive growth and improve living standards.",
+    "label":1
+  },
+  {
+    "text":"Promoting renewable energy initiatives can reduce emissions and enhance economic growth.",
+    "label":3
+  },
+  {
+    "text":"Moderate labor policies should ensure fair wages and job creation.",
+    "label":1
+  },
+  {
+    "text":"Expanding social welfare can provide security for vulnerable populations.",
+    "label":3
+  },
+  {
+    "text":"Supporting technological progress can enhance economic growth and quality of life.",
+    "label":1
+  },
+  {
+    "text":"Investing in green infrastructure is essential for sustainable economic growth.",
+    "label":3
+  },
+  {
+    "text":"Moderate fiscal policies should balance growth with prudent financial management.",
+    "label":1
+  },
+  {
+    "text":"Promoting wellness programs can improve public health and economic productivity.",
+    "label":3
+  },
+  {
+    "text":"Encouraging moderate economic reforms can enhance efficiency and inclusivity.",
+    "label":1
+  },
+  {
+    "text":"Supporting clean energy adoption can drive innovation and environmental benefits.",
+    "label":3
+  },
+  {
+    "text":"Balanced economic strategies should enhance competitiveness and social welfare.",
+    "label":1
+  },
+  {
+    "text":"Moderate environmental protections can safeguard ecosystems while supporting growth.",
+    "label":3
+  },
+  {
+    "text":"Encouraging sustainable business practices can benefit both the economy and the environment.",
+    "label":1
+  },
+  {
+    "text":"Promoting investment in renewable resources can drive long-term economic sustainability.",
+    "label":3
+  },
+  {
+    "text":"Balanced fiscal discipline is crucial for economic resilience and growth.",
+    "label":1
+  },
+  {
+    "text":"Supporting green energy projects can create jobs and protect the environment.",
+    "label":3
+  },
+  {
+    "text":"Moderate increases in infrastructure spending can boost economic growth.",
+    "label":1
+  },
+  {
+    "text":"Encouraging healthcare reforms can improve access and control costs.",
+    "label":3
+  },
+  {
+    "text":"Supporting balanced innovation policies can drive economic and technological progress.",
+    "label":1
+  },
+  {
+    "text":"Promoting healthcare access is essential for reducing costs and improving outcomes.",
+    "label":3
+  },
+  {
+    "text":"Balanced economic policies should promote growth and social inclusivity.",
+    "label":1
+  },
+  {
+    "text":"Supporting moderate environmental policies can protect natural resources and enhance growth.",
+    "label":3
+  },
+  {
+    "text":"Moderate public safety initiatives should balance enforcement with community engagement.",
+    "label":1
+  },
+  {
+    "text":"Encouraging balanced trade and economic policies can enhance growth and stability.",
+    "label":1
+  }
+]

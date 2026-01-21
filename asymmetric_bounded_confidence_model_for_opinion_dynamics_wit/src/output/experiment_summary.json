@@ -1,0 +1,26 @@
+{
+  "experiment_1": {
+    "pearson_r_lifetime": 0.3504702634960821,
+    "p_value_lifetime": 6.243712390828401e-07,
+    "pearson_r_cluster_count": -0.008797892766022948,
+    "p_value_cluster_count": 0.9036011628677476,
+    "n_samples": 192
+  },
+  "experiment_2": {
+    "treatment_mergers": 4,
+    "control_mergers": 0,
+    "treatment_final_clusters_mean": 7.5,
+    "control_final_clusters_mean": 7.666666666666667,
+    "t_statistic": -0.150414209399047,
+    "p_value": 0.8834285283909047,
+    "cohens_d": 0.0868416842864845
+  },
+  "experiment_3": {
+    "critical_alpha": 0.5499999999999999,
+    "alpha_range": [
+      0.3,
+      0.8999999999999999
+    ],
+    "n_samples": 130
+  }
+}

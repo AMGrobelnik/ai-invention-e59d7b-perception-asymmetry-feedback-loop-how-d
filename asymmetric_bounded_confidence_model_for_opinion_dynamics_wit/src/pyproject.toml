@@ -1,0 +1,23 @@
+[project]
+name = "asymmetric-bounded-confidence"
+version = "0.1.0"
+description = "Asymmetric Bounded-Confidence Agent-Based Model for Opinion Dynamics"
+requires-python = ">=3.10,<3.12"
+
+dependencies = [
+    "numpy>=1.24.0,<2.0.0",
+    "scipy>=1.10.0",
+    "pandas>=2.0.0",
+    "networkx>=3.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "scikit-learn>=1.2.0",
+    "loguru>=0.7.0",
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

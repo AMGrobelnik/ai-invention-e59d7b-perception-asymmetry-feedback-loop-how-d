@@ -1,0 +1,224 @@
+{
+  "examples": [
+    {
+      "input": "Simulate opinion dynamics with 100 agents on small_world network. Measure cluster stability (lifetime) with perception asymmetry alpha=0.1.",
+      "output": "Hypothesis: Higher perception asymmetry (alpha) leads to more stable opinion bubbles because agents discount outgroup signals, preventing cluster merging.",
+      "context": {
+        "experiment_type": "parameter_sweep",
+        "n_agents": 100,
+        "network_type": "small_world",
+        "max_timesteps": 300,
+        "seed": 0,
+        "baseline_alpha": 0.0,
+        "method_alpha": 0.1,
+        "correlation_r": 0.33143550506112945,
+        "correlation_p": 8.928689296084484e-07,
+        "t_statistic": -2.750668627214533,
+        "t_pvalue": 0.006471743722352788
+      },
+      "dataset": "cajcodes/political-bias",
+      "split": "train",
+      "predict_baseline": "{\"alpha\": 0.0, \"final_cluster_count\": 12, \"cluster_lifetime_mean\": 10.0, \"final_variance\": 0.41593564661380883, \"convergence_time\": 70, \"interpretation\": \"Standard bounded-confidence without perceptio...",
+      "predict_method": "{\"alpha\": 0.1, \"final_cluster_count\": 10, \"cluster_lifetime_mean\": 13.142857142857142, \"final_variance\": 0.4185617971171748, \"convergence_time\": 92, \"interpretation\": \"Asymmetric bounded-confidence wi...",
+      "method": "Asymmetric Bounded-Confidence Agent-Based Model: Modulates confidence bounds based on perception asymmetry - agents perceive their ingroup as more diverse than outgroups, discounting outgroup signals ..."
+    },
+    {
+      "input": "Simulate opinion dynamics with 100 agents on small_world network. Measure cluster stability (lifetime) with perception asymmetry alpha=0.17.",
+      "output": "Hypothesis: Higher perception asymmetry (alpha) leads to more stable opinion bubbles because agents discount outgroup signals, preventing cluster merging.",
+      "context": {
+        "experiment_type": "parameter_sweep",
+        "n_agents": 100,
+        "network_type": "small_world",
+        "max_timesteps": 300,
+        "seed": 0,
+        "baseline_alpha": 0.0,
+        "method_alpha": 0.17,
+        "correlation_r": 0.33143550506112945,
+        "correlation_p": 8.928689296084484e-07,
+        "t_statistic": -2.750668627214533,
+        "t_pvalue": 0.006471743722352788
+      },
+      "dataset": "cajcodes/political-bias",
+      "split": "train",
+      "predict_baseline": "{\"alpha\": 0.0, \"final_cluster_count\": 12, \"cluster_lifetime_mean\": 10.0, \"final_variance\": 0.41593564661380883, \"convergence_time\": 70, \"interpretation\": \"Standard bounded-confidence without perceptio...",
+      "predict_method": "{\"alpha\": 0.17, \"final_cluster_count\": 11, \"cluster_lifetime_mean\": 17.5, \"final_variance\": 0.41937742833542935, \"convergence_time\": 70, \"interpretation\": \"Asymmetric bounded-confidence with alpha=0.1...",
+      "method": "Asymmetric Bounded-Confidence Agent-Based Model: Modulates confidence bounds based on perception asymmetry - agents perceive their ingroup as more diverse than outgroups, discounting outgroup signals ..."
+    },
+    {
+      "input": "Simulate opinion dynamics with 100 agents on small_world network. Measure cluster stability (lifetime) with perception asymmetry alpha=0.24.",
+      "output": "Hypothesis: Higher perception asymmetry (alpha) leads to more stable opinion bubbles because agents discount outgroup signals, preventing cluster merging.",
+      "context": {
+        "experiment_type": "parameter_sweep",
+        "n_agents": 100,
+        "network_type": "small_world",
+        "max_timesteps": 300,
+        "seed": 0,
+        "baseline_alpha": 0.0,
+        "method_alpha": 0.24,
+        "correlation_r": 0.33143550506112945,
+        "correlation_p": 8.928689296084484e-07,
+        "t_statistic": -2.750668627214533,
+        "t_pvalue": 0.006471743722352788
+      },
+      "dataset": "cajcodes/political-bias",
+      "split": "train",
+      "predict_baseline": "{\"alpha\": 0.0, \"final_cluster_count\": 12, \"cluster_lifetime_mean\": 10.0, \"final_variance\": 0.41593564661380883, \"convergence_time\": 70, \"interpretation\": \"Standard bounded-confidence without perceptio...",
+      "predict_method": "{\"alpha\": 0.24, \"final_cluster_count\": 10, \"cluster_lifetime_mean\": 64.0, \"final_variance\": 0.41956041299828334, \"convergence_time\": 64, \"interpretation\": \"Asymmetric bounded-confidence with alpha=0.2...",
+      "method": "Asymmetric Bounded-Confidence Agent-Based Model: Modulates confidence bounds based on perception asymmetry - agents perceive their ingroup as more diverse than outgroups, discounting outgroup signals ..."
+    },
+    {
+      "input": "Simulate opinion dynamics with 100 agents on small_world network. Measure cluster stability (lifetime) with perception asymmetry alpha=0.31.",
+      "output": "Hypothesis: Higher perception asymmetry (alpha) leads to more stable opinion bubbles because agents discount outgroup signals, preventing cluster merging.",
+      "context": {
+        "experiment_type": "parameter_sweep",
+        "n_agents": 100,
+        "network_type": "small_world",
+        "max_timesteps": 300,
+        "seed": 0,
+        "baseline_alpha": 0.0,
+        "method_alpha": 0.31,
+        "correlation_r": 0.33143550506112945,
+        "correlation_p": 8.928689296084484e-07,
+        "t_statistic": -2.750668627214533,
+        "t_pvalue": 0.006471743722352788
+      },
+      "dataset": "cajcodes/political-bias",
+      "split": "train",
+      "predict_baseline": "{\"alpha\": 0.0, \"final_cluster_count\": 12, \"cluster_lifetime_mean\": 10.0, \"final_variance\": 0.41593564661380883, \"convergence_time\": 70, \"interpretation\": \"Standard bounded-confidence without perceptio...",
+      "predict_method": "{\"alpha\": 0.31, \"final_cluster_count\": 10, \"cluster_lifetime_mean\": 22.666666666666668, \"final_variance\": 0.4202934983701354, \"convergence_time\": 68, \"interpretation\": \"Asymmetric bounded-confidence w...",
+      "method": "Asymmetric Bounded-Confidence Agent-Based Model: Modulates confidence bounds based on perception asymmetry - agents perceive their ingroup as more diverse than outgroups, discounting outgroup signals ..."
+    },
+    {
+      "input": "Simulate opinion dynamics with 100 agents on small_world network. Measure cluster stability (lifetime) with perception asymmetry alpha=0.38.",
+      "output": "Hypothesis: Higher perception asymmetry (alpha) leads to more stable opinion bubbles because agents discount outgroup signals, preventing cluster merging.",
+      "context": {
+        "experiment_type": "parameter_sweep",
+        "n_agents": 100,
+        "network_type": "small_world",
+        "max_timesteps": 300,
+        "seed": 0,
+        "baseline_alpha": 0.0,
+        "method_alpha": 0.38,
+        "correlation_r": 0.33143550506112945,
+        "correlation_p": 8.928689296084484e-07,
+        "t_statistic": -2.750668627214533,
+        "t_pvalue": 0.006471743722352788
+      },
+      "dataset": "cajcodes/political-bias",
+      "split": "train",
+      "predict_baseline": "{\"alpha\": 0.0, \"final_cluster_count\": 12, \"cluster_lifetime_mean\": 10.0, \"final_variance\": 0.41593564661380883, \"convergence_time\": 70, \"interpretation\": \"Standard bounded-confidence without perceptio...",
+      "predict_method": "{\"alpha\": 0.38, \"final_cluster_count\": 10, \"cluster_lifetime_mean\": 22.666666666666668, \"final_variance\": 0.4202934983701354, \"convergence_time\": 68, \"interpretation\": \"Asymmetric bounded-confidence w...",
+      "method": "Asymmetric Bounded-Confidence Agent-Based Model: Modulates confidence bounds based on perception asymmetry - agents perceive their ingroup as more diverse than outgroups, discounting outgroup signals ..."
+    },
+    {
+      "input": "Simulate opinion dynamics with 100 agents on small_world network. Measure cluster stability (lifetime) with perception asymmetry alpha=0.45.",
+      "output": "Hypothesis: Higher perception asymmetry (alpha) leads to more stable opinion bubbles because agents discount outgroup signals, preventing cluster merging.",
+      "context": {
+        "experiment_type": "parameter_sweep",
+        "n_agents": 100,
+        "network_type": "small_world",
+        "max_timesteps": 300,
+        "seed": 0,
+        "baseline_alpha": 0.0,
+        "method_alpha": 0.45,
+        "correlation_r": 0.33143550506112945,
+        "correlation_p": 8.928689296084484e-07,
+        "t_statistic": -2.750668627214533,
+        "t_pvalue": 0.006471743722352788
+      },
+      "dataset": "cajcodes/political-bias",
+      "split": "train",
+      "predict_baseline": "{\"alpha\": 0.0, \"final_cluster_count\": 12, \"cluster_lifetime_mean\": 10.0, \"final_variance\": 0.41593564661380883, \"convergence_time\": 70, \"interpretation\": \"Standard bounded-confidence without perceptio...",
+      "predict_method": "{\"alpha\": 0.45, \"final_cluster_count\": 10, \"cluster_lifetime_mean\": 22.666666666666668, \"final_variance\": 0.4202934983701354, \"convergence_time\": 68, \"interpretation\": \"Asymmetric bounded-confidence w...",
+      "method": "Asymmetric Bounded-Confidence Agent-Based Model: Modulates confidence bounds based on perception asymmetry - agents perceive their ingroup as more diverse than outgroups, discounting outgroup signals ..."
+    },
+    {
+      "input": "Simulate opinion dynamics with 100 agents on small_world network. Measure cluster stability (lifetime) with perception asymmetry alpha=0.52.",
+      "output": "Hypothesis: Higher perception asymmetry (alpha) leads to more stable opinion bubbles because agents discount outgroup signals, preventing cluster merging.",
+      "context": {
+        "experiment_type": "parameter_sweep",
+        "n_agents": 100,
+        "network_type": "small_world",
+        "max_timesteps": 300,
+        "seed": 0,
+        "baseline_alpha": 0.0,
+        "method_alpha": 0.52,
+        "correlation_r": 0.33143550506112945,
+        "correlation_p": 8.928689296084484e-07,
+        "t_statistic": -2.750668627214533,
+        "t_pvalue": 0.006471743722352788
+      },
+      "dataset": "cajcodes/political-bias",
+      "split": "train",
+      "predict_baseline": "{\"alpha\": 0.0, \"final_cluster_count\": 12, \"cluster_lifetime_mean\": 10.0, \"final_variance\": 0.41593564661380883, \"convergence_time\": 70, \"interpretation\": \"Standard bounded-confidence without perceptio...",
+      "predict_method": "{\"alpha\": 0.52, \"final_cluster_count\": 9, \"cluster_lifetime_mean\": 30.0, \"final_variance\": 0.4205097263172678, \"convergence_time\": 60, \"interpretation\": \"Asymmetric bounded-confidence with alpha=0.52\"...",
+      "method": "Asymmetric Bounded-Confidence Agent-Based Model: Modulates confidence bounds based on perception asymmetry - agents perceive their ingroup as more diverse than outgroups, discounting outgroup signals ..."
+    },
+    {
+      "input": "Simulate opinion dynamics with 100 agents on small_world network. Measure cluster stability (lifetime) with perception asymmetry alpha=0.59.",
+      "output": "Hypothesis: Higher perception asymmetry (alpha) leads to more stable opinion bubbles because agents discount outgroup signals, preventing cluster merging.",
+      "context": {
+        "experiment_type": "parameter_sweep",
+        "n_agents": 100,
+        "network_type": "small_world",
+        "max_timesteps": 300,
+        "seed": 0,
+        "baseline_alpha": 0.0,
+        "method_alpha": 0.59,
+        "correlation_r": 0.33143550506112945,
+        "correlation_p": 8.928689296084484e-07,
+        "t_statistic": -2.750668627214533,
+        "t_pvalue": 0.006471743722352788
+      },
+      "dataset": "cajcodes/political-bias",
+      "split": "train",
+      "predict_baseline": "{\"alpha\": 0.0, \"final_cluster_count\": 12, \"cluster_lifetime_mean\": 10.0, \"final_variance\": 0.41593564661380883, \"convergence_time\": 70, \"interpretation\": \"Standard bounded-confidence without perceptio...",
+      "predict_method": "{\"alpha\": 0.59, \"final_cluster_count\": 9, \"cluster_lifetime_mean\": 30.0, \"final_variance\": 0.4205097263172678, \"convergence_time\": 60, \"interpretation\": \"Asymmetric bounded-confidence with alpha=0.59\"...",
+      "method": "Asymmetric Bounded-Confidence Agent-Based Model: Modulates confidence bounds based on perception asymmetry - agents perceive their ingroup as more diverse than outgroups, discounting outgroup signals ..."
+    },
+    {
+      "input": "Simulate opinion dynamics with 100 agents on small_world network. Measure cluster stability (lifetime) with perception asymmetry alpha=0.66.",
+      "output": "Hypothesis: Higher perception asymmetry (alpha) leads to more stable opinion bubbles because agents discount outgroup signals, preventing cluster merging.",
+      "context": {
+        "experiment_type": "parameter_sweep",
+        "n_agents": 100,
+        "network_type": "small_world",
+        "max_timesteps": 300,
+        "seed": 0,
+        "baseline_alpha": 0.0,
+        "method_alpha": 0.66,
+        "correlation_r": 0.33143550506112945,
+        "correlation_p": 8.928689296084484e-07,
+        "t_statistic": -2.750668627214533,
+        "t_pvalue": 0.006471743722352788
+      },
+      "dataset": "cajcodes/political-bias",
+      "split": "train",
+      "predict_baseline": "{\"alpha\": 0.0, \"final_cluster_count\": 12, \"cluster_lifetime_mean\": 10.0, \"final_variance\": 0.41593564661380883, \"convergence_time\": 70, \"interpretation\": \"Standard bounded-confidence without perceptio...",
+      "predict_method": "{\"alpha\": 0.66, \"final_cluster_count\": 10, \"cluster_lifetime_mean\": 60.0, \"final_variance\": 0.42053876987245226, \"convergence_time\": 60, \"interpretation\": \"Asymmetric bounded-confidence with alpha=0.6...",
+      "method": "Asymmetric Bounded-Confidence Agent-Based Model: Modulates confidence bounds based on perception asymmetry - agents perceive their ingroup as more diverse than outgroups, discounting outgroup signals ..."
+    },
+    {
+      "input": "Simulate opinion dynamics with 100 agents on small_world network. Measure cluster stability (lifetime) with perception asymmetry alpha=0.73.",
+      "output": "Hypothesis: Higher perception asymmetry (alpha) leads to more stable opinion bubbles because agents discount outgroup signals, preventing cluster merging.",
+      "context": {
+        "experiment_type": "parameter_sweep",
+        "n_agents": 100,
+        "network_type": "small_world",
+        "max_timesteps": 300,
+        "seed": 0,
+        "baseline_alpha": 0.0,
+        "method_alpha": 0.73,
+        "correlation_r": 0.33143550506112945,
+        "correlation_p": 8.928689296084484e-07,
+        "t_statistic": -2.750668627214533,
+        "t_pvalue": 0.006471743722352788
+      },
+      "dataset": "cajcodes/political-bias",
+      "split": "train",
+      "predict_baseline": "{\"alpha\": 0.0, \"final_cluster_count\": 12, \"cluster_lifetime_mean\": 10.0, \"final_variance\": 0.41593564661380883, \"convergence_time\": 70, \"interpretation\": \"Standard bounded-confidence without perceptio...",
+      "predict_method": "{\"alpha\": 0.73, \"final_cluster_count\": 11, \"cluster_lifetime_mean\": 30.0, \"final_variance\": 0.4205607376128188, \"convergence_time\": 60, \"interpretation\": \"Asymmetric bounded-confidence with alpha=0.73...",
+      "method": "Asymmetric Bounded-Confidence Agent-Based Model: Modulates confidence bounds based on perception asymmetry - agents perceive their ingroup as more diverse than outgroups, discounting outgroup signals ..."
+    }
+  ]
+}
